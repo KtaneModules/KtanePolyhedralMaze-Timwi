@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ModuleType: SolidMazeModule
-  ModuleDisplayName: Solid Maze
+  ModuleDisplayName: Polyhedral Maze
   RequiresTimerVisibility: 0
 --- !u!114 &11464240
 MonoBehaviour:

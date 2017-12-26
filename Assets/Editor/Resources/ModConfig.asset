@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: ModConfig
   m_EditorClassIdentifier:
   id: SolidMaze
-  title: Solid Maze
+  title: Polyhedral Maze
   description: "<description>\n\nModule created by Timwi.\n\n[url=http://ktane.timwi.de/PDF/Solid%20Maze.pdf]Manual
     PDF[/url]\n[url=http://ktane.timwi.de/HTML/Solid%20Maze.html]Manual
     HTML[/url]"
