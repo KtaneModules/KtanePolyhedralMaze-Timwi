@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -17,11 +18,14 @@ public class PolyhedralMazeModule : MonoBehaviour
     public KMAudio Audio;
     public Mesh[] PolyhedronMeshes;
     public MeshFilter Polyhedron;
-    public TextMesh Label;
-    public Transform Arrow;
+    public KMSelectable[] Arrows;
 
-    private List<GameObject> _createdLabels = new List<GameObject>();
-    private List<GameObject> _createdArrows = new List<GameObject>();
+    public GameObject[] SrcTens;
+    public GameObject[] SrcOnes;
+    public GameObject[] DestTens;
+    public GameObject[] DestOnes;
+
+    private static string[] _segmentMap = new[] { "1111101", "1001000", "0111011", "1011011", "1001110", "1010111", "1110111", "1001001", "1111111", "1011111" };
 
     private static int _moduleIdCounter = 1;
     private int _moduleId;
@@ -34,6 +38,23 @@ public class PolyhedralMazeModule : MonoBehaviour
 
         SetRandomPolyhedron();
         SetCurFace(Rnd.Range(0, _polyhedron.Faces.Length));
+        for (int i = 0; i < Arrows.Length; i++)
+            Arrows[i].OnInteract = getArrowHandler(i);
+    }
+
+    private KMSelectable.OnInteractHandler getArrowHandler(int i)
+    {
+        return delegate
+        {
+            Arrows[i].AddInteractionPunch();
+            Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, Arrows[i].transform);
+
+            if (_polyhedron.Faces[_curFace].AdjacentFaces[i] == null)
+                Module.HandleStrike();
+            else
+                startRotation(_polyhedron.Faces[_curFace].AdjacentFaces[i].Value);
+            return false;
+        };
     }
 
     private void SetRandomPolyhedron()
@@ -43,51 +64,38 @@ public class PolyhedralMazeModule : MonoBehaviour
 
     private void SetPolyhedron(string name)
     {
-        foreach (var label in _createdLabels)
-            Destroy(label);
-        _createdLabels.Clear();
-
         _polyhedron = Data.Polyhedra.First(p => p.Name.Contains(name));
         Polyhedron.mesh = PolyhedronMeshes.First(inf => inf.name == _polyhedron.Name);
+    }
 
-        Debug.LogFormat("[Polyhedral Maze #{0}] Polyhedron: {1}", _moduleId, _polyhedron.ReadableName);
+    private void startRotation(int face)
+    {
+        for (int i = 0; i < Arrows.Length; i++)
+            Arrows[i].gameObject.SetActive(false);
+        StartCoroutine(rotate(face));
+    }
 
-        for (int i = 0; i < _polyhedron.Faces.Length; i++)
-        {
-            var obj = Instantiate(Label);
-            obj.transform.parent = Label.transform.parent;
-            obj.text = i.ToString();
-            var v = _polyhedron.Faces[i].Normal;
-            var d = _polyhedron.Faces[i].Distance * 1.0001f;
-            obj.transform.localPosition = new Vector3(d * v.x, d * v.y, d * v.z);
-            obj.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-            obj.transform.localRotation = Quaternion.FromToRotation(new Vector3(0, 0, -1), v);
-            obj.gameObject.name = string.Format("Label {0}", i);
-            obj.gameObject.SetActive(true);
-            _createdLabels.Add(obj.gameObject);
-        }
-        Label.gameObject.SetActive(false);
+    private Quaternion rotationTo(int face)
+    {
+        var normal = _polyhedron.Faces[face].Normal;
+        var curNormal = Polyhedron.transform.localRotation * normal;
+        var newRotation = Quaternion.FromToRotation(curNormal, new Vector3(0, 1, 0)) * Polyhedron.transform.localRotation;
+        return newRotation;
+        // return Quaternion.FromToRotation(_polyhedron.Faces[face].Normal, new Vector3(0, 1, 0));
     }
 
     private void SetCurFace(int face)
     {
-        Debug.LogFormat("[Polyhedral Maze #{0}] Settings face to: {1}", _moduleId, face);
-
         const float sizeFactor = .1f;
 
-        foreach (var arrow in _createdArrows)
-            Destroy(arrow);
-        _createdArrows.Clear();
         _curFace = face;
 
         for (int i = 0; i < _polyhedron.Faces[face].Vertices.Length; i++)
         {
             var v1 = _polyhedron.Faces[face].Vertices[i];
             var v2 = _polyhedron.Faces[face].Vertices[(i + 1) % _polyhedron.Faces[face].Vertices.Length];
-            var obj = Instantiate(Arrow);
-            obj.transform.parent = Arrow.parent;
-            obj.transform.localScale = new Vector3(sizeFactor, sizeFactor, sizeFactor);
-            obj.transform.localPosition = new Vector3((v1.x + v2.x) / 2, (v1.y + v2.y) / 2, (v1.z + v2.z) / 2);
+            Arrows[i].transform.localScale = new Vector3(sizeFactor, sizeFactor, sizeFactor);
+            Arrows[i].transform.localPosition = new Vector3((v1.x + v2.x) / 2, (v1.y + v2.y) / 2, (v1.z + v2.z) / 2);
 
             // y = arrow face normal
             var arrowFaceNormal = Vector3.up;
@@ -105,13 +113,46 @@ public class PolyhedralMazeModule : MonoBehaviour
             else
                 rot2 = Quaternion.FromToRotation(arrowVector, _polyhedron.Faces[face].Normal);
 
-            obj.transform.localRotation = rot2 * Quaternion.FromToRotation(arrowDirection, Vector3.Cross(_polyhedron.Faces[face].Normal, v2 - v1));
-            obj.gameObject.SetActive(true);
-            _createdArrows.Add(obj.gameObject);
+            Arrows[i].transform.localRotation = rot2 * Quaternion.FromToRotation(arrowDirection, Vector3.Cross(_polyhedron.Faces[face].Normal, v2 - v1));
+            Arrows[i].gameObject.SetActive(true);
         }
+        for (int i = _polyhedron.Faces[face].Vertices.Length; i < Arrows.Length; i++)
+            Arrows[i].gameObject.SetActive(false);
 
-        Polyhedron.transform.localRotation = Quaternion.FromToRotation(_polyhedron.Faces[face].Normal, new Vector3(0, 1, 0));
-        Arrow.gameObject.SetActive(false);
+        setDisplay(SrcTens, SrcOnes, face);
+        Polyhedron.transform.localRotation = rotationTo(face);
+    }
+
+    private float easeOutSine(float time, float duration, float from, float to)
+    {
+        return (to - from) * Mathf.Sin(time / duration * (Mathf.PI / 2)) + from;
+    }
+
+    private IEnumerator rotate(int destFace)
+    {
+        const float duration = .5f;
+        yield return null;
+
+        var srcRotation = Polyhedron.transform.localRotation;
+        var destRotation = rotationTo(destFace);
+
+        float time = 0;
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            Polyhedron.transform.localRotation = Quaternion.Slerp(srcRotation, destRotation, easeOutSine(time, duration, 0, 1));
+            yield return null;
+        }
+        SetCurFace(destFace);
+    }
+
+    private void setDisplay(GameObject[] tens, GameObject[] ones, int number)
+    {
+        for (int i = 0; i < 7; i++)
+        {
+            tens[i].SetActive(_segmentMap[number / 10][i] == '1');
+            ones[i].SetActive(_segmentMap[number % 10][i] == '1');
+        }
     }
 
     private IEnumerator ProcessTwitchCommand(string command)
