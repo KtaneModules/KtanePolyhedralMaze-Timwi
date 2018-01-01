@@ -347,7 +347,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.228158593025782f, -0.687594649106084f, -0.687594649106084f)
                 } }
             } },
-            new Polyhedron { Name = "ChamferedDodecahedron1", ReadableName = "Chamfered\nDodecahedron", Faces = new Face[] {
+            new Polyhedron { Name = "ChamferedDodecahedron1", ReadableName = "Chamfered Dodecahedron", Faces = new Face[] {
                 new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 34, 8, 26, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, 0.762961904792446f),
@@ -1619,7 +1619,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.661124970877945f, -0.661124970877945f, 0f)
                 } }
             } },
-            new Polyhedron { Name = "JoinedIcosidodecahedron", ReadableName = "Joined\nIcosidodecahedron", Faces = new Face[] {
+            new Polyhedron { Name = "JoinedIcosidodecahedron", ReadableName = "Joined Icosidodecahedron", Faces = new Face[] {
                 new Face { Normal = new Vector3(-0.162459848116453f, -0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 4, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0f, 0f, 0.99217192548202f),
@@ -1981,7 +1981,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.99217192548202f, 0f)
                 } }
             } },
-            new Polyhedron { Name = "JoinedLsnubCube", ReadableName = "Joined Snub\nCube (laevo)", Faces = new Face[] {
+            new Polyhedron { Name = "JoinedLsnubCube", ReadableName = "Joined Snub Cube (laevo)", Faces = new Face[] {
                 new Face { Normal = new Vector3(-0.11364142521456f, 0.384446187731186f, 0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 3, 26, 56, 1 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.03073723573828f),
                     new Vector3(-0.470336725694776f, 0.255716910025817f, 0.865084110061197f),
@@ -3623,7 +3623,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.35992292100506f, -0.94229044052139f, 0f)
                 } }
             } },
-            new Polyhedron { Name = "RectifiedRhombicuboctahedron", ReadableName = "Rectified\nRhombicuboctahedron", Faces = new Face[] {
+            new Polyhedron { Name = "RectifiedRhombicuboctahedron", ReadableName = "Rectified Rhombicuboctahedron", Faces = new Face[] {
                 new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 22, 23, 18 }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(0f, 0.38268343236509f, 0.923879532511286f),

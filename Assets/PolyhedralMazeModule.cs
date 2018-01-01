@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using PolyhedralMaze;
 using UnityEngine;
 using Rnd = UnityEngine.Random;
@@ -19,6 +18,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     public Mesh[] PolyhedronMeshes;
     public MeshFilter Polyhedron;
     public KMSelectable[] Arrows;
+    public KMSelectable ResetButton;
 
     public GameObject[] SrcTens;
     public GameObject[] SrcOnes;
@@ -31,15 +31,47 @@ public class PolyhedralMazeModule : MonoBehaviour
     private int _moduleId;
     private Polyhedron _polyhedron;
     private int _curFace;
+    private int _startFace;
+    private int _destFace;
+    private bool _isSolved;
+    private List<int> _route;
+    private int[] _clockfaceToArrow = new int[12];
+    private bool _coroutineActive = false;
+
+    private const int _minSteps = 5;
+    private const int _maxSteps = 7;
 
     void Start()
     {
         _moduleId = _moduleIdCounter++;
+        _isSolved = false;
+        _route = new List<int>();
 
-        SetRandomPolyhedron();
-        SetCurFace(Rnd.Range(0, _polyhedron.Faces.Length));
         for (int i = 0; i < Arrows.Length; i++)
             Arrows[i].OnInteract = getArrowHandler(i);
+
+        ResetButton.OnInteract = delegate
+        {
+            ResetButton.AddInteractionPunch();
+            Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, ResetButton.transform);
+            if (_isSolved)
+                return false;
+
+            if (_route.Count > 0)
+                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before reset: {1}", _moduleId, _route.JoinString(", "));
+            _route.Clear();
+            startRotation(_startFace);
+            return false;
+        };
+
+        Bomb.OnBombExploded = delegate
+        {
+            if (_route.Count > 0)
+                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before explosion: {1}", _moduleId, _route.JoinString(", "));
+            _route.Clear();
+        };
+
+        SetRandomPolyhedron();
     }
 
     private KMSelectable.OnInteractHandler getArrowHandler(int i)
@@ -49,10 +81,18 @@ public class PolyhedralMazeModule : MonoBehaviour
             Arrows[i].AddInteractionPunch();
             Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, Arrows[i].transform);
 
-            if (_polyhedron.Faces[_curFace].AdjacentFaces[i] == null)
-                Module.HandleStrike();
-            else
-                startRotation(_polyhedron.Faces[_curFace].AdjacentFaces[i].Value);
+            if (!_isSolved)
+            {
+                if (_polyhedron.Faces[_curFace].AdjacentFaces[i] == null)
+                    Module.HandleStrike();
+                else
+                {
+                    var face = _polyhedron.Faces[_curFace].AdjacentFaces[i].Value;
+                    _route.Add(face);
+                    startRotation(face);
+                }
+            }
+
             return false;
         };
     }
@@ -60,12 +100,54 @@ public class PolyhedralMazeModule : MonoBehaviour
     private void SetRandomPolyhedron()
     {
         SetPolyhedron(Data.Polyhedra[Rnd.Range(0, Data.Polyhedra.Length)].Name);
+
+        var h = Rnd.Range(0f, 1f);
+        var s = Rnd.Range(.6f, .9f);
+        var v = Rnd.Range(.5f, 1f);
+        Polyhedron.GetComponent<MeshRenderer>().materials[0].color = Color.HSVToRGB(h, s, v / 2);
+        //for (int i = 0; i < Arrows.Length; i++)
+        //    Arrows[i].GetComponent<MeshRenderer>().material.color = new Color(0x9C / 255f, 0xB1 / 255f, 0xE1 / 255f);// Color.HSVToRGB((h + .5f) % 1f, s + .5f, v);
     }
 
     private void SetPolyhedron(string name)
     {
         _polyhedron = Data.Polyhedra.First(p => p.Name.Contains(name));
         Polyhedron.mesh = PolyhedronMeshes.First(inf => inf.name == _polyhedron.Name);
+
+        Debug.LogFormat(@"[Polyhedral Maze #{0}] Your polyhedron is a {1}.", _moduleId, _polyhedron.ReadableName);
+
+        // Find a suitable start face
+        _startFace = Enumerable.Range(0, _polyhedron.Faces.Length).Where(fIx => _polyhedron.Faces[fIx].AdjacentFaces.All(f => f != null)).PickRandom();
+
+        Debug.LogFormat(@"[Polyhedral Maze #{0}] You are starting on face #{1}.", _moduleId, _startFace);
+
+        // Run a breadth-first search to determine a destination face that is the desired number of steps away
+        var qFaces = new Queue<int>(); qFaces.Enqueue(_startFace);
+        var qDistances = new Queue<int>(); qDistances.Enqueue(0);
+        var already = new HashSet<int>();
+        var suitableDestinationFaces = new List<int>();
+
+        while (qFaces.Count > 0)
+        {
+            var face = qFaces.Dequeue();
+            var distance = qDistances.Dequeue();
+            if (!already.Add(face))
+                continue;
+            if (distance >= _minSteps && distance <= _maxSteps)
+                suitableDestinationFaces.Add(face);
+            for (int i = 0; i < _polyhedron.Faces[face].AdjacentFaces.Length; i++)
+                if (_polyhedron.Faces[face].AdjacentFaces[i] != null)
+                {
+                    qFaces.Enqueue(_polyhedron.Faces[face].AdjacentFaces[i].Value);
+                    qDistances.Enqueue(distance + 1);
+                }
+        }
+
+        _destFace = suitableDestinationFaces.PickRandom();
+        setDisplay(DestTens, DestOnes, _destFace);
+        SetCurFace(_startFace);
+
+        Debug.LogFormat(@"[Polyhedral Maze #{0}] You need to go to face #{1}.", _moduleId, _destFace);
     }
 
     private void startRotation(int face)
@@ -89,6 +171,23 @@ public class PolyhedralMazeModule : MonoBehaviour
         const float sizeFactor = .1f;
 
         _curFace = face;
+
+        setDisplay(SrcTens, SrcOnes, face);
+        Polyhedron.transform.localRotation = rotationTo(face);
+
+        if (face == _destFace)
+        {
+            Module.HandlePass();
+            _isSolved = true;
+            for (int i = 0; i < Arrows.Length; i++)
+                Arrows[i].gameObject.SetActive(false);
+            return;
+        }
+
+        // Clockface directions
+        double[] angleDiffs = new double[12];
+        for (int i = 0; i < 12; i++)
+            _clockfaceToArrow[i] = -1;
 
         for (int i = 0; i < _polyhedron.Faces[face].Vertices.Length; i++)
         {
@@ -115,12 +214,21 @@ public class PolyhedralMazeModule : MonoBehaviour
 
             Arrows[i].transform.localRotation = rot2 * Quaternion.FromToRotation(arrowDirection, Vector3.Cross(_polyhedron.Faces[face].Normal, v2 - v1));
             Arrows[i].gameObject.SetActive(true);
+
+            var arrowAngle = (Polyhedron.transform.localRotation * Arrows[i].transform.localRotation).eulerAngles.y;
+            for (int c = 0; c < 12; c++)
+            {
+                var cAngle = c * 30;
+                var diff = Math.Min(Math.Min(Math.Abs(arrowAngle - cAngle), Math.Abs(arrowAngle - cAngle - 360)), Math.Abs(arrowAngle - cAngle + 360));
+                if (_clockfaceToArrow[c] == -1 || diff < angleDiffs[c])
+                {
+                    _clockfaceToArrow[c] = i;
+                    angleDiffs[c] = diff;
+                }
+            }
         }
         for (int i = _polyhedron.Faces[face].Vertices.Length; i < Arrows.Length; i++)
             Arrows[i].gameObject.SetActive(false);
-
-        setDisplay(SrcTens, SrcOnes, face);
-        Polyhedron.transform.localRotation = rotationTo(face);
     }
 
     private float easeOutSine(float time, float duration, float from, float to)
@@ -130,6 +238,8 @@ public class PolyhedralMazeModule : MonoBehaviour
 
     private IEnumerator rotate(int destFace)
     {
+        _coroutineActive = true;
+
         const float duration = .5f;
         yield return null;
 
@@ -144,6 +254,7 @@ public class PolyhedralMazeModule : MonoBehaviour
             yield return null;
         }
         SetCurFace(destFace);
+        _coroutineActive = false;
     }
 
     private void setDisplay(GameObject[] tens, GameObject[] ones, int number)
@@ -157,18 +268,47 @@ public class PolyhedralMazeModule : MonoBehaviour
 
     private IEnumerator ProcessTwitchCommand(string command)
     {
-        Match m;
+        var pieces = command.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-        if (command == "reset")
+        if (pieces.Length == 1 && pieces[0] == "reset")
         {
-            SetRandomPolyhedron();
-            SetCurFace(Rnd.Range(0, _polyhedron.Faces.Length));
+            yield return null;
+            ResetButton.OnInteract();
         }
-        else if ((m = Regex.Match(command, @"^set (.*) (\d+)$")).Success)
+        else if (pieces.Length > 1 && pieces[0] == "move" && pieces.Skip(1).All(p => { int val; return int.TryParse(p, out val) && val >= 1 && val <= 12; }))
         {
-            SetPolyhedron(m.Groups[1].Value);
-            SetCurFace(int.Parse(m.Groups[2].Value));
+            yield return null;
+
+            // First move: clockface
+            var prevFace = _curFace;
+            Arrows[_clockfaceToArrow[int.Parse(pieces[1]) % 12]].OnInteract();
+            yield return null;
+
+            while (_coroutineActive)
+                yield return new WaitForSeconds(.2f);
+
+            // From there on: clockwise from the one you came from
+            for (int i = 2; i < pieces.Length; i++)
+            {
+                var direction = int.Parse(pieces[i]);
+                var fromIndex = Array.IndexOf(_polyhedron.Faces[_curFace].AdjacentFaces, prevFace);
+                if (fromIndex == -1)
+                {
+                    yield return string.Format("sendtochat Error: Face #{0} not found in adjacent faces for #{1}", prevFace, _curFace);
+                    yield break;
+                }
+                if (fromIndex == -1 || direction < 1 || direction >= _polyhedron.Faces[_curFace].AdjacentFaces.Length)
+                {
+                    yield return string.Format("sendtochat The number {0} (#{1} in your input) was not a valid direction. Aborting there.", direction, i);
+                    yield break;
+                }
+                prevFace = _curFace;
+                Arrows[(fromIndex + direction) % _polyhedron.Faces[_curFace].AdjacentFaces.Length].OnInteract();
+                yield return null;
+
+                while (_coroutineActive)
+                    yield return new WaitForSeconds(.2f);
+            }
         }
-        return null;
     }
 }
