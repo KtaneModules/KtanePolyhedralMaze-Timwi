@@ -1,22 +1,17 @@
 fileFormatVersion: 2
-guid: 47427162d886eac49a0d63a91c2fa9ef
-timeCreated: 1513398859
+guid: 0d000936baa851743a334422cd217437
+timeCreated: 1514824165
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Chamfered_Icosahedron
+    100000: ChamferedIcosahedron2
     100002: //RootNode
-    100004: ChamferedIcosahedron1
-    400000: Chamfered_Icosahedron
+    400000: ChamferedIcosahedron2
     400002: //RootNode
-    400004: ChamferedIcosahedron1
-    2300000: Chamfered_Icosahedron
-    2300002: ChamferedIcosahedron1
-    3300000: Chamfered_Icosahedron
-    3300002: ChamferedIcosahedron1
-    4300000: Chamfered_Icosahedron
-    4300002: ChamferedIcosahedron1
+    2300000: ChamferedIcosahedron2
+    3300000: ChamferedIcosahedron2
+    4300000: ChamferedIcosahedron2
   materials:
     importMaterials: 1
     materialName: 0

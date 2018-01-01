@@ -22,7 +22,7 @@ namespace PolyhedralMaze
     {
         public static Polyhedron[] Polyhedra = new Polyhedron[] {
             new Polyhedron { Name = "4TruncatedDeltoidalIcositetrahedron2", ReadableName = "4-Truncated Deltoidal Icositetrahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 2, 30, 8, 26, 5, null, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, 8, 26, null, null, 1 }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, 0.583513582436236f, 0.583513582436236f),
                     new Vector3(-0.687594649106084f, 0.228158593025782f, 0.687594649106084f),
                     new Vector3(-0.848927137420596f, 0f, 0.526262160791571f),
@@ -31,7 +31,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.848927137420596f, 0.526262160791571f, 0f),
                     new Vector3(-0.687594649106084f, 0.687594649106084f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 0, null, null, null, 13, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 0, null, null, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, 0.583513582436236f, 0.583513582436236f),
                     new Vector3(-0.687594649106084f, 0.687594649106084f, 0.228158593025782f),
                     new Vector3(-0.526262160791571f, 0.848927137420596f, 0f),
@@ -40,7 +40,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.848927137420596f, 0.526262160791571f),
                     new Vector3(-0.228158593025782f, 0.687594649106084f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 38, null, 24, 6, 30, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 38, null, 24, 6, 30, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, 0.583513582436236f, 0.583513582436236f),
                     new Vector3(-0.228158593025782f, 0.687594649106084f, 0.687594649106084f),
                     new Vector3(0f, 0.526262160791571f, 0.848927137420596f),
@@ -49,7 +49,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.526262160791571f, 0f, 0.848927137420596f),
                     new Vector3(-0.687594649106084f, 0.228158593025782f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 31, null, 25, 17, 39, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 5, 31, 11, 25, 17, 39, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, 0.583513582436236f, -0.583513582436236f),
                     new Vector3(-0.687594649106084f, 0.228158593025782f, -0.687594649106084f),
                     new Vector3(-0.526262160791571f, 0f, -0.848927137420596f),
@@ -58,7 +58,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.526262160791571f, -0.848927137420596f),
                     new Vector3(-0.228158593025782f, 0.687594649106084f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 3, 39, 16, 28, null, null, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 3, null, 16, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, 0.583513582436236f, -0.583513582436236f),
                     new Vector3(-0.228158593025782f, 0.687594649106084f, -0.687594649106084f),
                     new Vector3(0f, 0.848927137420596f, -0.526262160791571f),
@@ -67,7 +67,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.526262160791571f, 0.848927137420596f, 0f),
                     new Vector3(-0.687594649106084f, 0.687594649106084f, -0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 4, 34, 0, 26, 9, 31, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 34, null, 26, null, 31, 3 }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, 0.583513582436236f, -0.583513582436236f),
                     new Vector3(-0.687594649106084f, 0.687594649106084f, -0.228158593025782f),
                     new Vector3(-0.848927137420596f, 0.526262160791571f, 0f),
@@ -76,7 +76,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.848927137420596f, 0f, -0.526262160791571f),
                     new Vector3(-0.687594649106084f, 0.228158593025782f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 30, 2, 24, 20, 40, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 8, null, 2, null, null, 40, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, -0.583513582436236f, 0.583513582436236f),
                     new Vector3(-0.687594649106084f, -0.228158593025782f, 0.687594649106084f),
                     new Vector3(-0.526262160791571f, 0f, 0.848927137420596f),
@@ -85,7 +85,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.526262160791571f, 0.848927137420596f),
                     new Vector3(-0.228158593025782f, -0.687594649106084f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 6, null, 19, 29, 10, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, null, null, null, 35, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, -0.583513582436236f, 0.583513582436236f),
                     new Vector3(-0.228158593025782f, -0.687594649106084f, 0.687594649106084f),
                     new Vector3(0f, -0.848927137420596f, 0.526262160791571f),
@@ -94,7 +94,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.526262160791571f, -0.848927137420596f, 0f),
                     new Vector3(-0.687594649106084f, -0.687594649106084f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(-0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, null, 26, 0, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 35, null, 26, 0, null, 6 }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, -0.583513582436236f, 0.583513582436236f),
                     new Vector3(-0.687594649106084f, -0.687594649106084f, 0.228158593025782f),
                     new Vector3(-0.848927137420596f, -0.526262160791571f, 0f),
@@ -103,7 +103,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.848927137420596f, 0f, 0.526262160791571f),
                     new Vector3(-0.687594649106084f, -0.228158593025782f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.862856209461017f, -0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 11, 31, 5, 26, null, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, -0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 11, 31, null, 26, null, 35, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, -0.583513582436236f, -0.583513582436236f),
                     new Vector3(-0.687594649106084f, -0.228158593025782f, -0.687594649106084f),
                     new Vector3(-0.848927137420596f, 0f, -0.526262160791571f),
@@ -112,7 +112,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.848927137420596f, -0.526262160791571f, 0f),
                     new Vector3(-0.687594649106084f, -0.687594649106084f, -0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, 7, null, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 35, null, null, 22, 41, null }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, -0.583513582436236f, -0.583513582436236f),
                     new Vector3(-0.687594649106084f, -0.687594649106084f, -0.228158593025782f),
                     new Vector3(-0.526262160791571f, -0.848927137420596f, 0f),
@@ -121,7 +121,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.848927137420596f, -0.526262160791571f),
                     new Vector3(-0.228158593025782f, -0.687594649106084f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 41, null, 25, null, 31, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 41, null, null, 3, 31, 9 }, Vertices = new Vector3[] {
                     new Vector3(-0.583513582436236f, -0.583513582436236f, -0.583513582436236f),
                     new Vector3(-0.228158593025782f, -0.687594649106084f, -0.687594649106084f),
                     new Vector3(0f, -0.526262160791571f, -0.848927137420596f),
@@ -130,7 +130,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.526262160791571f, 0f, -0.848927137420596f),
                     new Vector3(-0.687594649106084f, -0.228158593025782f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 14, 32, null, 24, null, 38, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, null, 24, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, 0.583513582436236f, 0.583513582436236f),
                     new Vector3(0.687594649106084f, 0.228158593025782f, 0.687594649106084f),
                     new Vector3(0.526262160791571f, 0f, 0.848927137420596f),
@@ -139,7 +139,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.526262160791571f, 0.848927137420596f),
                     new Vector3(0.228158593025782f, 0.687594649106084f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 12, 38, 1, 28, 16, 36, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 38, null, 28, null, 36, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, 0.583513582436236f, 0.583513582436236f),
                     new Vector3(0.228158593025782f, 0.687594649106084f, 0.687594649106084f),
                     new Vector3(0f, 0.848927137420596f, 0.526262160791571f),
@@ -148,7 +148,7 @@ namespace PolyhedralMaze
                     new Vector3(0.526262160791571f, 0.848927137420596f, 0f),
                     new Vector3(0.687594649106084f, 0.687594649106084f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 13, 36, 15, null, 18, 32, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, null, 27, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, 0.583513582436236f, 0.583513582436236f),
                     new Vector3(0.687594649106084f, 0.687594649106084f, 0.228158593025782f),
                     new Vector3(0.848927137420596f, 0.526262160791571f, 0f),
@@ -157,7 +157,7 @@ namespace PolyhedralMaze
                     new Vector3(0.848927137420596f, 0f, 0.526262160791571f),
                     new Vector3(0.687594649106084f, 0.228158593025782f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, 23, null, 14, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 17, 33, 23, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, 0.583513582436236f, -0.583513582436236f),
                     new Vector3(0.687594649106084f, 0.228158593025782f, -0.687594649106084f),
                     new Vector3(0.848927137420596f, 0f, -0.526262160791571f),
@@ -166,7 +166,7 @@ namespace PolyhedralMaze
                     new Vector3(0.848927137420596f, 0.526262160791571f, 0f),
                     new Vector3(0.687594649106084f, 0.687594649106084f, -0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 36, 13, null, 4, null, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, null, null, null, 4, 39, 17 }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, 0.583513582436236f, -0.583513582436236f),
                     new Vector3(0.687594649106084f, 0.687594649106084f, -0.228158593025782f),
                     new Vector3(0.526262160791571f, 0.848927137420596f, 0f),
@@ -175,7 +175,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.848927137420596f, -0.526262160791571f),
                     new Vector3(0.228158593025782f, 0.687594649106084f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 16, 39, 3, null, 21, 33, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 16, 39, 3, null, 21, null, 15 }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, 0.583513582436236f, -0.583513582436236f),
                     new Vector3(0.228158593025782f, 0.687594649106084f, -0.687594649106084f),
                     new Vector3(0f, 0.526262160791571f, -0.848927137420596f),
@@ -184,7 +184,7 @@ namespace PolyhedralMaze
                     new Vector3(0.526262160791571f, 0f, -0.848927137420596f),
                     new Vector3(0.687594649106084f, 0.228158593025782f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 20, 32, 14, 27, 23, 37, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 32, null, null, 23, 37, 19 }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, -0.583513582436236f, 0.583513582436236f),
                     new Vector3(0.687594649106084f, -0.228158593025782f, 0.687594649106084f),
                     new Vector3(0.848927137420596f, 0f, 0.526262160791571f),
@@ -193,7 +193,7 @@ namespace PolyhedralMaze
                     new Vector3(0.848927137420596f, -0.526262160791571f, 0f),
                     new Vector3(0.687594649106084f, -0.687594649106084f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 37, 22, null, 7, 40, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 18, 37, 22, 29, null, null, 20 }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, -0.583513582436236f, 0.583513582436236f),
                     new Vector3(0.687594649106084f, -0.687594649106084f, 0.228158593025782f),
                     new Vector3(0.526262160791571f, -0.848927137420596f, 0f),
@@ -202,7 +202,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.848927137420596f, 0.526262160791571f),
                     new Vector3(0.228158593025782f, -0.687594649106084f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 19, 40, 6, null, null, 32, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 19, null, null, null, null, 32, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, -0.583513582436236f, 0.583513582436236f),
                     new Vector3(0.228158593025782f, -0.687594649106084f, 0.687594649106084f),
                     new Vector3(0f, -0.526262160791571f, 0.848927137420596f),
@@ -211,7 +211,7 @@ namespace PolyhedralMaze
                     new Vector3(0.526262160791571f, 0f, 0.848927137420596f),
                     new Vector3(0.687594649106084f, -0.228158593025782f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 23, null, 17, null, null, 41, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 33, 17, null, null, 41, 22 }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, -0.583513582436236f, -0.583513582436236f),
                     new Vector3(0.687594649106084f, -0.228158593025782f, -0.687594649106084f),
                     new Vector3(0.526262160791571f, 0f, -0.848927137420596f),
@@ -220,7 +220,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.526262160791571f, -0.848927137420596f),
                     new Vector3(0.228158593025782f, -0.687594649106084f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 21, null, null, null, 19, 37, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 21, null, 10, null, 19, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, -0.583513582436236f, -0.583513582436236f),
                     new Vector3(0.228158593025782f, -0.687594649106084f, -0.687594649106084f),
                     new Vector3(0f, -0.848927137420596f, -0.526262160791571f),
@@ -229,7 +229,7 @@ namespace PolyhedralMaze
                     new Vector3(0.526262160791571f, -0.848927137420596f, 0f),
                     new Vector3(0.687594649106084f, -0.687594649106084f, -0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { 22, 37, 18, 27, 15, 33, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, -0.357406744336593f), Distance = 0.920591697459384f, AdjacentFaces = new int?[] { null, 37, 18, 27, 15, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.583513582436236f, -0.583513582436236f, -0.583513582436236f),
                     new Vector3(0.687594649106084f, -0.687594649106084f, -0.228158593025782f),
                     new Vector3(0.848927137420596f, -0.526262160791571f, 0f),
@@ -238,13 +238,13 @@ namespace PolyhedralMaze
                     new Vector3(0.848927137420596f, 0f, -0.526262160791571f),
                     new Vector3(0.687594649106084f, -0.228158593025782f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 2, 12, null, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 2, 12, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.228158593025782f, 0f, 0.972405678180993f),
                     new Vector3(0f, 0.228158593025782f, 0.972405678180993f),
                     new Vector3(0.228158593025782f, 0f, 0.972405678180993f),
                     new Vector3(0f, -0.228158593025782f, 0.972405678180993f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 11, null, null, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, null, null, 3 }, Vertices = new Vector3[] {
                     new Vector3(-0.228158593025782f, 0f, -0.972405678180993f),
                     new Vector3(0f, -0.228158593025782f, -0.972405678180993f),
                     new Vector3(0.228158593025782f, 0f, -0.972405678180993f),
@@ -256,25 +256,25 @@ namespace PolyhedralMaze
                     new Vector3(-0.972405678180993f, -0.228158593025782f, 0f),
                     new Vector3(-0.972405678180993f, 0f, -0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 23, 18, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 23, null, 14 }, Vertices = new Vector3[] {
                     new Vector3(0.972405678180993f, 0.228158593025782f, 0f),
                     new Vector3(0.972405678180993f, 0f, -0.228158593025782f),
                     new Vector3(0.972405678180993f, -0.228158593025782f, 0f),
                     new Vector3(0.972405678180993f, 0f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 4, null, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, null, null, 13 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.972405678180993f, 0.228158593025782f),
                     new Vector3(-0.228158593025782f, 0.972405678180993f, 0f),
                     new Vector3(0f, 0.972405678180993f, -0.228158593025782f),
                     new Vector3(0.228158593025782f, 0.972405678180993f, 0f)
                 } },
-                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, null, null, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 19, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.972405678180993f, 0.228158593025782f),
                     new Vector3(0.228158593025782f, -0.972405678180993f, 0f),
                     new Vector3(0f, -0.972405678180993f, -0.228158593025782f),
                     new Vector3(-0.228158593025782f, -0.972405678180993f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186548f, 2.22044604925031E-16f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 6, null, 0, 2 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186548f, 2.22044604925031E-16f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, null, null, 2 }, Vertices = new Vector3[] {
                     new Vector3(-0.526262160791571f, 0f, 0.848927137420596f),
                     new Vector3(-0.687594649106084f, -0.228158593025782f, 0.687594649106084f),
                     new Vector3(-0.848927137420596f, 0f, 0.526262160791571f),
@@ -286,13 +286,13 @@ namespace PolyhedralMaze
                     new Vector3(-0.848927137420596f, 0f, -0.526262160791571f),
                     new Vector3(-0.687594649106084f, -0.228158593025782f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186548f, -2.22044604925031E-16f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 12, 14, 18, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186548f, -2.22044604925031E-16f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, null, 18, 20 }, Vertices = new Vector3[] {
                     new Vector3(0.526262160791571f, 0f, 0.848927137420596f),
                     new Vector3(0.687594649106084f, 0.228158593025782f, 0.687594649106084f),
                     new Vector3(0.848927137420596f, 0f, 0.526262160791571f),
                     new Vector3(0.687594649106084f, -0.228158593025782f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186548f, 2.22044604925031E-16f, -0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 23, null, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186548f, 2.22044604925031E-16f, -0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 21, null, 15, null }, Vertices = new Vector3[] {
                     new Vector3(0.526262160791571f, 0f, -0.848927137420596f),
                     new Vector3(0.687594649106084f, -0.228158593025782f, -0.687594649106084f),
                     new Vector3(0.848927137420596f, 0f, -0.526262160791571f),
@@ -304,13 +304,13 @@ namespace PolyhedralMaze
                     new Vector3(-0.526262160791571f, 0.848927137420596f, 0f),
                     new Vector3(-0.687594649106084f, 0.687594649106084f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186548f, -0.707106781186548f, -2.22044604925031E-16f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 7, null, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186548f, -0.707106781186548f, -2.22044604925031E-16f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 8, 7, 10, 9 }, Vertices = new Vector3[] {
                     new Vector3(-0.848927137420596f, -0.526262160791571f, 0f),
                     new Vector3(-0.687594649106084f, -0.687594649106084f, 0.228158593025782f),
                     new Vector3(-0.526262160791571f, -0.848927137420596f, 0f),
                     new Vector3(-0.687594649106084f, -0.687594649106084f, -0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186548f, 0.707106781186548f, -2.22044604925031E-16f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 14, 13, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186548f, 0.707106781186548f, -2.22044604925031E-16f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 13, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.848927137420596f, 0.526262160791571f, 0f),
                     new Vector3(0.687594649106084f, 0.687594649106084f, 0.228158593025782f),
                     new Vector3(0.526262160791571f, 0.848927137420596f, 0f),
@@ -322,25 +322,25 @@ namespace PolyhedralMaze
                     new Vector3(0.526262160791571f, -0.848927137420596f, 0f),
                     new Vector3(0.687594649106084f, -0.687594649106084f, 0.228158593025782f)
                 } },
-                new Face { Normal = new Vector3(-2.22044604925031E-16f, 0.707106781186548f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 13, 12, 2, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.22044604925031E-16f, 0.707106781186548f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 13, null, 2, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.848927137420596f, 0.526262160791571f),
                     new Vector3(0.228158593025782f, 0.687594649106084f, 0.687594649106084f),
                     new Vector3(0f, 0.526262160791571f, 0.848927137420596f),
                     new Vector3(-0.228158593025782f, 0.687594649106084f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(2.22044604925031E-16f, 0.707106781186548f, -0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { 4, 3, 17, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.22044604925031E-16f, 0.707106781186548f, -0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 3, 17, 16 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.848927137420596f, -0.526262160791571f),
                     new Vector3(-0.228158593025782f, 0.687594649106084f, -0.687594649106084f),
                     new Vector3(0f, 0.526262160791571f, -0.848927137420596f),
                     new Vector3(0.228158593025782f, 0.687594649106084f, -0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(2.22044604925031E-16f, -0.707106781186548f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 6, 20, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.22044604925031E-16f, -0.707106781186548f, 0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 6, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.848927137420596f, 0.526262160791571f),
                     new Vector3(-0.228158593025782f, -0.687594649106084f, 0.687594649106084f),
                     new Vector3(0f, -0.526262160791571f, 0.848927137420596f),
                     new Vector3(0.228158593025782f, -0.687594649106084f, 0.687594649106084f)
                 } },
-                new Face { Normal = new Vector3(-2.22044604925031E-16f, -0.707106781186548f, -0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 21, 11, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.22044604925031E-16f, -0.707106781186548f, -0.707106781186548f), Distance = 0.972405678180993f, AdjacentFaces = new int?[] { null, 21, 11, 10 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.848927137420596f, -0.526262160791571f),
                     new Vector3(0.228158593025782f, -0.687594649106084f, -0.687594649106084f),
                     new Vector3(0f, -0.526262160791571f, -0.848927137420596f),
@@ -348,7 +348,7 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "ChamferedDodecahedron1", ReadableName = "Chamfered Dodecahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 34, 8, 26, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 2, 34, null, 26, 38, 1 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, 0.762961904792446f),
                     new Vector3(-0.753978712670644f, 0f, 0.655078537119892f),
@@ -356,7 +356,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.937520860507442f, 0.296977433568098f, 0.174558955714995f),
                     new Vector3(-0.762961904792446f, 0.579419756955648f, 0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, null, 28, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 0, 38, 4, null, 30, null }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(-0.762961904792446f, 0.579419756955648f, 0.28244232338755f),
                     new Vector3(-0.655078537119892f, 0.753978712670644f, 0f),
@@ -364,7 +364,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.174558955714995f, 0.937520860507442f, 0.296977433568098f),
                     new Vector3(-0.28244232338755f, 0.762961904792446f, 0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 12, 24, 34, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 12, 24, 34, 0 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(-0.28244232338755f, 0.762961904792446f, 0.579419756955648f),
                     new Vector3(0f, 0.655078537119892f, 0.753978712670644f),
@@ -372,7 +372,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.296977433568098f, 0.174558955714995f, 0.937520860507442f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, 0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 25, null, 31, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, null, null, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, -0.579419756955648f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, -0.762961904792446f),
                     new Vector3(-0.296977433568098f, 0.174558955714995f, -0.937520860507442f),
@@ -380,7 +380,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.655078537119892f, -0.753978712670644f),
                     new Vector3(-0.28244232338755f, 0.762961904792446f, -0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 3, 31, 28, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 3, 31, 28, 1, 38, 5 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, -0.579419756955648f),
                     new Vector3(-0.28244232338755f, 0.762961904792446f, -0.579419756955648f),
                     new Vector3(-0.174558955714995f, 0.937520860507442f, -0.296977433568098f),
@@ -388,7 +388,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.655078537119892f, 0.753978712670644f, 0f),
                     new Vector3(-0.762961904792446f, 0.579419756955648f, -0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 26, 9, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 4, 38, 26, null, 35, null }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, 0.579419756955648f, -0.579419756955648f),
                     new Vector3(-0.762961904792446f, 0.579419756955648f, -0.28244232338755f),
                     new Vector3(-0.937520860507442f, 0.296977433568098f, -0.174558955714995f),
@@ -396,7 +396,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.753978712670644f, 0f, -0.655078537119892f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, -0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 8, 34, null, null, null, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 8, null, null, 20, 32, 7 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, -0.579419756955648f, 0.579419756955648f),
                     new Vector3(-0.579419756955648f, -0.28244232338755f, 0.762961904792446f),
                     new Vector3(-0.296977433568098f, -0.174558955714995f, 0.937520860507442f),
@@ -412,7 +412,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.655078537119892f, -0.753978712670644f, 0f),
                     new Vector3(-0.762961904792446f, -0.579419756955648f, 0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 7, 39, null, 0, 34, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 7, 39, null, null, 34, 6 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, -0.579419756955648f, 0.579419756955648f),
                     new Vector3(-0.762961904792446f, -0.579419756955648f, 0.28244232338755f),
                     new Vector3(-0.937520860507442f, -0.296977433568098f, 0.174558955714995f),
@@ -420,7 +420,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.753978712670644f, 0f, 0.655078537119892f),
                     new Vector3(-0.579419756955648f, -0.28244232338755f, 0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 11, 35, 5, 26, 39, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 11, 35, null, null, 39, null }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, -0.579419756955648f, -0.579419756955648f),
                     new Vector3(-0.579419756955648f, -0.28244232338755f, -0.762961904792446f),
                     new Vector3(-0.753978712670644f, 0f, -0.655078537119892f),
@@ -428,7 +428,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.937520860507442f, -0.296977433568098f, -0.174558955714995f),
                     new Vector3(-0.762961904792446f, -0.579419756955648f, -0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, null, 29, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 39, null, 29, 33, 11 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, -0.579419756955648f, -0.579419756955648f),
                     new Vector3(-0.762961904792446f, -0.579419756955648f, -0.28244232338755f),
                     new Vector3(-0.655078537119892f, -0.753978712670644f, 0f),
@@ -436,7 +436,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.174558955714995f, -0.937520860507442f, -0.296977433568098f),
                     new Vector3(-0.28244232338755f, -0.762961904792446f, -0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 33, 21, 25, 35, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 10, 33, 21, null, null, 9 }, Vertices = new Vector3[] {
                     new Vector3(-0.579419756955648f, -0.579419756955648f, -0.579419756955648f),
                     new Vector3(-0.28244232338755f, -0.762961904792446f, -0.579419756955648f),
                     new Vector3(0f, -0.655078537119892f, -0.753978712670644f),
@@ -444,7 +444,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.296977433568098f, -0.174558955714995f, -0.937520860507442f),
                     new Vector3(-0.579419756955648f, -0.28244232338755f, -0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 14, 36, 24, 2, null, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 14, 36, null, 2, null, 13 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(0.579419756955648f, 0.28244232338755f, 0.762961904792446f),
                     new Vector3(0.296977433568098f, 0.174558955714995f, 0.937520860507442f),
@@ -452,7 +452,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.655078537119892f, 0.753978712670644f),
                     new Vector3(0.28244232338755f, 0.762961904792446f, 0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 12, 30, 28, 16, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 12, null, null, null, null, 14 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(0.28244232338755f, 0.762961904792446f, 0.579419756955648f),
                     new Vector3(0.174558955714995f, 0.937520860507442f, 0.296977433568098f),
@@ -460,7 +460,7 @@ namespace PolyhedralMaze
                     new Vector3(0.655078537119892f, 0.753978712670644f, 0f),
                     new Vector3(0.762961904792446f, 0.579419756955648f, 0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 40, 27, 18, 36, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 13, null, null, null, null, 12 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, 0.579419756955648f, 0.579419756955648f),
                     new Vector3(0.762961904792446f, 0.579419756955648f, 0.28244232338755f),
                     new Vector3(0.937520860507442f, 0.296977433568098f, 0.174558955714995f),
@@ -468,7 +468,7 @@ namespace PolyhedralMaze
                     new Vector3(0.753978712670644f, 0f, 0.655078537119892f),
                     new Vector3(0.579419756955648f, 0.28244232338755f, 0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 37, 23, null, 40, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 17, 37, null, null, 40, 16 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, 0.579419756955648f, -0.579419756955648f),
                     new Vector3(0.579419756955648f, 0.28244232338755f, -0.762961904792446f),
                     new Vector3(0.753978712670644f, 0f, -0.655078537119892f),
@@ -476,7 +476,7 @@ namespace PolyhedralMaze
                     new Vector3(0.937520860507442f, 0.296977433568098f, -0.174558955714995f),
                     new Vector3(0.762961904792446f, 0.579419756955648f, -0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 15, 40, 13, 28, null, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 15, null, null, 28, 31, 17 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, 0.579419756955648f, -0.579419756955648f),
                     new Vector3(0.762961904792446f, 0.579419756955648f, -0.28244232338755f),
                     new Vector3(0.655078537119892f, 0.753978712670644f, 0f),
@@ -484,7 +484,7 @@ namespace PolyhedralMaze
                     new Vector3(0.174558955714995f, 0.937520860507442f, -0.296977433568098f),
                     new Vector3(0.28244232338755f, 0.762961904792446f, -0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 16, 31, null, 25, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 16, null, null, 25, 37, 15 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, 0.579419756955648f, -0.579419756955648f),
                     new Vector3(0.28244232338755f, 0.762961904792446f, -0.579419756955648f),
                     new Vector3(0f, 0.655078537119892f, -0.753978712670644f),
@@ -492,7 +492,7 @@ namespace PolyhedralMaze
                     new Vector3(0.296977433568098f, 0.174558955714995f, -0.937520860507442f),
                     new Vector3(0.579419756955648f, 0.28244232338755f, -0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 14, 27, 41, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 20, 36, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, -0.579419756955648f, 0.579419756955648f),
                     new Vector3(0.579419756955648f, -0.28244232338755f, 0.762961904792446f),
                     new Vector3(0.753978712670644f, 0f, 0.655078537119892f),
@@ -500,7 +500,7 @@ namespace PolyhedralMaze
                     new Vector3(0.937520860507442f, -0.296977433568098f, 0.174558955714995f),
                     new Vector3(0.762961904792446f, -0.579419756955648f, 0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 41, 22, 29, 32, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 22, 29, 32, null }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, -0.579419756955648f, 0.579419756955648f),
                     new Vector3(0.762961904792446f, -0.579419756955648f, 0.28244232338755f),
                     new Vector3(0.655078537119892f, -0.753978712670644f, 0f),
@@ -508,7 +508,7 @@ namespace PolyhedralMaze
                     new Vector3(0.174558955714995f, -0.937520860507442f, 0.296977433568098f),
                     new Vector3(0.28244232338755f, -0.762961904792446f, 0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 19, 32, null, 24, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 6, null, null, 18 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, -0.579419756955648f, 0.579419756955648f),
                     new Vector3(0.28244232338755f, -0.762961904792446f, 0.579419756955648f),
                     new Vector3(0f, -0.655078537119892f, 0.753978712670644f),
@@ -516,7 +516,7 @@ namespace PolyhedralMaze
                     new Vector3(0.296977433568098f, -0.174558955714995f, 0.937520860507442f),
                     new Vector3(0.579419756955648f, -0.28244232338755f, 0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 37, 25, 11, null, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, null, 11, 33, 22 }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, -0.579419756955648f, -0.579419756955648f),
                     new Vector3(0.579419756955648f, -0.28244232338755f, -0.762961904792446f),
                     new Vector3(0.296977433568098f, -0.174558955714995f, -0.937520860507442f),
@@ -524,7 +524,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.655078537119892f, -0.753978712670644f),
                     new Vector3(0.28244232338755f, -0.762961904792446f, -0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 21, null, 29, 19, 41, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 21, 33, null, 19, 41, null }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, -0.579419756955648f, -0.579419756955648f),
                     new Vector3(0.28244232338755f, -0.762961904792446f, -0.579419756955648f),
                     new Vector3(0.174558955714995f, -0.937520860507442f, -0.296977433568098f),
@@ -532,7 +532,7 @@ namespace PolyhedralMaze
                     new Vector3(0.655078537119892f, -0.753978712670644f, 0f),
                     new Vector3(0.762961904792446f, -0.579419756955648f, -0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 22, null, 27, 15, 37, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 41, null, null, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0.579419756955648f, -0.579419756955648f, -0.579419756955648f),
                     new Vector3(0.762961904792446f, -0.579419756955648f, -0.28244232338755f),
                     new Vector3(0.937520860507442f, -0.296977433568098f, -0.174558955714995f),
@@ -540,7 +540,7 @@ namespace PolyhedralMaze
                     new Vector3(0.753978712670644f, 0f, -0.655078537119892f),
                     new Vector3(0.579419756955648f, -0.28244232338755f, -0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 34, 2, 12, 36, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 34, 2, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.358101103551794f, 0.937520860507442f),
                     new Vector3(-0.296977433568098f, -0.174558955714995f, 0.937520860507442f),
                     new Vector3(-0.296977433568098f, 0.174558955714995f, 0.937520860507442f),
@@ -548,7 +548,7 @@ namespace PolyhedralMaze
                     new Vector3(0.296977433568098f, 0.174558955714995f, 0.937520860507442f),
                     new Vector3(0.296977433568098f, -0.174558955714995f, 0.937520860507442f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 21, 37, 17, 3, null, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, null, 17, null, 35, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.358101103551794f, -0.937520860507442f),
                     new Vector3(0.296977433568098f, -0.174558955714995f, -0.937520860507442f),
                     new Vector3(0.296977433568098f, 0.174558955714995f, -0.937520860507442f),
@@ -556,7 +556,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.296977433568098f, 0.174558955714995f, -0.937520860507442f),
                     new Vector3(-0.296977433568098f, -0.174558955714995f, -0.937520860507442f)
                 } },
-                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 39, 9, 5, 38, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 39, null, 5, 38, 0 }, Vertices = new Vector3[] {
                     new Vector3(-0.937520860507442f, 0f, 0.358101103551794f),
                     new Vector3(-0.937520860507442f, -0.296977433568098f, 0.174558955714995f),
                     new Vector3(-0.937520860507442f, -0.296977433568098f, -0.174558955714995f),
@@ -564,7 +564,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.937520860507442f, 0.296977433568098f, -0.174558955714995f),
                     new Vector3(-0.937520860507442f, 0.296977433568098f, 0.174558955714995f)
                 } },
-                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 23, 41, 18, 14, 40, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 41, null, null, 40, null }, Vertices = new Vector3[] {
                     new Vector3(0.937520860507442f, 0f, -0.358101103551794f),
                     new Vector3(0.937520860507442f, -0.296977433568098f, -0.174558955714995f),
                     new Vector3(0.937520860507442f, -0.296977433568098f, 0.174558955714995f),
@@ -572,7 +572,7 @@ namespace PolyhedralMaze
                     new Vector3(0.937520860507442f, 0.296977433568098f, 0.174558955714995f),
                     new Vector3(0.937520860507442f, 0.296977433568098f, -0.174558955714995f)
                 } },
-                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 4, 31, 16, 13, 30, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { 4, 31, 16, null, 30, null }, Vertices = new Vector3[] {
                     new Vector3(-0.358101103551794f, 0.937520860507442f, 0f),
                     new Vector3(-0.174558955714995f, 0.937520860507442f, -0.296977433568098f),
                     new Vector3(0.174558955714995f, 0.937520860507442f, -0.296977433568098f),
@@ -580,7 +580,7 @@ namespace PolyhedralMaze
                     new Vector3(0.174558955714995f, 0.937520860507442f, 0.296977433568098f),
                     new Vector3(-0.174558955714995f, 0.937520860507442f, 0.296977433568098f)
                 } },
-                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 32, 19, 22, 33, 10 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.937520860507442f, AdjacentFaces = new int?[] { null, 32, 19, null, 33, 10 }, Vertices = new Vector3[] {
                     new Vector3(-0.358101103551794f, -0.937520860507442f, 0f),
                     new Vector3(-0.174558955714995f, -0.937520860507442f, 0.296977433568098f),
                     new Vector3(0.174558955714995f, -0.937520860507442f, 0.296977433568098f),
@@ -588,84 +588,84 @@ namespace PolyhedralMaze
                     new Vector3(0.174558955714995f, -0.937520860507442f, -0.296977433568098f),
                     new Vector3(-0.174558955714995f, -0.937520860507442f, -0.296977433568098f)
                 } },
-                new Face { Normal = new Vector3(-1.45919696359113E-16f, 0.85065080835204f, 0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, null, 28, 13, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-1.45919696359113E-16f, 0.85065080835204f, 0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, 1, 28, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.655078537119892f, 0.753978712670644f),
                     new Vector3(-0.28244232338755f, 0.762961904792446f, 0.579419756955648f),
                     new Vector3(-0.174558955714995f, 0.937520860507442f, 0.296977433568098f),
                     new Vector3(0.174558955714995f, 0.937520860507442f, 0.296977433568098f),
                     new Vector3(0.28244232338755f, 0.762961904792446f, 0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(1.45919696359113E-16f, 0.85065080835204f, -0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 17, null, 28, 4, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(1.45919696359113E-16f, 0.85065080835204f, -0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, 16, 28, 4, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.655078537119892f, -0.753978712670644f),
                     new Vector3(0.28244232338755f, 0.762961904792446f, -0.579419756955648f),
                     new Vector3(0.174558955714995f, 0.937520860507442f, -0.296977433568098f),
                     new Vector3(-0.174558955714995f, 0.937520860507442f, -0.296977433568098f),
                     new Vector3(-0.28244232338755f, 0.762961904792446f, -0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(1.45919696359113E-16f, -0.85065080835204f, 0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 20, 19, 29, 7, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(1.45919696359113E-16f, -0.85065080835204f, 0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, 19, 29, 7, 6 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.655078537119892f, 0.753978712670644f),
                     new Vector3(0.28244232338755f, -0.762961904792446f, 0.579419756955648f),
                     new Vector3(0.174558955714995f, -0.937520860507442f, 0.296977433568098f),
                     new Vector3(-0.174558955714995f, -0.937520860507442f, 0.296977433568098f),
                     new Vector3(-0.28244232338755f, -0.762961904792446f, 0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(-1.45919696359113E-16f, -0.85065080835204f, -0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 11, null, 29, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-1.45919696359113E-16f, -0.85065080835204f, -0.525731112119134f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 11, 10, 29, 22, 21 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.655078537119892f, -0.753978712670644f),
                     new Vector3(-0.28244232338755f, -0.762961904792446f, -0.579419756955648f),
                     new Vector3(-0.174558955714995f, -0.937520860507442f, -0.296977433568098f),
                     new Vector3(0.174558955714995f, -0.937520860507442f, -0.296977433568098f),
                     new Vector3(0.28244232338755f, -0.762961904792446f, -0.579419756955648f)
                 } },
-                new Face { Normal = new Vector3(-0.525731112119134f, 1.45919696359113E-16f, 0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 0, 2, 24, 6, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.525731112119134f, 1.45919696359113E-16f, 0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 0, 2, 24, null, 8 }, Vertices = new Vector3[] {
                     new Vector3(-0.753978712670644f, 0f, 0.655078537119892f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, 0.762961904792446f),
                     new Vector3(-0.296977433568098f, 0.174558955714995f, 0.937520860507442f),
                     new Vector3(-0.296977433568098f, -0.174558955714995f, 0.937520860507442f),
                     new Vector3(-0.579419756955648f, -0.28244232338755f, 0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(-0.525731112119134f, -1.45919696359113E-16f, -0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 9, 11, null, null, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.525731112119134f, -1.45919696359113E-16f, -0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 9, null, 25, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(-0.753978712670644f, 0f, -0.655078537119892f),
                     new Vector3(-0.579419756955648f, -0.28244232338755f, -0.762961904792446f),
                     new Vector3(-0.296977433568098f, -0.174558955714995f, -0.937520860507442f),
                     new Vector3(-0.296977433568098f, 0.174558955714995f, -0.937520860507442f),
                     new Vector3(-0.579419756955648f, 0.28244232338755f, -0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0.525731112119134f, -1.45919696359113E-16f, 0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, null, 24, 12, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.525731112119134f, -1.45919696359113E-16f, 0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 18, null, null, 12, null }, Vertices = new Vector3[] {
                     new Vector3(0.753978712670644f, 0f, 0.655078537119892f),
                     new Vector3(0.579419756955648f, -0.28244232338755f, 0.762961904792446f),
                     new Vector3(0.296977433568098f, -0.174558955714995f, 0.937520860507442f),
                     new Vector3(0.296977433568098f, 0.174558955714995f, 0.937520860507442f),
                     new Vector3(0.579419756955648f, 0.28244232338755f, 0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(0.525731112119134f, 1.45919696359113E-16f, -0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 15, null, 25, 21, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.525731112119134f, 1.45919696359113E-16f, -0.85065080835204f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 15, 17, null, null, 23 }, Vertices = new Vector3[] {
                     new Vector3(0.753978712670644f, 0f, -0.655078537119892f),
                     new Vector3(0.579419756955648f, 0.28244232338755f, -0.762961904792446f),
                     new Vector3(0.296977433568098f, 0.174558955714995f, -0.937520860507442f),
                     new Vector3(0.296977433568098f, -0.174558955714995f, -0.937520860507442f),
                     new Vector3(0.579419756955648f, -0.28244232338755f, -0.762961904792446f)
                 } },
-                new Face { Normal = new Vector3(-0.85065080835204f, 0.525731112119134f, 1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, null, 26, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.85065080835204f, 0.525731112119134f, 1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 1, 0, 26, 5, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.655078537119892f, 0.753978712670644f, 0f),
                     new Vector3(-0.762961904792446f, 0.579419756955648f, 0.28244232338755f),
                     new Vector3(-0.937520860507442f, 0.296977433568098f, 0.174558955714995f),
                     new Vector3(-0.937520860507442f, 0.296977433568098f, -0.174558955714995f),
                     new Vector3(-0.762961904792446f, 0.579419756955648f, -0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(-0.85065080835204f, -0.525731112119134f, -1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, 9, 26, 8, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.85065080835204f, -0.525731112119134f, -1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 10, 9, 26, 8, 7 }, Vertices = new Vector3[] {
                     new Vector3(-0.655078537119892f, -0.753978712670644f, 0f),
                     new Vector3(-0.762961904792446f, -0.579419756955648f, -0.28244232338755f),
                     new Vector3(-0.937520860507442f, -0.296977433568098f, -0.174558955714995f),
                     new Vector3(-0.937520860507442f, -0.296977433568098f, 0.174558955714995f),
                     new Vector3(-0.762961904792446f, -0.579419756955648f, 0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(0.85065080835204f, 0.525731112119134f, -1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 16, 15, 27, 14, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.85065080835204f, 0.525731112119134f, -1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, 15, 27, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.655078537119892f, 0.753978712670644f, 0f),
                     new Vector3(0.762961904792446f, 0.579419756955648f, -0.28244232338755f),
                     new Vector3(0.937520860507442f, 0.296977433568098f, -0.174558955714995f),
                     new Vector3(0.937520860507442f, 0.296977433568098f, 0.174558955714995f),
                     new Vector3(0.762961904792446f, 0.579419756955648f, 0.28244232338755f)
                 } },
-                new Face { Normal = new Vector3(0.85065080835204f, -0.525731112119134f, 1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { 19, 18, 27, null, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.85065080835204f, -0.525731112119134f, 1.45919696359113E-16f), Distance = 0.953633154261598f, AdjacentFaces = new int?[] { null, null, 27, 23, 22 }, Vertices = new Vector3[] {
                     new Vector3(0.655078537119892f, -0.753978712670644f, 0f),
                     new Vector3(0.762961904792446f, -0.579419756955648f, 0.28244232338755f),
                     new Vector3(0.937520860507442f, -0.296977433568098f, 0.174558955714995f),
@@ -673,446 +673,446 @@ namespace PolyhedralMaze
                     new Vector3(0.762961904792446f, -0.579419756955648f, -0.28244232338755f)
                 } }
             } },
-            new Polyhedron { Name = "ChamferedIcosahedron1", ReadableName = "Chamfered Icosahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 30, 19, 8, 32, 1 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(-0.211033958501172f, 0.221894235395448f, 0.922386767808284f),
-                    new Vector3(0.211033958501172f, 0.221894235395448f, 0.922386767808284f),
-                    new Vector3(0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(0.211033958501172f, -0.221894235395448f, 0.922386767808284f),
-                    new Vector3(-0.211033958501172f, -0.221894235395448f, 0.922386767808284f)
+            new Polyhedron { Name = "ChamferedIcosahedron2", ReadableName = "Chamfered Icosahedron", Faces = new Face[] {
+                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 30, 19, null, 32, 1 }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(-0.29226161760911f, 0.168737323600415f, 0.914649279255142f),
+                    new Vector3(0.29226161760911f, 0.168737323600415f, 0.914649279255142f),
+                    new Vector3(0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(0.29226161760911f, -0.168737323600415f, 0.914649279255142f),
+                    new Vector3(-0.29226161760911f, -0.168737323600415f, 0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 0, null, null, 26, 44, 2 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(-0.211033958501172f, -0.221894235395448f, 0.922386767808284f),
-                    new Vector3(0f, -0.563354353030779f, 0.791960608674125f),
-                    new Vector3(0f, -0.922386767808284f, 0.570066373278677f),
-                    new Vector3(-0.359032414777505f, -0.700492532412836f, 0.570066373278677f),
-                    new Vector3(-0.570066373278677f, -0.359032414777505f, 0.700492532412836f)
+                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 0, 32, 8, null, 44, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(-0.29226161760911f, -0.168737323600415f, 0.914649279255142f),
+                    new Vector3(0f, -0.64162655449898f, 0.734021665965687f),
+                    new Vector3(0f, -0.914649279255142f, 0.565284342365272f),
+                    new Vector3(-0.273022724756162f, -0.745911955654726f, 0.565284342365272f),
+                    new Vector3(-0.565284342365272f, -0.273022724756162f, 0.745911955654726f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 1, null, 26, 14, null, 13 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(-0.570066373278677f, -0.359032414777505f, 0.700492532412836f),
-                    new Vector3(-0.700492532412836f, -0.570066373278677f, 0.359032414777505f),
-                    new Vector3(-0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(-0.922386767808284f, -0.211033958501172f, 0.221894235395448f),
-                    new Vector3(-0.791960608674125f, 0f, 0.563354353030779f)
+                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, 26, null, null, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(-0.565284342365272f, -0.273022724756162f, 0.745911955654726f),
+                    new Vector3(-0.745911955654726f, -0.565284342365272f, 0.273022724756162f),
+                    new Vector3(-0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(-0.914649279255142f, -0.29226161760911f, 0.168737323600415f),
+                    new Vector3(-0.734021665965687f, 0f, 0.64162655449898f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 11, 31, 10, 23, null, 4 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(-0.211033958501172f, 0.221894235395448f, -0.922386767808284f),
-                    new Vector3(0f, 0.563354353030779f, -0.791960608674125f),
-                    new Vector3(0f, 0.922386767808284f, -0.570066373278677f),
-                    new Vector3(-0.359032414777505f, 0.700492532412836f, -0.570066373278677f),
-                    new Vector3(-0.570066373278677f, 0.359032414777505f, -0.700492532412836f)
+                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 31, 10, null, 43, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(-0.29226161760911f, 0.168737323600415f, -0.914649279255142f),
+                    new Vector3(0f, 0.64162655449898f, -0.734021665965687f),
+                    new Vector3(0f, 0.914649279255142f, -0.565284342365272f),
+                    new Vector3(-0.273022724756162f, 0.745911955654726f, -0.565284342365272f),
+                    new Vector3(-0.565284342365272f, 0.273022724756162f, -0.745911955654726f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 3, null, 23, null, null, null }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(-0.570066373278677f, 0.359032414777505f, -0.700492532412836f),
-                    new Vector3(-0.700492532412836f, 0.570066373278677f, -0.359032414777505f),
-                    new Vector3(-0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(-0.922386767808284f, 0.211033958501172f, -0.221894235395448f),
-                    new Vector3(-0.791960608674125f, 0f, -0.563354353030779f)
+                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 43, 23, null, 35, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(-0.565284342365272f, 0.273022724756162f, -0.745911955654726f),
+                    new Vector3(-0.745911955654726f, 0.565284342365272f, -0.273022724756162f),
+                    new Vector3(-0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(-0.914649279255142f, 0.29226161760911f, -0.168737323600415f),
+                    new Vector3(-0.734021665965687f, 0f, -0.64162655449898f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374948f, -0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 35, 14, null, 45, 28 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(-0.791960608674125f, 0f, -0.563354353030779f),
-                    new Vector3(-0.922386767808284f, -0.211033958501172f, -0.221894235395448f),
-                    new Vector3(-0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(-0.700492532412836f, -0.570066373278677f, -0.359032414777505f),
-                    new Vector3(-0.570066373278677f, -0.359032414777505f, -0.700492532412836f)
+                new Face { Normal = new Vector3(-0.809016994374948f, -0.309016994374947f, -0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 35, 14, null, null, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(-0.734021665965687f, 0f, -0.64162655449898f),
+                    new Vector3(-0.914649279255142f, -0.29226161760911f, -0.168737323600415f),
+                    new Vector3(-0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(-0.745911955654726f, -0.565284342365272f, -0.273022724756162f),
+                    new Vector3(-0.565284342365272f, -0.273022724756162f, -0.745911955654726f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 19, 46, null, 15, 36, null }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(0.570066373278677f, 0.359032414777505f, 0.700492532412836f),
-                    new Vector3(0.700492532412836f, 0.570066373278677f, 0.359032414777505f),
-                    new Vector3(0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(0.922386767808284f, 0.211033958501172f, 0.221894235395448f),
-                    new Vector3(0.791960608674125f, 0f, 0.563354353030779f)
+                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 19, 46, null, 15, null, 7 }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(0.565284342365272f, 0.273022724756162f, 0.745911955654726f),
+                    new Vector3(0.745911955654726f, 0.565284342365272f, 0.273022724756162f),
+                    new Vector3(0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(0.914649279255142f, 0.29226161760911f, 0.168737323600415f),
+                    new Vector3(0.734021665965687f, 0f, 0.64162655449898f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374948f, 0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, null, 15, 24, 48, null }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(0.791960608674125f, 0f, 0.563354353030779f),
-                    new Vector3(0.922386767808284f, -0.211033958501172f, 0.221894235395448f),
-                    new Vector3(0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(0.700492532412836f, -0.570066373278677f, 0.359032414777505f),
-                    new Vector3(0.570066373278677f, -0.359032414777505f, 0.700492532412836f)
+                new Face { Normal = new Vector3(0.809016994374948f, -0.309016994374947f, 0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 6, 36, null, null, 48, null }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(0.734021665965687f, 0f, 0.64162655449898f),
+                    new Vector3(0.914649279255142f, -0.29226161760911f, 0.168737323600415f),
+                    new Vector3(0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(0.745911955654726f, -0.565284342365272f, 0.273022724756162f),
+                    new Vector3(0.565284342365272f, -0.273022724756162f, 0.745911955654726f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, 0.809016994374948f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 48, 24, null, null, 0 }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(0.570066373278677f, -0.359032414777505f, 0.700492532412836f),
-                    new Vector3(0.359032414777505f, -0.700492532412836f, 0.570066373278677f),
-                    new Vector3(0f, -0.922386767808284f, 0.570066373278677f),
-                    new Vector3(0f, -0.563354353030779f, 0.791960608674125f),
-                    new Vector3(0.211033958501172f, -0.221894235395448f, 0.922386767808284f)
+                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, 0.809016994374948f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, null, 1, null, null }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(0.565284342365272f, -0.273022724756162f, 0.745911955654726f),
+                    new Vector3(0.273022724756162f, -0.745911955654726f, 0.565284342365272f),
+                    new Vector3(0f, -0.914649279255142f, 0.565284342365272f),
+                    new Vector3(0f, -0.64162655449898f, 0.734021665965687f),
+                    new Vector3(0.29226161760911f, -0.168737323600415f, 0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374948f, -0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 16, 37, 15, 21, 47, null }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(0.791960608674125f, 0f, -0.563354353030779f),
-                    new Vector3(0.922386767808284f, 0.211033958501172f, -0.221894235395448f),
-                    new Vector3(0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(0.700492532412836f, 0.570066373278677f, -0.359032414777505f),
-                    new Vector3(0.570066373278677f, 0.359032414777505f, -0.700492532412836f)
+                new Face { Normal = new Vector3(0.809016994374948f, 0.309016994374947f, -0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, 15, 21, null, 10 }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(0.734021665965687f, 0f, -0.64162655449898f),
+                    new Vector3(0.914649279255142f, 0.29226161760911f, -0.168737323600415f),
+                    new Vector3(0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(0.745911955654726f, 0.565284342365272f, -0.273022724756162f),
+                    new Vector3(0.565284342365272f, 0.273022724756162f, -0.745911955654726f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, -0.809016994374948f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 47, null, 3, 31, null }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(0.570066373278677f, 0.359032414777505f, -0.700492532412836f),
-                    new Vector3(0.359032414777505f, 0.700492532412836f, -0.570066373278677f),
-                    new Vector3(0f, 0.922386767808284f, -0.570066373278677f),
-                    new Vector3(0f, 0.563354353030779f, -0.791960608674125f),
-                    new Vector3(0.211033958501172f, 0.221894235395448f, -0.922386767808284f)
+                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, -0.809016994374948f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 9, 47, 21, 3, null, 11 }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(0.565284342365272f, 0.273022724756162f, -0.745911955654726f),
+                    new Vector3(0.273022724756162f, 0.745911955654726f, -0.565284342365272f),
+                    new Vector3(0f, 0.914649279255142f, -0.565284342365272f),
+                    new Vector3(0f, 0.64162655449898f, -0.734021665965687f),
+                    new Vector3(0.29226161760911f, 0.168737323600415f, -0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 31, 3, null, 33, 27 }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(0.211033958501172f, 0.221894235395448f, -0.922386767808284f),
-                    new Vector3(-0.211033958501172f, 0.221894235395448f, -0.922386767808284f),
-                    new Vector3(-0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(-0.211033958501172f, -0.221894235395448f, -0.922386767808284f),
-                    new Vector3(0.211033958501172f, -0.221894235395448f, -0.922386767808284f)
+                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 10, 31, null, null, null, null }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(0.29226161760911f, 0.168737323600415f, -0.914649279255142f),
+                    new Vector3(-0.29226161760911f, 0.168737323600415f, -0.914649279255142f),
+                    new Vector3(-0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(-0.29226161760911f, -0.168737323600415f, -0.914649279255142f),
+                    new Vector3(0.29226161760911f, -0.168737323600415f, -0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, 0.309016994374948f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 23, null, null, null, 42, 13 }, Vertices = new Vector3[] {
-                    new Vector3(-0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(-0.563354353030779f, 0.791960608674125f, 0f),
-                    new Vector3(-0.221894235395448f, 0.922386767808284f, 0.211033958501172f),
-                    new Vector3(0f, 0.922386767808284f, 0.570066373278677f),
-                    new Vector3(-0.359032414777505f, 0.700492532412836f, 0.570066373278677f),
-                    new Vector3(-0.700492532412836f, 0.570066373278677f, 0.359032414777505f)
+                new Face { Normal = new Vector3(-0.5f, 0.809016994374948f, 0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, 22, null, 42, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(-0.64162655449898f, 0.734021665965687f, 0f),
+                    new Vector3(-0.168737323600415f, 0.914649279255142f, 0.29226161760911f),
+                    new Vector3(0f, 0.914649279255142f, 0.565284342365272f),
+                    new Vector3(-0.273022724756162f, 0.745911955654726f, 0.565284342365272f),
+                    new Vector3(-0.745911955654726f, 0.565284342365272f, 0.273022724756162f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374948f, 0.309016994374947f, 0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 12, 42, 20, 2, 34, 14 }, Vertices = new Vector3[] {
-                    new Vector3(-0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(-0.700492532412836f, 0.570066373278677f, 0.359032414777505f),
-                    new Vector3(-0.570066373278677f, 0.359032414777505f, 0.700492532412836f),
-                    new Vector3(-0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(-0.791960608674125f, 0f, 0.563354353030779f),
-                    new Vector3(-0.922386767808284f, 0.211033958501172f, 0.221894235395448f)
+                new Face { Normal = new Vector3(-0.809016994374948f, 0.309016994374947f, 0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, null, null, 34, 14 }, Vertices = new Vector3[] {
+                    new Vector3(-0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(-0.745911955654726f, 0.565284342365272f, 0.273022724756162f),
+                    new Vector3(-0.565284342365272f, 0.273022724756162f, 0.745911955654726f),
+                    new Vector3(-0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(-0.734021665965687f, 0f, 0.64162655449898f),
+                    new Vector3(-0.914649279255142f, 0.29226161760911f, 0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 13, 34, 2, 5, 35, null }, Vertices = new Vector3[] {
-                    new Vector3(-0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(-0.922386767808284f, 0.211033958501172f, 0.221894235395448f),
-                    new Vector3(-0.922386767808284f, -0.211033958501172f, 0.221894235395448f),
-                    new Vector3(-0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(-0.922386767808284f, -0.211033958501172f, -0.221894235395448f),
-                    new Vector3(-0.922386767808284f, 0.211033958501172f, -0.221894235395448f)
+                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 13, null, null, 5, null, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(-0.914649279255142f, 0.29226161760911f, 0.168737323600415f),
+                    new Vector3(-0.914649279255142f, -0.29226161760911f, 0.168737323600415f),
+                    new Vector3(-0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(-0.914649279255142f, -0.29226161760911f, -0.168737323600415f),
+                    new Vector3(-0.914649279255142f, 0.29226161760911f, -0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 7, null, 6, 9, null, null }, Vertices = new Vector3[] {
-                    new Vector3(0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(0.922386767808284f, -0.211033958501172f, 0.221894235395448f),
-                    new Vector3(0.922386767808284f, 0.211033958501172f, 0.221894235395448f),
-                    new Vector3(0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(0.922386767808284f, 0.211033958501172f, -0.221894235395448f),
-                    new Vector3(0.922386767808284f, -0.211033958501172f, -0.221894235395448f)
+                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 36, 6, 9, 37, null }, Vertices = new Vector3[] {
+                    new Vector3(0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(0.914649279255142f, -0.29226161760911f, 0.168737323600415f),
+                    new Vector3(0.914649279255142f, 0.29226161760911f, 0.168737323600415f),
+                    new Vector3(0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(0.914649279255142f, 0.29226161760911f, -0.168737323600415f),
+                    new Vector3(0.914649279255142f, -0.29226161760911f, -0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 37, 9, 27, 49, null }, Vertices = new Vector3[] {
-                    new Vector3(0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(0.922386767808284f, -0.211033958501172f, -0.221894235395448f),
-                    new Vector3(0.791960608674125f, 0f, -0.563354353030779f),
-                    new Vector3(0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(0.570066373278677f, -0.359032414777505f, -0.700492532412836f),
-                    new Vector3(0.700492532412836f, -0.570066373278677f, -0.359032414777505f)
+                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 37, null, null, 49, null }, Vertices = new Vector3[] {
+                    new Vector3(0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(0.914649279255142f, -0.29226161760911f, -0.168737323600415f),
+                    new Vector3(0.734021665965687f, 0f, -0.64162655449898f),
+                    new Vector3(0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(0.565284342365272f, -0.273022724756162f, -0.745911955654726f),
+                    new Vector3(0.745911955654726f, -0.565284342365272f, -0.273022724756162f)
                 } },
-                new Face { Normal = new Vector3(0.5f, -0.809016994374948f, -0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 49, null, 25, 41, null }, Vertices = new Vector3[] {
-                    new Vector3(0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(0.700492532412836f, -0.570066373278677f, -0.359032414777505f),
-                    new Vector3(0.359032414777505f, -0.700492532412836f, -0.570066373278677f),
-                    new Vector3(0f, -0.922386767808284f, -0.570066373278677f),
-                    new Vector3(0.221894235395448f, -0.922386767808284f, -0.211033958501172f),
-                    new Vector3(0.563354353030779f, -0.791960608674125f, 0f)
+                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 49, 27, 25, 41, 24 }, Vertices = new Vector3[] {
+                    new Vector3(0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(0.745911955654726f, -0.565284342365272f, -0.273022724756162f),
+                    new Vector3(0.273022724756162f, -0.745911955654726f, -0.565284342365272f),
+                    new Vector3(0f, -0.914649279255142f, -0.565284342365272f),
+                    new Vector3(0.168737323600415f, -0.914649279255142f, -0.29226161760911f),
+                    new Vector3(0.64162655449898f, -0.734021665965687f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 22, 40, null, null, 46, 19 }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.922386767808284f, 0.570066373278677f),
-                    new Vector3(0.221894235395448f, 0.922386767808284f, 0.211033958501172f),
-                    new Vector3(0.563354353030779f, 0.791960608674125f, 0f),
-                    new Vector3(0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(0.700492532412836f, 0.570066373278677f, 0.359032414777505f),
-                    new Vector3(0.359032414777505f, 0.700492532412836f, 0.570066373278677f)
+                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 40, null, null, 46, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.914649279255142f, 0.565284342365272f),
+                    new Vector3(0.168737323600415f, 0.914649279255142f, 0.29226161760911f),
+                    new Vector3(0.64162655449898f, 0.734021665965687f, 0f),
+                    new Vector3(0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(0.745911955654726f, 0.565284342365272f, 0.273022724756162f),
+                    new Vector3(0.273022724756162f, 0.745911955654726f, 0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, 0.809016994374948f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 18, 46, 6, 0, null, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.922386767808284f, 0.570066373278677f),
-                    new Vector3(0.359032414777505f, 0.700492532412836f, 0.570066373278677f),
-                    new Vector3(0.570066373278677f, 0.359032414777505f, 0.700492532412836f),
-                    new Vector3(0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(0.211033958501172f, 0.221894235395448f, 0.922386767808284f),
-                    new Vector3(0f, 0.563354353030779f, 0.791960608674125f)
+                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 46, 6, 0, 30, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.914649279255142f, 0.565284342365272f),
+                    new Vector3(0.273022724756162f, 0.745911955654726f, 0.565284342365272f),
+                    new Vector3(0.565284342365272f, 0.273022724756162f, 0.745911955654726f),
+                    new Vector3(0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(0.29226161760911f, 0.168737323600415f, 0.914649279255142f),
+                    new Vector3(0f, 0.64162655449898f, 0.734021665965687f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374948f, 0.5f, 0.809016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, null, null, 13, 42, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.922386767808284f, 0.570066373278677f),
-                    new Vector3(0f, 0.563354353030779f, 0.791960608674125f),
-                    new Vector3(-0.211033958501172f, 0.221894235395448f, 0.922386767808284f),
-                    new Vector3(-0.570066373278677f, 0f, 0.922386767808284f),
-                    new Vector3(-0.570066373278677f, 0.359032414777505f, 0.700492532412836f),
-                    new Vector3(-0.359032414777505f, 0.700492532412836f, 0.570066373278677f)
+                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, 0.809016994374948f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, null, null, 42, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.914649279255142f, 0.565284342365272f),
+                    new Vector3(0f, 0.64162655449898f, 0.734021665965687f),
+                    new Vector3(-0.29226161760911f, 0.168737323600415f, 0.914649279255142f),
+                    new Vector3(-0.565284342365272f, 0f, 0.914649279255142f),
+                    new Vector3(-0.565284342365272f, 0.273022724756162f, 0.745911955654726f),
+                    new Vector3(-0.273022724756162f, 0.745911955654726f, 0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.5f, 0.809016994374948f, -0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 47, 9, null, 40, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.922386767808284f, -0.570066373278677f),
-                    new Vector3(0.359032414777505f, 0.700492532412836f, -0.570066373278677f),
-                    new Vector3(0.700492532412836f, 0.570066373278677f, -0.359032414777505f),
-                    new Vector3(0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(0.563354353030779f, 0.791960608674125f, 0f),
-                    new Vector3(0.221894235395448f, 0.922386767808284f, -0.211033958501172f)
+                new Face { Normal = new Vector3(0.5f, 0.809016994374948f, -0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 10, 47, 9, null, 40, 22 }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.914649279255142f, -0.565284342365272f),
+                    new Vector3(0.273022724756162f, 0.745911955654726f, -0.565284342365272f),
+                    new Vector3(0.745911955654726f, 0.565284342365272f, -0.273022724756162f),
+                    new Vector3(0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(0.64162655449898f, 0.734021665965687f, 0f),
+                    new Vector3(0.168737323600415f, 0.914649279255142f, -0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, null, 18, null, 38, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.922386767808284f, -0.570066373278677f),
-                    new Vector3(0.221894235395448f, 0.922386767808284f, -0.211033958501172f),
-                    new Vector3(0.221894235395448f, 0.922386767808284f, 0.211033958501172f),
-                    new Vector3(0f, 0.922386767808284f, 0.570066373278677f),
-                    new Vector3(-0.221894235395448f, 0.922386767808284f, 0.211033958501172f),
-                    new Vector3(-0.221894235395448f, 0.922386767808284f, -0.211033958501172f)
+                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 21, 40, null, 12, null, 23 }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.914649279255142f, -0.565284342365272f),
+                    new Vector3(0.168737323600415f, 0.914649279255142f, -0.29226161760911f),
+                    new Vector3(0.168737323600415f, 0.914649279255142f, 0.29226161760911f),
+                    new Vector3(0f, 0.914649279255142f, 0.565284342365272f),
+                    new Vector3(-0.168737323600415f, 0.914649279255142f, 0.29226161760911f),
+                    new Vector3(-0.168737323600415f, 0.914649279255142f, -0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, null, 12, 4, 43, 3 }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.922386767808284f, -0.570066373278677f),
-                    new Vector3(-0.221894235395448f, 0.922386767808284f, -0.211033958501172f),
-                    new Vector3(-0.563354353030779f, 0.791960608674125f, 0f),
-                    new Vector3(-0.922386767808284f, 0.570066373278677f, 0f),
-                    new Vector3(-0.700492532412836f, 0.570066373278677f, -0.359032414777505f),
-                    new Vector3(-0.359032414777505f, 0.700492532412836f, -0.570066373278677f)
+                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 22, 38, null, 4, 43, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.914649279255142f, -0.565284342365272f),
+                    new Vector3(-0.168737323600415f, 0.914649279255142f, -0.29226161760911f),
+                    new Vector3(-0.64162655449898f, 0.734021665965687f, 0f),
+                    new Vector3(-0.914649279255142f, 0.565284342365272f, 0f),
+                    new Vector3(-0.745911955654726f, 0.565284342365272f, -0.273022724756162f),
+                    new Vector3(-0.273022724756162f, 0.745911955654726f, -0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.5f, -0.809016994374948f, 0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 8, 48, 7, null, null, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.922386767808284f, 0.570066373278677f),
-                    new Vector3(0.359032414777505f, -0.700492532412836f, 0.570066373278677f),
-                    new Vector3(0.700492532412836f, -0.570066373278677f, 0.359032414777505f),
-                    new Vector3(0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(0.563354353030779f, -0.791960608674125f, 0f),
-                    new Vector3(0.221894235395448f, -0.922386767808284f, 0.211033958501172f)
+                new Face { Normal = new Vector3(0.5f, -0.809016994374948f, 0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 48, null, 17, 41, 25 }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.914649279255142f, 0.565284342365272f),
+                    new Vector3(0.273022724756162f, -0.745911955654726f, 0.565284342365272f),
+                    new Vector3(0.745911955654726f, -0.565284342365272f, 0.273022724756162f),
+                    new Vector3(0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(0.64162655449898f, -0.734021665965687f, 0f),
+                    new Vector3(0.168737323600415f, -0.914649279255142f, 0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 41, 17, 29, 39, 26 }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.922386767808284f, 0.570066373278677f),
-                    new Vector3(0.221894235395448f, -0.922386767808284f, 0.211033958501172f),
-                    new Vector3(0.221894235395448f, -0.922386767808284f, -0.211033958501172f),
-                    new Vector3(0f, -0.922386767808284f, -0.570066373278677f),
-                    new Vector3(-0.221894235395448f, -0.922386767808284f, -0.211033958501172f),
-                    new Vector3(-0.221894235395448f, -0.922386767808284f, 0.211033958501172f)
+                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 24, 41, 17, 29, 39, 26 }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.914649279255142f, 0.565284342365272f),
+                    new Vector3(0.168737323600415f, -0.914649279255142f, 0.29226161760911f),
+                    new Vector3(0.168737323600415f, -0.914649279255142f, -0.29226161760911f),
+                    new Vector3(0f, -0.914649279255142f, -0.565284342365272f),
+                    new Vector3(-0.168737323600415f, -0.914649279255142f, -0.29226161760911f),
+                    new Vector3(-0.168737323600415f, -0.914649279255142f, 0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 25, 39, 29, 2, 44, 1 }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.922386767808284f, 0.570066373278677f),
-                    new Vector3(-0.221894235395448f, -0.922386767808284f, 0.211033958501172f),
-                    new Vector3(-0.563354353030779f, -0.791960608674125f, 0f),
-                    new Vector3(-0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(-0.700492532412836f, -0.570066373278677f, 0.359032414777505f),
-                    new Vector3(-0.359032414777505f, -0.700492532412836f, 0.570066373278677f)
+                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 25, null, null, 2, null, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.914649279255142f, 0.565284342365272f),
+                    new Vector3(-0.168737323600415f, -0.914649279255142f, 0.29226161760911f),
+                    new Vector3(-0.64162655449898f, -0.734021665965687f, 0f),
+                    new Vector3(-0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(-0.745911955654726f, -0.565284342365272f, 0.273022724756162f),
+                    new Vector3(-0.273022724756162f, -0.745911955654726f, 0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, -0.809016994374948f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 49, 16, 11, 33, 28 }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.922386767808284f, -0.570066373278677f),
-                    new Vector3(0.359032414777505f, -0.700492532412836f, -0.570066373278677f),
-                    new Vector3(0.570066373278677f, -0.359032414777505f, -0.700492532412836f),
-                    new Vector3(0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(0.211033958501172f, -0.221894235395448f, -0.922386767808284f),
-                    new Vector3(0f, -0.563354353030779f, -0.791960608674125f)
+                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 17, 49, null, null, 33, 28 }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.914649279255142f, -0.565284342365272f),
+                    new Vector3(0.273022724756162f, -0.745911955654726f, -0.565284342365272f),
+                    new Vector3(0.565284342365272f, -0.273022724756162f, -0.745911955654726f),
+                    new Vector3(0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(0.29226161760911f, -0.168737323600415f, -0.914649279255142f),
+                    new Vector3(0f, -0.64162655449898f, -0.734021665965687f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374948f, -0.5f, -0.809016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { 27, 33, null, 5, 45, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.922386767808284f, -0.570066373278677f),
-                    new Vector3(0f, -0.563354353030779f, -0.791960608674125f),
-                    new Vector3(-0.211033958501172f, -0.221894235395448f, -0.922386767808284f),
-                    new Vector3(-0.570066373278677f, 0f, -0.922386767808284f),
-                    new Vector3(-0.570066373278677f, -0.359032414777505f, -0.700492532412836f),
-                    new Vector3(-0.359032414777505f, -0.700492532412836f, -0.570066373278677f)
+                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, -0.809016994374948f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 27, null, null, null, null, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.914649279255142f, -0.565284342365272f),
+                    new Vector3(0f, -0.64162655449898f, -0.734021665965687f),
+                    new Vector3(-0.29226161760911f, -0.168737323600415f, -0.914649279255142f),
+                    new Vector3(-0.565284342365272f, 0f, -0.914649279255142f),
+                    new Vector3(-0.565284342365272f, -0.273022724756162f, -0.745911955654726f),
+                    new Vector3(-0.273022724756162f, -0.745911955654726f, -0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, -0.809016994374948f, -0.309016994374947f), Distance = 0.922386767808284f, AdjacentFaces = new int?[] { null, 45, null, 26, 39, 25 }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.922386767808284f, -0.570066373278677f),
-                    new Vector3(-0.359032414777505f, -0.700492532412836f, -0.570066373278677f),
-                    new Vector3(-0.700492532412836f, -0.570066373278677f, -0.359032414777505f),
-                    new Vector3(-0.922386767808284f, -0.570066373278677f, 0f),
-                    new Vector3(-0.563354353030779f, -0.791960608674125f, 0f),
-                    new Vector3(-0.221894235395448f, -0.922386767808284f, -0.211033958501172f)
+                new Face { Normal = new Vector3(-0.5f, -0.809016994374948f, -0.309016994374947f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 45, null, null, null, 25 }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.914649279255142f, -0.565284342365272f),
+                    new Vector3(-0.273022724756162f, -0.745911955654726f, -0.565284342365272f),
+                    new Vector3(-0.745911955654726f, -0.565284342365272f, -0.273022724756162f),
+                    new Vector3(-0.914649279255142f, -0.565284342365272f, 0f),
+                    new Vector3(-0.64162655449898f, -0.734021665965687f, 0f),
+                    new Vector3(-0.168737323600415f, -0.914649279255142f, -0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.35682208977309f, 0.934172358962716f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { null, 0, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.563354353030779f, 0.791960608674125f),
-                    new Vector3(0.211033958501172f, 0.221894235395448f, 0.922386767808284f),
-                    new Vector3(-0.211033958501172f, 0.221894235395448f, 0.922386767808284f)
+                new Face { Normal = new Vector3(0f, 0.35682208977309f, 0.934172358962716f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 19, 0, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.64162655449898f, 0.734021665965687f),
+                    new Vector3(0.29226161760911f, 0.168737323600415f, 0.914649279255142f),
+                    new Vector3(-0.29226161760911f, 0.168737323600415f, 0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.35682208977309f, -0.934172358962716f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 3, 11, 10 }, Vertices = new Vector3[] {
-                    new Vector3(0f, 0.563354353030779f, -0.791960608674125f),
-                    new Vector3(-0.211033958501172f, 0.221894235395448f, -0.922386767808284f),
-                    new Vector3(0.211033958501172f, 0.221894235395448f, -0.922386767808284f)
+                new Face { Normal = new Vector3(0f, 0.35682208977309f, -0.934172358962716f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 3, 11, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, 0.64162655449898f, -0.734021665965687f),
+                    new Vector3(-0.29226161760911f, 0.168737323600415f, -0.914649279255142f),
+                    new Vector3(0.29226161760911f, 0.168737323600415f, -0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.35682208977309f, 0.934172358962716f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { null, 0, null }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.563354353030779f, 0.791960608674125f),
-                    new Vector3(-0.211033958501172f, -0.221894235395448f, 0.922386767808284f),
-                    new Vector3(0.211033958501172f, -0.221894235395448f, 0.922386767808284f)
+                new Face { Normal = new Vector3(0f, -0.35682208977309f, 0.934172358962716f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 1, 0, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.64162655449898f, 0.734021665965687f),
+                    new Vector3(-0.29226161760911f, -0.168737323600415f, 0.914649279255142f),
+                    new Vector3(0.29226161760911f, -0.168737323600415f, 0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.35682208977309f, -0.934172358962716f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 27, 11, 28 }, Vertices = new Vector3[] {
-                    new Vector3(0f, -0.563354353030779f, -0.791960608674125f),
-                    new Vector3(0.211033958501172f, -0.221894235395448f, -0.922386767808284f),
-                    new Vector3(-0.211033958501172f, -0.221894235395448f, -0.922386767808284f)
+                new Face { Normal = new Vector3(0f, -0.35682208977309f, -0.934172358962716f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 27, null, null }, Vertices = new Vector3[] {
+                    new Vector3(0f, -0.64162655449898f, -0.734021665965687f),
+                    new Vector3(0.29226161760911f, -0.168737323600415f, -0.914649279255142f),
+                    new Vector3(-0.29226161760911f, -0.168737323600415f, -0.914649279255142f)
                 } },
-                new Face { Normal = new Vector3(-0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { null, 14, 13 }, Vertices = new Vector3[] {
-                    new Vector3(-0.791960608674125f, 0f, 0.563354353030779f),
-                    new Vector3(-0.922386767808284f, -0.211033958501172f, 0.221894235395448f),
-                    new Vector3(-0.922386767808284f, 0.211033958501172f, 0.221894235395448f)
+                new Face { Normal = new Vector3(-0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, null, 13 }, Vertices = new Vector3[] {
+                    new Vector3(-0.734021665965687f, 0f, 0.64162655449898f),
+                    new Vector3(-0.914649279255142f, -0.29226161760911f, 0.168737323600415f),
+                    new Vector3(-0.914649279255142f, 0.29226161760911f, 0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(-0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { null, 14, 5 }, Vertices = new Vector3[] {
-                    new Vector3(-0.791960608674125f, 0f, -0.563354353030779f),
-                    new Vector3(-0.922386767808284f, 0.211033958501172f, -0.221894235395448f),
-                    new Vector3(-0.922386767808284f, -0.211033958501172f, -0.221894235395448f)
+                new Face { Normal = new Vector3(-0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 4, null, 5 }, Vertices = new Vector3[] {
+                    new Vector3(-0.734021665965687f, 0f, -0.64162655449898f),
+                    new Vector3(-0.914649279255142f, 0.29226161760911f, -0.168737323600415f),
+                    new Vector3(-0.914649279255142f, -0.29226161760911f, -0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 6, null, null }, Vertices = new Vector3[] {
-                    new Vector3(0.791960608674125f, 0f, 0.563354353030779f),
-                    new Vector3(0.922386767808284f, 0.211033958501172f, 0.221894235395448f),
-                    new Vector3(0.922386767808284f, -0.211033958501172f, 0.221894235395448f)
+                new Face { Normal = new Vector3(0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 15, 7 }, Vertices = new Vector3[] {
+                    new Vector3(0.734021665965687f, 0f, 0.64162655449898f),
+                    new Vector3(0.914649279255142f, 0.29226161760911f, 0.168737323600415f),
+                    new Vector3(0.914649279255142f, -0.29226161760911f, 0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 16, null, 9 }, Vertices = new Vector3[] {
-                    new Vector3(0.791960608674125f, 0f, -0.563354353030779f),
-                    new Vector3(0.922386767808284f, -0.211033958501172f, -0.221894235395448f),
-                    new Vector3(0.922386767808284f, 0.211033958501172f, -0.221894235395448f)
+                new Face { Normal = new Vector3(0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 16, 15, null }, Vertices = new Vector3[] {
+                    new Vector3(0.734021665965687f, 0f, -0.64162655449898f),
+                    new Vector3(0.914649279255142f, -0.29226161760911f, -0.168737323600415f),
+                    new Vector3(0.914649279255142f, 0.29226161760911f, -0.168737323600415f)
                 } },
-                new Face { Normal = new Vector3(-0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { null, 22, null }, Vertices = new Vector3[] {
-                    new Vector3(-0.563354353030779f, 0.791960608674125f, 0f),
-                    new Vector3(-0.221894235395448f, 0.922386767808284f, -0.211033958501172f),
-                    new Vector3(-0.221894235395448f, 0.922386767808284f, 0.211033958501172f)
+                new Face { Normal = new Vector3(-0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 23, null, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.64162655449898f, 0.734021665965687f, 0f),
+                    new Vector3(-0.168737323600415f, 0.914649279255142f, -0.29226161760911f),
+                    new Vector3(-0.168737323600415f, 0.914649279255142f, 0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(-0.35682208977309f, -0.934172358962716f, 0f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 26, 25, 29 }, Vertices = new Vector3[] {
-                    new Vector3(-0.563354353030779f, -0.791960608674125f, 0f),
-                    new Vector3(-0.221894235395448f, -0.922386767808284f, 0.211033958501172f),
-                    new Vector3(-0.221894235395448f, -0.922386767808284f, -0.211033958501172f)
+                new Face { Normal = new Vector3(-0.35682208977309f, -0.934172358962716f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 25, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.64162655449898f, -0.734021665965687f, 0f),
+                    new Vector3(-0.168737323600415f, -0.914649279255142f, 0.29226161760911f),
+                    new Vector3(-0.168737323600415f, -0.914649279255142f, -0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 18, null, 21 }, Vertices = new Vector3[] {
-                    new Vector3(0.563354353030779f, 0.791960608674125f, 0f),
-                    new Vector3(0.221894235395448f, 0.922386767808284f, 0.211033958501172f),
-                    new Vector3(0.221894235395448f, 0.922386767808284f, -0.211033958501172f)
+                new Face { Normal = new Vector3(0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 18, 22, 21 }, Vertices = new Vector3[] {
+                    new Vector3(0.64162655449898f, 0.734021665965687f, 0f),
+                    new Vector3(0.168737323600415f, 0.914649279255142f, 0.29226161760911f),
+                    new Vector3(0.168737323600415f, 0.914649279255142f, -0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(0.35682208977309f, -0.934172358962716f, 0f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 17, 25, null }, Vertices = new Vector3[] {
-                    new Vector3(0.563354353030779f, -0.791960608674125f, 0f),
-                    new Vector3(0.221894235395448f, -0.922386767808284f, -0.211033958501172f),
-                    new Vector3(0.221894235395448f, -0.922386767808284f, 0.211033958501172f)
+                new Face { Normal = new Vector3(0.35682208977309f, -0.934172358962716f, 0f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 17, 25, 24 }, Vertices = new Vector3[] {
+                    new Vector3(0.64162655449898f, -0.734021665965687f, 0f),
+                    new Vector3(0.168737323600415f, -0.914649279255142f, -0.29226161760911f),
+                    new Vector3(0.168737323600415f, -0.914649279255142f, 0.29226161760911f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 13, 12, 20 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0.359032414777505f, 0.700492532412836f),
-                    new Vector3(-0.700492532412836f, 0.570066373278677f, 0.359032414777505f),
-                    new Vector3(-0.359032414777505f, 0.700492532412836f, 0.570066373278677f)
+                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 12, 20 }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0.273022724756162f, 0.745911955654726f),
+                    new Vector3(-0.745911955654726f, 0.565284342365272f, 0.273022724756162f),
+                    new Vector3(-0.273022724756162f, 0.745911955654726f, 0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { null, 23, null }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, 0.359032414777505f, -0.700492532412836f),
-                    new Vector3(-0.359032414777505f, 0.700492532412836f, -0.570066373278677f),
-                    new Vector3(-0.700492532412836f, 0.570066373278677f, -0.359032414777505f)
+                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 3, 23, 4 }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, 0.273022724756162f, -0.745911955654726f),
+                    new Vector3(-0.273022724756162f, 0.745911955654726f, -0.565284342365272f),
+                    new Vector3(-0.745911955654726f, 0.565284342365272f, -0.273022724756162f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 1, 26, null }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, -0.359032414777505f, 0.700492532412836f),
-                    new Vector3(-0.359032414777505f, -0.700492532412836f, 0.570066373278677f),
-                    new Vector3(-0.700492532412836f, -0.570066373278677f, 0.359032414777505f)
+                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 1, null, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, -0.273022724756162f, 0.745911955654726f),
+                    new Vector3(-0.273022724756162f, -0.745911955654726f, 0.565284342365272f),
+                    new Vector3(-0.745911955654726f, -0.565284342365272f, 0.273022724756162f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 5, 29, 28 }, Vertices = new Vector3[] {
-                    new Vector3(-0.570066373278677f, -0.359032414777505f, -0.700492532412836f),
-                    new Vector3(-0.700492532412836f, -0.570066373278677f, -0.359032414777505f),
-                    new Vector3(-0.359032414777505f, -0.700492532412836f, -0.570066373278677f)
+                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 29, null }, Vertices = new Vector3[] {
+                    new Vector3(-0.565284342365272f, -0.273022724756162f, -0.745911955654726f),
+                    new Vector3(-0.745911955654726f, -0.565284342365272f, -0.273022724756162f),
+                    new Vector3(-0.273022724756162f, -0.745911955654726f, -0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 19, 18, 6 }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0.359032414777505f, 0.700492532412836f),
-                    new Vector3(0.359032414777505f, 0.700492532412836f, 0.570066373278677f),
-                    new Vector3(0.700492532412836f, 0.570066373278677f, 0.359032414777505f)
+                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 19, 18, 6 }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0.273022724756162f, 0.745911955654726f),
+                    new Vector3(0.273022724756162f, 0.745911955654726f, 0.565284342365272f),
+                    new Vector3(0.745911955654726f, 0.565284342365272f, 0.273022724756162f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 9, 21, 10 }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, 0.359032414777505f, -0.700492532412836f),
-                    new Vector3(0.700492532412836f, 0.570066373278677f, -0.359032414777505f),
-                    new Vector3(0.359032414777505f, 0.700492532412836f, -0.570066373278677f)
+                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { null, 21, 10 }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, 0.273022724756162f, -0.745911955654726f),
+                    new Vector3(0.745911955654726f, 0.565284342365272f, -0.273022724756162f),
+                    new Vector3(0.273022724756162f, 0.745911955654726f, -0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 7, 24, 8 }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, -0.359032414777505f, 0.700492532412836f),
-                    new Vector3(0.700492532412836f, -0.570066373278677f, 0.359032414777505f),
-                    new Vector3(0.359032414777505f, -0.700492532412836f, 0.570066373278677f)
+                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 7, 24, null }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, -0.273022724756162f, 0.745911955654726f),
+                    new Vector3(0.745911955654726f, -0.565284342365272f, 0.273022724756162f),
+                    new Vector3(0.273022724756162f, -0.745911955654726f, 0.565284342365272f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.940844987541865f, AdjacentFaces = new int?[] { 27, 17, 16 }, Vertices = new Vector3[] {
-                    new Vector3(0.570066373278677f, -0.359032414777505f, -0.700492532412836f),
-                    new Vector3(0.359032414777505f, -0.700492532412836f, -0.570066373278677f),
-                    new Vector3(0.700492532412836f, -0.570066373278677f, -0.359032414777505f)
+                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.914649279255142f, AdjacentFaces = new int?[] { 27, 17, 16 }, Vertices = new Vector3[] {
+                    new Vector3(0.565284342365272f, -0.273022724756162f, -0.745911955654726f),
+                    new Vector3(0.273022724756162f, -0.745911955654726f, -0.565284342365272f),
+                    new Vector3(0.745911955654726f, -0.565284342365272f, -0.273022724756162f)
                 } }
             } },
             new Polyhedron { Name = "DeltoidalHexecontahedron", ReadableName = "Deltoidal Hexecontahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.223918979794513f, -0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 4, null, 52, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, -0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 14, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(0f, 0f, 0.998048673918196f),
                     new Vector3(0f, -0.349689214232819f, 0.915498248360763f),
                     new Vector3(-0.308414001454103f, -0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(-0.586227499828237f, -0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 0, 51, 26, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.586227499828237f, -0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 51, null, 2 }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(-0.308414001454103f, -0.499024336959098f, 0.807438338413201f),
                     new Vector3(-0.565809034127944f, -0.565809034127944f, 0.565809034127944f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.81014647962275f, 0f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 24, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.81014647962275f, 0f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 1, null, 24, 3 }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, 0.499024336959098f),
                     new Vector3(-0.915498248360763f, 0f, 0.349689214232819f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.586227499828237f, 0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 2, null, null, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.586227499828237f, 0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 2, 23, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, 0.499024336959098f),
                     new Vector3(-0.565809034127944f, 0.565809034127944f, 0.565809034127944f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(-0.223918979794513f, 0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 3, 42, 10, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, 0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 3, 42, 10, null }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, 0.807438338413201f),
                     new Vector3(0f, 0.349689214232819f, 0.915498248360763f),
                     new Vector3(0f, 0f, 0.998048673918196f)
                 } },
-                new Face { Normal = new Vector3(-0.223918979794513f, 0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 9, 19, 47, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, 0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 47, 6 }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(0f, 0f, -0.998048673918196f),
                     new Vector3(0f, 0.349689214232819f, -0.915498248360763f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(-0.586227499828237f, 0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 5, 46, 21, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.586227499828237f, 0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 5, 46, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, -0.807438338413201f),
                     new Vector3(-0.565809034127944f, 0.565809034127944f, -0.565809034127944f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.81014647962275f, 0f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 29, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.81014647962275f, 0f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 20, 29, null }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, -0.499024336959098f),
                     new Vector3(-0.915498248360763f, 0f, -0.349689214232819f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.586227499828237f, -0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 7, 28, null, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.586227499828237f, -0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 28, null, 9 }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, -0.499024336959098f),
                     new Vector3(-0.565809034127944f, -0.565809034127944f, -0.565809034127944f),
                     new Vector3(-0.308414001454103f, -0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(-0.223918979794513f, -0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 8, null, 15, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, -0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 8, 57, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(-0.308414001454103f, -0.499024336959098f, -0.807438338413201f),
                     new Vector3(0f, -0.349689214232819f, -0.915498248360763f),
                     new Vector3(0f, 0f, -0.998048673918196f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, 0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 14, 4, 42, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, 0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 14, 4, null, 11 }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(0f, 0f, 0.998048673918196f),
                     new Vector3(0f, 0.349689214232819f, 0.915498248360763f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0.586227499828237f, 0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 10, null, 31, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.586227499828237f, 0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 10, 41, null, 12 }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, 0.807438338413201f),
                     new Vector3(0.565809034127944f, 0.565809034127944f, 0.565809034127944f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.81014647962275f, 0f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 11, null, null, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.81014647962275f, 0f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 11, 30, 39, null }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, 0.499024336959098f),
                     new Vector3(0.915498248360763f, 0f, 0.349689214232819f),
                     new Vector3(0.807438338413201f, -0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.586227499828237f, -0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 12, 38, 53, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.586227499828237f, -0.362308520033723f, 0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 53, null }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(0.807438338413201f, -0.308414001454103f, 0.499024336959098f),
                     new Vector3(0.565809034127944f, -0.565809034127944f, 0.565809034127944f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, -0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, null, 10 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, -0.223918979794513f, 0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 0, 10 }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, 0.870975116914866f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, 0.807438338413201f),
                     new Vector3(0f, -0.349689214232819f, 0.915498248360763f),
                     new Vector3(0f, 0f, 0.998048673918196f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, -0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 19, 9, 57, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, -0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 19, null, 57, null }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(0f, 0f, -0.998048673918196f),
                     new Vector3(0f, -0.349689214232819f, -0.915498248360763f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0.586227499828237f, -0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 15, 56, 36, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.586227499828237f, -0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 36, 17 }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, -0.807438338413201f),
                     new Vector3(0.565809034127944f, -0.565809034127944f, -0.565809034127944f),
@@ -1124,43 +1124,43 @@ namespace PolyhedralMaze
                     new Vector3(0.915498248360763f, 0f, -0.349689214232819f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.586227499828237f, 0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 33, 48, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.586227499828237f, 0.362308520033723f, -0.724617040067447f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 33, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, -0.499024336959098f),
                     new Vector3(0.565809034127944f, 0.565809034127944f, -0.565809034127944f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, 0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 47, 5, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, 0.223918979794513f, -0.94853601986196f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 47, null, 15 }, Vertices = new Vector3[] {
                     new Vector3(0.5382922256088f, 0f, -0.870975116914866f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, -0.807438338413201f),
                     new Vector3(0f, 0.349689214232819f, -0.915498248360763f),
                     new Vector3(0f, 0f, -0.998048673918196f)
                 } },
-                new Face { Normal = new Vector3(-0.94853601986196f, 0.223918979794513f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 24, null, null, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.94853601986196f, 0.223918979794513f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 24, 29, 7, 21 }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(-0.998048673918196f, 0f, 0f),
                     new Vector3(-0.915498248360763f, 0f, -0.349689214232819f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.724617040067447f, 0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 20, 6, 46, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.724617040067447f, 0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 20, null, 46, null }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, -0.499024336959098f),
                     new Vector3(-0.565809034127944f, 0.565809034127944f, -0.565809034127944f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.586227499828237f, 0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 21, 45, 44, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.586227499828237f, 0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 44, null }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, -0.308414001454103f),
                     new Vector3(-0.349689214232819f, 0.915498248360763f, 0f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.724617040067447f, 0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 22, 43, null, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.724617040067447f, 0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 43, 3, null }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, 0.308414001454103f),
                     new Vector3(-0.565809034127944f, 0.565809034127944f, 0.565809034127944f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.94853601986196f, 0.223918979794513f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 23, 2, null, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.94853601986196f, 0.223918979794513f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 2, null, 20 }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(-0.807438338413201f, 0.308414001454103f, 0.499024336959098f),
                     new Vector3(-0.915498248360763f, 0f, 0.349689214232819f),
@@ -1172,55 +1172,55 @@ namespace PolyhedralMaze
                     new Vector3(-0.915498248360763f, 0f, 0.349689214232819f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.724617040067447f, -0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 1, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.724617040067447f, -0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 51, null }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, 0.499024336959098f),
                     new Vector3(-0.565809034127944f, -0.565809034127944f, 0.565809034127944f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.586227499828237f, -0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 59, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.586227499828237f, -0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 59, 28 }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, 0.308414001454103f),
                     new Vector3(-0.349689214232819f, -0.915498248360763f, 0f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.724617040067447f, -0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 8, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.724617040067447f, -0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 27, null, 8, 29 }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, -0.308414001454103f),
                     new Vector3(-0.565809034127944f, -0.565809034127944f, -0.565809034127944f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(-0.94853601986196f, -0.223918979794513f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 28, 7, null, 25 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.94853601986196f, -0.223918979794513f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 28, 7, 20, 25 }, Vertices = new Vector3[] {
                     new Vector3(-0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(-0.807438338413201f, -0.308414001454103f, -0.499024336959098f),
                     new Vector3(-0.915498248360763f, 0f, -0.349689214232819f),
                     new Vector3(-0.998048673918196f, 0f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.94853601986196f, 0.223918979794513f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 39, null, 31 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.94853601986196f, 0.223918979794513f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 34, null, 12, null }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(0.998048673918196f, 0f, 0f),
                     new Vector3(0.915498248360763f, 0f, 0.349689214232819f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.724617040067447f, 0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 30, 11, null, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.724617040067447f, 0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 41, null }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, 0.499024336959098f),
                     new Vector3(0.565809034127944f, 0.565809034127944f, 0.565809034127944f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.586227499828237f, 0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 31, 40, 49, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.586227499828237f, 0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 49, null }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, 0.308414001454103f),
                     new Vector3(0.349689214232819f, 0.915498248360763f, 0f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.724617040067447f, 0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 32, null, 18, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.724617040067447f, 0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 48, 18, 34 }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, -0.308414001454103f),
                     new Vector3(0.565809034127944f, 0.565809034127944f, -0.565809034127944f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.94853601986196f, 0.223918979794513f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 17, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.94853601986196f, 0.223918979794513f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 33, 17, 35, 30 }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, 0.5382922256088f, 0f),
                     new Vector3(0.807438338413201f, 0.308414001454103f, -0.499024336959098f),
                     new Vector3(0.915498248360763f, 0f, -0.349689214232819f),
@@ -1232,85 +1232,85 @@ namespace PolyhedralMaze
                     new Vector3(0.915498248360763f, 0f, -0.349689214232819f),
                     new Vector3(0.807438338413201f, -0.308414001454103f, -0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.724617040067447f, -0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 35, 16, 56, 37 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.724617040067447f, -0.586227499828237f, -0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 35, 16, null, 37 }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(0.807438338413201f, -0.308414001454103f, -0.499024336959098f),
                     new Vector3(0.565809034127944f, -0.565809034127944f, -0.565809034127944f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.586227499828237f, -0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 36, null, 54, 38 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.586227499828237f, -0.81014647962275f, 0f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 36, 55, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, -0.308414001454103f),
                     new Vector3(0.349689214232819f, -0.915498248360763f, 0f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.724617040067447f, -0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 37, 53, 13, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.724617040067447f, -0.586227499828237f, 0.362308520033723f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 53, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, 0.308414001454103f),
                     new Vector3(0.565809034127944f, -0.565809034127944f, 0.565809034127944f),
                     new Vector3(0.807438338413201f, -0.308414001454103f, 0.499024336959098f)
                 } },
-                new Face { Normal = new Vector3(0.94853601986196f, -0.223918979794513f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 38, null, 30, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.94853601986196f, -0.223918979794513f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 12, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.870975116914866f, -0.5382922256088f, 0f),
                     new Vector3(0.807438338413201f, -0.308414001454103f, 0.499024336959098f),
                     new Vector3(0.915498248360763f, 0f, 0.349689214232819f),
                     new Vector3(0.998048673918196f, 0f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, 0.94853601986196f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 44, 49, 32, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, 0.94853601986196f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 44, 49, null, 41 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, 0.5382922256088f),
                     new Vector3(0f, 0.998048673918196f, 0f),
                     new Vector3(0.349689214232819f, 0.915498248360763f, 0f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.362308520033723f, 0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, null, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.362308520033723f, 0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 40, 31, 11, 42 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, 0.5382922256088f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, 0.308414001454103f),
                     new Vector3(0.565809034127944f, 0.565809034127944f, 0.565809034127944f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.586227499828237f, 0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 41, 10, 4, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.586227499828237f, 0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 41, null, 4, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, 0.5382922256088f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, 0.807438338413201f),
                     new Vector3(0f, 0.349689214232819f, 0.915498248360763f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(-0.362308520033723f, 0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 42, null, 23, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.362308520033723f, 0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 23, 44 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, 0.5382922256088f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, 0.807438338413201f),
                     new Vector3(-0.565809034127944f, 0.565809034127944f, 0.565809034127944f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.223918979794513f, 0.94853601986196f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 22, null, 40 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, 0.94853601986196f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 43, 22, 45, 40 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, 0.5382922256088f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, 0.308414001454103f),
                     new Vector3(-0.349689214232819f, 0.915498248360763f, 0f),
                     new Vector3(0f, 0.998048673918196f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.223918979794513f, 0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 22, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, 0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 44, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, -0.5382922256088f),
                     new Vector3(0f, 0.998048673918196f, 0f),
                     new Vector3(-0.349689214232819f, 0.915498248360763f, 0f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.362308520033723f, 0.724617040067447f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 45, 21, 6, 47 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.362308520033723f, 0.724617040067447f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 21, 6, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, -0.5382922256088f),
                     new Vector3(-0.499024336959098f, 0.807438338413201f, -0.308414001454103f),
                     new Vector3(-0.565809034127944f, 0.565809034127944f, -0.565809034127944f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.586227499828237f, -0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 46, 5, 19, 48 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.586227499828237f, -0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 5, 19, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, -0.5382922256088f),
                     new Vector3(-0.308414001454103f, 0.499024336959098f, -0.807438338413201f),
                     new Vector3(0f, 0.349689214232819f, -0.915498248360763f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0.362308520033723f, 0.724617040067447f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 47, 18, null, 49 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.362308520033723f, 0.724617040067447f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 33, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, -0.5382922256088f),
                     new Vector3(0.308414001454103f, 0.499024336959098f, -0.807438338413201f),
                     new Vector3(0.565809034127944f, 0.565809034127944f, -0.565809034127944f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, 0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 48, 32, 40, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, 0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 32, 40, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.870975116914866f, -0.5382922256088f),
                     new Vector3(0.499024336959098f, 0.807438338413201f, -0.308414001454103f),
                     new Vector3(0.349689214232819f, 0.915498248360763f, 0f),
@@ -1322,43 +1322,43 @@ namespace PolyhedralMaze
                     new Vector3(-0.349689214232819f, -0.915498248360763f, 0f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.362308520033723f, -0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 1, 52 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.362308520033723f, -0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 26, 1, 52 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, 0.5382922256088f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, 0.308414001454103f),
                     new Vector3(-0.565809034127944f, -0.565809034127944f, 0.565809034127944f),
                     new Vector3(-0.308414001454103f, -0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.586227499828237f, 0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 51, 0, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.586227499828237f, 0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 51, null, null, 53 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, 0.5382922256088f),
                     new Vector3(-0.308414001454103f, -0.499024336959098f, 0.807438338413201f),
                     new Vector3(0f, -0.349689214232819f, 0.915498248360763f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, 0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0.362308520033723f, -0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 13, 38, 54 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.362308520033723f, -0.724617040067447f, 0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 52, 13, 38, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, 0.5382922256088f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, 0.807438338413201f),
                     new Vector3(0.565809034127944f, -0.565809034127944f, 0.565809034127944f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, 0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, -0.94853601986196f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 53, 37, 55, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, -0.94853601986196f, 0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, 55, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, 0.5382922256088f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, 0.308414001454103f),
                     new Vector3(0.349689214232819f, -0.915498248360763f, 0f),
                     new Vector3(0f, -0.998048673918196f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.223918979794513f, -0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 59, 54, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.223918979794513f, -0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 54, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, -0.5382922256088f),
                     new Vector3(0f, -0.998048673918196f, 0f),
                     new Vector3(0.349689214232819f, -0.915498248360763f, 0f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(0.362308520033723f, -0.724617040067447f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 36, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.362308520033723f, -0.724617040067447f, -0.586227499828237f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, null, null, 57 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, -0.5382922256088f),
                     new Vector3(0.499024336959098f, -0.807438338413201f, -0.308414001454103f),
                     new Vector3(0.565809034127944f, -0.565809034127944f, -0.565809034127944f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, -0.807438338413201f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.586227499828237f, -0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 15, null, 58 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.586227499828237f, -0.81014647962275f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { 56, 15, 9, 58 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, -0.5382922256088f),
                     new Vector3(0.308414001454103f, -0.499024336959098f, -0.807438338413201f),
                     new Vector3(0f, -0.349689214232819f, -0.915498248360763f),
@@ -1370,7 +1370,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.565809034127944f, -0.565809034127944f, -0.565809034127944f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, -0.308414001454103f)
                 } },
-                new Face { Normal = new Vector3(-0.223918979794513f, -0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 27, 50, 55 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.223918979794513f, -0.94853601986196f, -0.223918979794513f), Distance = 0.946685116786873f, AdjacentFaces = new int?[] { null, 27, 50, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.870975116914866f, -0.5382922256088f),
                     new Vector3(-0.499024336959098f, -0.807438338413201f, -0.308414001454103f),
                     new Vector3(-0.349689214232819f, -0.915498248360763f, 0f),
@@ -1378,67 +1378,67 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "DisdyakisDodecahedron", ReadableName = "Disdyakis Dodecahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.520840998146611f, 0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 7, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.520840998146611f, 0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 7, null, 1 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(-0.661124970877945f, 0f, 0.661124970877945f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, 0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 2 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, 0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 0, 38, 2 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, 0.569842661090891f),
                     new Vector3(0f, 0.661124970877945f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.215739405272266f, 0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 1, 37, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.215739405272266f, 0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 1, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(0f, 0.661124970877945f, 0.661124970877945f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, 0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 2, null, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, 0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 24, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, 0.569842661090891f),
                     new Vector3(0.661124970877945f, 0f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, -0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 3, 31, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, -0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 31, 5 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(0.661124970877945f, 0f, 0.661124970877945f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.215739405272266f, -0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 42, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.215739405272266f, -0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 4, 42, 6 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, 0.569842661090891f),
                     new Vector3(0f, -0.661124970877945f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, -0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 5, 41, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, -0.520840998146611f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 5, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(0f, -0.661124970877945f, 0.661124970877945f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.520840998146611f, -0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 6, null, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.520840998146611f, -0.215739405272266f, 0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 16, 0 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.07803165843122f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, 0.569842661090891f),
                     new Vector3(-0.661124970877945f, 0f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(-0.520840998146611f, -0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 15, 19, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.520840998146611f, -0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 15, null, 9 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(-0.661124970877945f, 0f, -0.661124970877945f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, -0.520840998146611f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 46, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, -0.520840998146611f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 8, 46, 10 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, -0.569842661090891f),
                     new Vector3(0f, -0.661124970877945f, -0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.215739405272266f, -0.520840998146611f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.215739405272266f, -0.520840998146611f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 9, null, 11 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(0f, -0.661124970877945f, -0.661124970877945f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, -0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 10, 28, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, -0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 10, 28, 12 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, -0.569842661090891f),
                     new Vector3(0.661124970877945f, 0f, -0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, 0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 27, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, 0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 11, 27, 13 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(0.661124970877945f, 0f, -0.661124970877945f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, -0.569842661090891f)
@@ -1448,32 +1448,32 @@ namespace PolyhedralMaze
                     new Vector3(0.569842661090891f, 0.569842661090891f, -0.569842661090891f),
                     new Vector3(0f, 0.661124970877945f, -0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, 0.520840998146611f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 33, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, 0.520840998146611f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 33, 15 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(0f, 0.661124970877945f, -0.661124970877945f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.520840998146611f, 0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 20, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.520840998146611f, 0.215739405272266f, -0.825942591020956f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 14, 20, 8 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.07803165843122f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, -0.569842661090891f),
                     new Vector3(-0.661124970877945f, 0f, -0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(-0.825942591020956f, -0.215739405272266f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.825942591020956f, -0.215739405272266f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 23, 7, 17 }, Vertices = new Vector3[] {
                     new Vector3(-1.07803165843122f, 0f, 0f),
                     new Vector3(-0.661124970877945f, 0f, 0.661124970877945f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.825942591020956f, -0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 16, 40, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.825942591020956f, -0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 16, null, 18 }, Vertices = new Vector3[] {
                     new Vector3(-1.07803165843122f, 0f, 0f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, 0.569842661090891f),
                     new Vector3(-0.661124970877945f, -0.661124970877945f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.825942591020956f, -0.520840998146611f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 47, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.825942591020956f, -0.520840998146611f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 17, null, 19 }, Vertices = new Vector3[] {
                     new Vector3(-1.07803165843122f, 0f, 0f),
                     new Vector3(-0.661124970877945f, -0.661124970877945f, 0f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.825942591020956f, -0.215739405272266f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 18, 8, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.825942591020956f, -0.215739405272266f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 18, null, null }, Vertices = new Vector3[] {
                     new Vector3(-1.07803165843122f, 0f, 0f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, -0.569842661090891f),
                     new Vector3(-0.661124970877945f, 0f, -0.661124970877945f)
@@ -1488,47 +1488,47 @@ namespace PolyhedralMaze
                     new Vector3(-0.569842661090891f, 0.569842661090891f, -0.569842661090891f),
                     new Vector3(-0.661124970877945f, 0.661124970877945f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.825942591020956f, 0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 39, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.825942591020956f, 0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 39, null }, Vertices = new Vector3[] {
                     new Vector3(-1.07803165843122f, 0f, 0f),
                     new Vector3(-0.661124970877945f, 0.661124970877945f, 0f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.825942591020956f, 0.215739405272266f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 22, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.825942591020956f, 0.215739405272266f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 16 }, Vertices = new Vector3[] {
                     new Vector3(-1.07803165843122f, 0f, 0f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, 0.569842661090891f),
                     new Vector3(-0.661124970877945f, 0f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, 0.215739405272266f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 31, null, 25 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, 0.215739405272266f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 31, 3, 25 }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.661124970877945f, 0f, 0.661124970877945f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, 0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 24, 36, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, 0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 24, null, 26 }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, 0.569842661090891f),
                     new Vector3(0.661124970877945f, 0.661124970877945f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, 0.520840998146611f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, 0.520840998146611f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 25, 35, 27 }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.661124970877945f, 0.661124970877945f, 0f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, 0.215739405272266f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 12, 28 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, 0.215739405272266f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 26, 12, null }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, -0.569842661090891f),
                     new Vector3(0.661124970877945f, 0f, -0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, -0.215739405272266f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 27, 11, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, -0.215739405272266f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 11, null }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.661124970877945f, 0f, -0.661124970877945f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, -0.520840998146611f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 28, 44, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, -0.520840998146611f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 44, null }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, -0.569842661090891f),
                     new Vector3(0.661124970877945f, -0.661124970877945f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.825942591020956f, -0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 31 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.825942591020956f, -0.520840998146611f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 43, 31 }, Vertices = new Vector3[] {
                     new Vector3(1.07803165843122f, 0f, 0f),
                     new Vector3(0.661124970877945f, -0.661124970877945f, 0f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, 0.569842661090891f)
@@ -1543,32 +1543,32 @@ namespace PolyhedralMaze
                     new Vector3(-0.661124970877945f, 0.661124970877945f, 0f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, 0.825942591020956f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 32, 14, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, 0.825942591020956f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 32, 14, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.07803165843122f, 0f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, -0.569842661090891f),
                     new Vector3(0f, 0.661124970877945f, -0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.215739405272266f, 0.825942591020956f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 33, 13, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.215739405272266f, 0.825942591020956f, -0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 13, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.07803165843122f, 0f),
                     new Vector3(0f, 0.661124970877945f, -0.661124970877945f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, 0.825942591020956f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 26, 36 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, 0.825942591020956f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 26, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.07803165843122f, 0f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, -0.569842661090891f),
                     new Vector3(0.661124970877945f, 0.661124970877945f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, 0.825942591020956f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 35, 25, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, 0.825942591020956f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 37 }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.07803165843122f, 0f),
                     new Vector3(0.661124970877945f, 0.661124970877945f, 0f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.215739405272266f, 0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 2, 38 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.215739405272266f, 0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 36, 2, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.07803165843122f, 0f),
                     new Vector3(0.569842661090891f, 0.569842661090891f, 0.569842661090891f),
                     new Vector3(0f, 0.661124970877945f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, 0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 37, null, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, 0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 1, 39 }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.07803165843122f, 0f),
                     new Vector3(0f, 0.661124970877945f, 0.661124970877945f),
                     new Vector3(-0.569842661090891f, 0.569842661090891f, 0.569842661090891f)
@@ -1578,22 +1578,22 @@ namespace PolyhedralMaze
                     new Vector3(-0.569842661090891f, 0.569842661090891f, 0.569842661090891f),
                     new Vector3(-0.661124970877945f, 0.661124970877945f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.520840998146611f, -0.825942591020956f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 17, 41 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.520840998146611f, -0.825942591020956f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, null, 41 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.07803165843122f, 0f),
                     new Vector3(-0.661124970877945f, -0.661124970877945f, 0f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.215739405272266f, -0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 40, 6, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.215739405272266f, -0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 40, null, 42 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.07803165843122f, 0f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, 0.569842661090891f),
                     new Vector3(0f, -0.661124970877945f, 0.661124970877945f)
                 } },
-                new Face { Normal = new Vector3(0.215739405272266f, -0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 41, 5, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.215739405272266f, -0.825942591020956f, 0.520840998146611f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 41, 5, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.07803165843122f, 0f),
                     new Vector3(0f, -0.661124970877945f, 0.661124970877945f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, 0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(0.520840998146611f, -0.825942591020956f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 42, null, 44 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.520840998146611f, -0.825942591020956f, 0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { null, 30, 44 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.07803165843122f, 0f),
                     new Vector3(0.569842661090891f, -0.569842661090891f, 0.569842661090891f),
                     new Vector3(0.661124970877945f, -0.661124970877945f, 0f)
@@ -1613,38 +1613,38 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.661124970877945f, -0.661124970877945f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, -0.569842661090891f)
                 } },
-                new Face { Normal = new Vector3(-0.520840998146611f, -0.825942591020956f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 46, 18, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.520840998146611f, -0.825942591020956f, -0.215739405272266f), Distance = 0.890392261167302f, AdjacentFaces = new int?[] { 46, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.07803165843122f, 0f),
                     new Vector3(-0.569842661090891f, -0.569842661090891f, -0.569842661090891f),
                     new Vector3(-0.661124970877945f, -0.661124970877945f, 0f)
                 } }
             } },
             new Polyhedron { Name = "JoinedIcosidodecahedron", ReadableName = "Joined Icosidodecahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.162459848116453f, -0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 4, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.162459848116453f, -0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 14, null, 1 }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0f, 0f, 0.99217192548202f),
                     new Vector3(0f, -0.342786969583181f, 0.897427937269344f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-0.587785252292473f, -0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 51, 26, 2 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.587785252292473f, -0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 0, 51, 26, null }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, 0.802683949056668f),
                     new Vector3(-0.554640967686163f, -0.554640967686163f, 0.554640967686163f),
                     new Vector3(-0.802683949056668f, -0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(-0.85065080835204f, -2.61029088252084E-17f, 0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 1, 25, null, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.85065080835204f, -2.61029088252084E-17f, 0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 25, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(-0.802683949056668f, -0.306597986315658f, 0.49608596274101f),
                     new Vector3(-0.897427937269344f, 0f, 0.342786969583181f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(-0.587785252292473f, 0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 2, 23, 43, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.587785252292473f, 0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 43, null }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, 0.49608596274101f),
                     new Vector3(-0.554640967686163f, 0.554640967686163f, 0.554640967686163f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-0.162459848116453f, 0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 3, 42, 10, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.162459848116453f, 0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 42, 10, null }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, 0.802683949056668f),
                     new Vector3(0f, 0.342786969583181f, 0.897427937269344f),
@@ -1656,13 +1656,13 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.342786969583181f, -0.897427937269344f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-0.587785252292473f, 0.42532540417602f, -0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 46, 21, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.587785252292473f, 0.42532540417602f, -0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 46, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, -0.802683949056668f),
                     new Vector3(-0.554640967686163f, 0.554640967686163f, -0.554640967686163f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, -0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(-0.85065080835204f, 2.61029088252084E-17f, -0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 6, null, null, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.85065080835204f, 2.61029088252084E-17f, -0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 20, null, 8 }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, -0.49608596274101f),
                     new Vector3(-0.897427937269344f, 0f, -0.342786969583181f),
@@ -1674,115 +1674,115 @@ namespace PolyhedralMaze
                     new Vector3(-0.554640967686163f, -0.554640967686163f, -0.554640967686163f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-0.162459848116453f, -0.262865556059567f, -0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 8, 57, 15, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.162459848116453f, -0.262865556059567f, -0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 8, null, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(-0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, -0.802683949056668f),
                     new Vector3(0f, -0.342786969583181f, -0.897427937269344f),
                     new Vector3(0f, 0f, -0.99217192548202f)
                 } },
-                new Face { Normal = new Vector3(0.162459848116453f, 0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 4, 42, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.162459848116453f, 0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 14, 4, 42, 11 }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0f, 0f, 0.99217192548202f),
                     new Vector3(0f, 0.342786969583181f, 0.897427937269344f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(0.587785252292473f, 0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 41, 31, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.587785252292473f, 0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 10, null, 31, null }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, 0.802683949056668f),
                     new Vector3(0.554640967686163f, 0.554640967686163f, 0.554640967686163f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.85065080835204f, 2.61029088252084E-17f, 0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 30, null, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.85065080835204f, 2.61029088252084E-17f, 0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 39, null }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, 0.49608596274101f),
                     new Vector3(0.897427937269344f, 0f, 0.342786969583181f),
                     new Vector3(0.802683949056668f, -0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.587785252292473f, -0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 12, 38, 53, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.587785252292473f, -0.42532540417602f, 0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 53, null }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0.802683949056668f, -0.306597986315658f, 0.49608596274101f),
                     new Vector3(0.554640967686163f, -0.554640967686163f, 0.554640967686163f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(0.162459848116453f, -0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 13, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.162459848116453f, -0.262865556059567f, 0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 52, 0, 10 }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, 0.897427937269344f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, 0.802683949056668f),
                     new Vector3(0f, -0.342786969583181f, 0.897427937269344f),
                     new Vector3(0f, 0f, 0.99217192548202f)
                 } },
-                new Face { Normal = new Vector3(0.162459848116453f, -0.262865556059567f, -0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 19, 9, null, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.162459848116453f, -0.262865556059567f, -0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 19, null, 57, null }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(0f, 0f, -0.99217192548202f),
                     new Vector3(0f, -0.342786969583181f, -0.897427937269344f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(0.587785252292473f, -0.42532540417602f, -0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 15, 56, 36, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.587785252292473f, -0.42532540417602f, -0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 56, 36, null }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, -0.802683949056668f),
                     new Vector3(0.554640967686163f, -0.554640967686163f, -0.554640967686163f),
                     new Vector3(0.802683949056668f, -0.306597986315658f, -0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.85065080835204f, -2.61029088252084E-17f, -0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 16, 35, 34, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.85065080835204f, -2.61029088252084E-17f, -0.525731112119134f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 35, 34, null }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(0.802683949056668f, -0.306597986315658f, -0.49608596274101f),
                     new Vector3(0.897427937269344f, 0f, -0.342786969583181f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, -0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.587785252292473f, 0.42532540417602f, -0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 17, 33, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.587785252292473f, 0.42532540417602f, -0.688190960235587f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 33, null, 19 }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, -0.49608596274101f),
                     new Vector3(0.554640967686163f, 0.554640967686163f, -0.554640967686163f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(0.162459848116453f, 0.262865556059567f, -0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, null, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.162459848116453f, 0.262865556059567f, -0.951056516295154f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 18, 47, null, 15 }, Vertices = new Vector3[] {
                     new Vector3(0.554640967686163f, 0f, -0.897427937269344f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, -0.802683949056668f),
                     new Vector3(0f, 0.342786969583181f, -0.897427937269344f),
                     new Vector3(0f, 0f, -0.99217192548202f)
                 } },
-                new Face { Normal = new Vector3(-0.951056516295154f, 0.162459848116453f, -0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 29, null, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.951056516295154f, 0.162459848116453f, -0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 24, 29, 7, 21 }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(-0.99217192548202f, 0f, 0f),
                     new Vector3(-0.897427937269344f, 0f, -0.342786969583181f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, -0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(-0.688190960235587f, 0.587785252292473f, -0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 20, 6, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.688190960235587f, 0.587785252292473f, -0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 20, null, null, 22 }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, -0.49608596274101f),
                     new Vector3(-0.554640967686163f, 0.554640967686163f, -0.554640967686163f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, -0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.525731112119134f, 0.85065080835204f, -2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 44, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.525731112119134f, 0.85065080835204f, -2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 21, 45, null, 23 }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, -0.306597986315658f),
                     new Vector3(-0.342786969583181f, 0.897427937269344f, 0f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.688190960235587f, 0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 22, 43, 3, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.688190960235587f, 0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 22, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, 0.306597986315658f),
                     new Vector3(-0.554640967686163f, 0.554640967686163f, 0.554640967686163f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(-0.951056516295154f, 0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 25, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.951056516295154f, 0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, null, 20 }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(-0.802683949056668f, 0.306597986315658f, 0.49608596274101f),
                     new Vector3(-0.897427937269344f, 0f, 0.342786969583181f),
                     new Vector3(-0.99217192548202f, 0f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.951056516295154f, -0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 24, 2, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.951056516295154f, -0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 2, 26 }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(-0.99217192548202f, 0f, 0f),
                     new Vector3(-0.897427937269344f, 0f, 0.342786969583181f),
                     new Vector3(-0.802683949056668f, -0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(-0.688190960235587f, -0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 1, 51, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.688190960235587f, -0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 25, 1, 51, null }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(-0.802683949056668f, -0.306597986315658f, 0.49608596274101f),
                     new Vector3(-0.554640967686163f, -0.554640967686163f, 0.554640967686163f),
                     new Vector3(-0.49608596274101f, -0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.525731112119134f, -0.85065080835204f, 2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 50, 59, 28 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.525731112119134f, -0.85065080835204f, 2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 59, 28 }, Vertices = new Vector3[] {
                     new Vector3(-0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(-0.49608596274101f, -0.802683949056668f, 0.306597986315658f),
                     new Vector3(-0.342786969583181f, -0.897427937269344f, 0f),
@@ -1800,19 +1800,19 @@ namespace PolyhedralMaze
                     new Vector3(-0.897427937269344f, 0f, -0.342786969583181f),
                     new Vector3(-0.99217192548202f, 0f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.951056516295154f, 0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 12, 31 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.951056516295154f, 0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 34, 39, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(0.99217192548202f, 0f, 0f),
                     new Vector3(0.897427937269344f, 0f, 0.342786969583181f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.688190960235587f, 0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 30, 11, 41, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.688190960235587f, 0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 11, null, 32 }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, 0.49608596274101f),
                     new Vector3(0.554640967686163f, 0.554640967686163f, 0.554640967686163f),
                     new Vector3(0.49608596274101f, 0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.525731112119134f, 0.85065080835204f, 2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 31, null, null, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.525731112119134f, 0.85065080835204f, 2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 31, null, 49, 33 }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(0.49608596274101f, 0.802683949056668f, 0.306597986315658f),
                     new Vector3(0.342786969583181f, 0.897427937269344f, 0f),
@@ -1824,13 +1824,13 @@ namespace PolyhedralMaze
                     new Vector3(0.554640967686163f, 0.554640967686163f, -0.554640967686163f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, -0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.951056516295154f, 0.162459848116453f, -0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 33, 17, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.951056516295154f, 0.162459848116453f, -0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 33, 17, null, 30 }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, 0.554640967686163f, 0f),
                     new Vector3(0.802683949056668f, 0.306597986315658f, -0.49608596274101f),
                     new Vector3(0.897427937269344f, 0f, -0.342786969583181f),
                     new Vector3(0.99217192548202f, 0f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.951056516295154f, -0.162459848116453f, -0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 39, 34, 17, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.951056516295154f, -0.162459848116453f, -0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 17, null }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(0.99217192548202f, 0f, 0f),
                     new Vector3(0.897427937269344f, 0f, -0.342786969583181f),
@@ -1842,139 +1842,139 @@ namespace PolyhedralMaze
                     new Vector3(0.554640967686163f, -0.554640967686163f, -0.554640967686163f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, -0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.525731112119134f, -0.85065080835204f, -2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 55, 54, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.525731112119134f, -0.85065080835204f, -2.61029088252084E-17f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 55, null, 38 }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, -0.306597986315658f),
                     new Vector3(0.342786969583181f, -0.897427937269344f, 0f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.688190960235587f, -0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 13, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.688190960235587f, -0.587785252292473f, 0.42532540417602f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 37, 53, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, 0.306597986315658f),
                     new Vector3(0.554640967686163f, -0.554640967686163f, 0.554640967686163f),
                     new Vector3(0.802683949056668f, -0.306597986315658f, 0.49608596274101f)
                 } },
-                new Face { Normal = new Vector3(0.951056516295154f, -0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 38, null, null, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.951056516295154f, -0.162459848116453f, 0.262865556059567f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 12, 30, null }, Vertices = new Vector3[] {
                     new Vector3(0.897427937269344f, -0.554640967686163f, 0f),
                     new Vector3(0.802683949056668f, -0.306597986315658f, 0.49608596274101f),
                     new Vector3(0.897427937269344f, 0f, 0.342786969583181f),
                     new Vector3(0.99217192548202f, 0f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.262865556059567f, 0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 44, 49, null, 41 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.262865556059567f, 0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 49, null, 41 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, 0.554640967686163f),
                     new Vector3(0f, 0.99217192548202f, 0f),
                     new Vector3(0.342786969583181f, 0.897427937269344f, 0f),
                     new Vector3(0.49608596274101f, 0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.42532540417602f, 0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 40, 31, 11, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.42532540417602f, 0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 40, null, null, 42 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, 0.554640967686163f),
                     new Vector3(0.49608596274101f, 0.802683949056668f, 0.306597986315658f),
                     new Vector3(0.554640967686163f, 0.554640967686163f, 0.554640967686163f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(2.61029088252084E-17f, 0.525731112119134f, 0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 41, 10, 4, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.61029088252084E-17f, 0.525731112119134f, 0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 41, 10, 4, 43 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, 0.554640967686163f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, 0.802683949056668f),
                     new Vector3(0f, 0.342786969583181f, 0.897427937269344f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-0.42532540417602f, 0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 3, 23, 44 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.42532540417602f, 0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 42, 3, null, 44 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, 0.554640967686163f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, 0.802683949056668f),
                     new Vector3(-0.554640967686163f, 0.554640967686163f, 0.554640967686163f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.262865556059567f, 0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 43, 22, 45, 40 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.262865556059567f, 0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 43, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, 0.554640967686163f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, 0.306597986315658f),
                     new Vector3(-0.342786969583181f, 0.897427937269344f, 0f),
                     new Vector3(0f, 0.99217192548202f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.262865556059567f, 0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 49, 44, null, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.262865556059567f, 0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 22, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, -0.554640967686163f),
                     new Vector3(0f, 0.99217192548202f, 0f),
                     new Vector3(-0.342786969583181f, 0.897427937269344f, 0f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, -0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.42532540417602f, 0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 45, null, 6, 47 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.42532540417602f, 0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 6, 47 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, -0.554640967686163f),
                     new Vector3(-0.49608596274101f, 0.802683949056668f, -0.306597986315658f),
                     new Vector3(-0.554640967686163f, 0.554640967686163f, -0.554640967686163f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-2.61029088252084E-17f, 0.525731112119134f, -0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 46, null, null, 48 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.61029088252084E-17f, 0.525731112119134f, -0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 46, null, 19, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, -0.554640967686163f),
                     new Vector3(-0.306597986315658f, 0.49608596274101f, -0.802683949056668f),
                     new Vector3(0f, 0.342786969583181f, -0.897427937269344f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(0.42532540417602f, 0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 47, null, 33, 49 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.42532540417602f, 0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 33, 49 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, -0.554640967686163f),
                     new Vector3(0.306597986315658f, 0.49608596274101f, -0.802683949056668f),
                     new Vector3(0.554640967686163f, 0.554640967686163f, -0.554640967686163f),
                     new Vector3(0.49608596274101f, 0.802683949056668f, -0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.262865556059567f, 0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 48, null, 40, 45 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.262865556059567f, 0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 48, 32, 40, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.897427937269344f, -0.554640967686163f),
                     new Vector3(0.49608596274101f, 0.802683949056668f, -0.306597986315658f),
                     new Vector3(0.342786969583181f, 0.897427937269344f, 0f),
                     new Vector3(0f, 0.99217192548202f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.262865556059567f, -0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 54, 59, 27, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.262865556059567f, -0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 54, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, 0.554640967686163f),
                     new Vector3(0f, -0.99217192548202f, 0f),
                     new Vector3(-0.342786969583181f, -0.897427937269344f, 0f),
                     new Vector3(-0.49608596274101f, -0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.42532540417602f, -0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 26, 1, 52 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.42532540417602f, -0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 26, 1, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, 0.554640967686163f),
                     new Vector3(-0.49608596274101f, -0.802683949056668f, 0.306597986315658f),
                     new Vector3(-0.554640967686163f, -0.554640967686163f, 0.554640967686163f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-2.61029088252084E-17f, -0.525731112119134f, 0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 51, null, null, 53 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.61029088252084E-17f, -0.525731112119134f, 0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 14, 53 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, 0.554640967686163f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, 0.802683949056668f),
                     new Vector3(0f, -0.342786969583181f, 0.897427937269344f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, 0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(0.42532540417602f, -0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 52, 13, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.42532540417602f, -0.688190960235587f, 0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 52, 13, 38, 54 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, 0.554640967686163f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, 0.802683949056668f),
                     new Vector3(0.554640967686163f, -0.554640967686163f, 0.554640967686163f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, 0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.262865556059567f, -0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 37, null, 50 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.262865556059567f, -0.951056516295154f, 0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 53, null, null, 50 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, 0.554640967686163f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, 0.306597986315658f),
                     new Vector3(0.342786969583181f, -0.897427937269344f, 0f),
                     new Vector3(0f, -0.99217192548202f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.262865556059567f, -0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 37, 56 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.262865556059567f, -0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 59, null, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, -0.554640967686163f),
                     new Vector3(0f, -0.99217192548202f, 0f),
                     new Vector3(0.342786969583181f, -0.897427937269344f, 0f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, -0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(0.42532540417602f, -0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 55, null, 16, 57 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.42532540417602f, -0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, null, 16, 57 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, -0.554640967686163f),
                     new Vector3(0.49608596274101f, -0.802683949056668f, -0.306597986315658f),
                     new Vector3(0.554640967686163f, -0.554640967686163f, -0.554640967686163f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(2.61029088252084E-17f, -0.525731112119134f, -0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 56, null, 9, 58 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.61029088252084E-17f, -0.525731112119134f, -0.85065080835204f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 56, 15, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, -0.554640967686163f),
                     new Vector3(0.306597986315658f, -0.49608596274101f, -0.802683949056668f),
                     new Vector3(0f, -0.342786969583181f, -0.897427937269344f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, -0.802683949056668f)
                 } },
-                new Face { Normal = new Vector3(-0.42532540417602f, -0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 57, 8, 28, 59 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.42532540417602f, -0.688190960235587f, -0.587785252292473f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 8, 28, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, -0.554640967686163f),
                     new Vector3(-0.306597986315658f, -0.49608596274101f, -0.802683949056668f),
                     new Vector3(-0.554640967686163f, -0.554640967686163f, -0.554640967686163f),
                     new Vector3(-0.49608596274101f, -0.802683949056668f, -0.306597986315658f)
                 } },
-                new Face { Normal = new Vector3(-0.262865556059567f, -0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { 58, 27, 50, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.262865556059567f, -0.951056516295154f, -0.162459848116453f), Distance = 0.943611575014785f, AdjacentFaces = new int?[] { null, 27, null, 55 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.897427937269344f, -0.554640967686163f),
                     new Vector3(-0.49608596274101f, -0.802683949056668f, -0.306597986315658f),
                     new Vector3(-0.342786969583181f, -0.897427937269344f, 0f),
@@ -1982,7 +1982,7 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "JoinedLsnubCube", ReadableName = "Joined Snub Cube (laevo)", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.11364142521456f, 0.384446187731186f, 0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 3, 26, 56, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.11364142521456f, 0.384446187731186f, 0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 3, 26, null, 1 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.03073723573828f),
                     new Vector3(-0.470336725694776f, 0.255716910025817f, 0.865084110061197f),
                     new Vector3(-0.165653125677086f, 0.560400510043507f, 0.775020325712466f),
@@ -2000,223 +2000,223 @@ namespace PolyhedralMaze
                     new Vector3(0.165653125677086f, -0.560400510043507f, 0.775020325712466f),
                     new Vector3(-0.255716910025817f, -0.470336725694776f, 0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, -0.11364142521456f, 0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 48, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, -0.11364142521456f, 0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 0 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.03073723573828f),
                     new Vector3(-0.255716910025817f, -0.470336725694776f, 0.865084110061197f),
                     new Vector3(-0.560400510043507f, -0.165653125677086f, 0.775020325712466f),
                     new Vector3(-0.470336725694776f, 0.255716910025817f, 0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.11364142521456f, -0.384446187731186f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 7, 35, 57, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.11364142521456f, -0.384446187731186f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 7, null, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.03073723573828f),
                     new Vector3(-0.470336725694776f, -0.255716910025817f, -0.865084110061197f),
                     new Vector3(-0.165653125677086f, -0.560400510043507f, -0.775020325712466f),
                     new Vector3(0.255716910025817f, -0.470336725694776f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, -0.11364142521456f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 4, 47, 51, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, -0.11364142521456f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 4, 47, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.03073723573828f),
                     new Vector3(0.255716910025817f, -0.470336725694776f, -0.865084110061197f),
                     new Vector3(0.560400510043507f, -0.165653125677086f, -0.775020325712466f),
                     new Vector3(0.470336725694776f, 0.255716910025817f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(0.11364142521456f, 0.384446187731186f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 41, 59, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.11364142521456f, 0.384446187731186f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 59, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.03073723573828f),
                     new Vector3(0.470336725694776f, 0.255716910025817f, -0.865084110061197f),
                     new Vector3(0.165653125677086f, 0.560400510043507f, -0.775020325712466f),
                     new Vector3(-0.255716910025817f, 0.470336725694776f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, 0.11364142521456f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 6, 29, 49, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, 0.11364142521456f, -0.916125949427349f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.03073723573828f),
                     new Vector3(-0.255716910025817f, 0.470336725694776f, -0.865084110061197f),
                     new Vector3(-0.560400510043507f, 0.165653125677086f, -0.775020325712466f),
                     new Vector3(-0.470336725694776f, -0.255716910025817f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.916125949427349f, 0.11364142521456f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 11, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.916125949427349f, 0.11364142521456f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 11, 24, null, null }, Vertices = new Vector3[] {
                     new Vector3(-1.03073723573828f, 0f, 0f),
                     new Vector3(-0.865084110061197f, 0.470336725694776f, 0.255716910025817f),
                     new Vector3(-0.775020325712466f, 0.165653125677086f, 0.560400510043507f),
                     new Vector3(-0.865084110061197f, -0.255716910025817f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.916125949427349f, -0.384446187731186f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 53, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.916125949427349f, -0.384446187731186f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 31, null, 10 }, Vertices = new Vector3[] {
                     new Vector3(-1.03073723573828f, 0f, 0f),
                     new Vector3(-0.865084110061197f, -0.255716910025817f, 0.470336725694776f),
                     new Vector3(-0.775020325712466f, -0.560400510043507f, 0.165653125677086f),
                     new Vector3(-0.865084110061197f, -0.470336725694776f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.916125949427349f, -0.11364142521456f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 33, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.916125949427349f, -0.11364142521456f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 9, 33, null, null }, Vertices = new Vector3[] {
                     new Vector3(-1.03073723573828f, 0f, 0f),
                     new Vector3(-0.865084110061197f, -0.470336725694776f, -0.255716910025817f),
                     new Vector3(-0.775020325712466f, -0.165653125677086f, -0.560400510043507f),
                     new Vector3(-0.865084110061197f, 0.255716910025817f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.916125949427349f, 0.384446187731186f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 28, 52, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.916125949427349f, 0.384446187731186f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 8 }, Vertices = new Vector3[] {
                     new Vector3(-1.03073723573828f, 0f, 0f),
                     new Vector3(-0.865084110061197f, 0.255716910025817f, -0.470336725694776f),
                     new Vector3(-0.775020325712466f, 0.560400510043507f, -0.165653125677086f),
                     new Vector3(-0.865084110061197f, 0.470336725694776f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.916125949427349f, -0.11364142521456f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 50, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.916125949427349f, -0.11364142521456f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 42, 50, null }, Vertices = new Vector3[] {
                     new Vector3(1.03073723573828f, 0f, 0f),
                     new Vector3(0.865084110061197f, -0.470336725694776f, 0.255716910025817f),
                     new Vector3(0.775020325712466f, -0.165653125677086f, 0.560400510043507f),
                     new Vector3(0.865084110061197f, 0.255716910025817f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.916125949427349f, 0.384446187731186f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 12, null, null, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.916125949427349f, 0.384446187731186f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 14 }, Vertices = new Vector3[] {
                     new Vector3(1.03073723573828f, 0f, 0f),
                     new Vector3(0.865084110061197f, 0.255716910025817f, 0.470336725694776f),
                     new Vector3(0.775020325712466f, 0.560400510043507f, 0.165653125677086f),
                     new Vector3(0.865084110061197f, 0.470336725694776f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.916125949427349f, 0.11364142521456f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 13, null, 51, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.916125949427349f, 0.11364142521456f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 13, 39, 51, 15 }, Vertices = new Vector3[] {
                     new Vector3(1.03073723573828f, 0f, 0f),
                     new Vector3(0.865084110061197f, 0.470336725694776f, -0.255716910025817f),
                     new Vector3(0.775020325712466f, 0.165653125677086f, -0.560400510043507f),
                     new Vector3(0.865084110061197f, -0.255716910025817f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.916125949427349f, -0.384446187731186f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 46, 54, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.916125949427349f, -0.384446187731186f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 14, 46, null, null }, Vertices = new Vector3[] {
                     new Vector3(1.03073723573828f, 0f, 0f),
                     new Vector3(0.865084110061197f, -0.255716910025817f, -0.470336725694776f),
                     new Vector3(0.775020325712466f, -0.560400510043507f, -0.165653125677086f),
                     new Vector3(0.865084110061197f, -0.470336725694776f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, 0.916125949427349f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 19, 25, 52, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, 0.916125949427349f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 19, null, null, 17 }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.03073723573828f, 0f),
                     new Vector3(-0.255716910025817f, 0.865084110061197f, 0.470336725694776f),
                     new Vector3(-0.560400510043507f, 0.775020325712466f, 0.165653125677086f),
                     new Vector3(-0.470336725694776f, 0.865084110061197f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.11364142521456f, 0.916125949427349f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 16, 27, null, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.11364142521456f, 0.916125949427349f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 16, null, 59, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.03073723573828f, 0f),
                     new Vector3(-0.470336725694776f, 0.865084110061197f, -0.255716910025817f),
                     new Vector3(-0.165653125677086f, 0.775020325712466f, -0.560400510043507f),
                     new Vector3(0.255716910025817f, 0.865084110061197f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, 0.916125949427349f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 17, 40, 55, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, 0.916125949427349f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 40, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.03073723573828f, 0f),
                     new Vector3(0.255716910025817f, 0.865084110061197f, -0.470336725694776f),
                     new Vector3(0.560400510043507f, 0.775020325712466f, -0.165653125677086f),
                     new Vector3(0.470336725694776f, 0.865084110061197f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.11364142521456f, 0.916125949427349f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 18, null, 56, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.11364142521456f, 0.916125949427349f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 56, 16 }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.03073723573828f, 0f),
                     new Vector3(0.470336725694776f, 0.865084110061197f, 0.255716910025817f),
                     new Vector3(0.165653125677086f, 0.775020325712466f, 0.560400510043507f),
                     new Vector3(-0.255716910025817f, 0.865084110061197f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, -0.916125949427349f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 23, null, 53, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, -0.916125949427349f, -0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 34, 53, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.03073723573828f, 0f),
                     new Vector3(-0.255716910025817f, -0.865084110061197f, -0.470336725694776f),
                     new Vector3(-0.560400510043507f, -0.775020325712466f, -0.165653125677086f),
                     new Vector3(-0.470336725694776f, -0.865084110061197f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.11364142521456f, -0.916125949427349f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 20, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.11364142521456f, -0.916125949427349f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 30, 58, 22 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.03073723573828f, 0f),
                     new Vector3(-0.470336725694776f, -0.865084110061197f, 0.255716910025817f),
                     new Vector3(-0.165653125677086f, -0.775020325712466f, 0.560400510043507f),
                     new Vector3(0.255716910025817f, -0.865084110061197f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, -0.916125949427349f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 43, 54, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, -0.916125949427349f, 0.11364142521456f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 21, null, null, 23 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.03073723573828f, 0f),
                     new Vector3(0.255716910025817f, -0.865084110061197f, 0.470336725694776f),
                     new Vector3(0.560400510043507f, -0.775020325712466f, 0.165653125677086f),
                     new Vector3(0.470336725694776f, -0.865084110061197f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.11364142521456f, -0.916125949427349f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 45, 57, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.11364142521456f, -0.916125949427349f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 22, null, 57, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.03073723573828f, 0f),
                     new Vector3(0.470336725694776f, -0.865084110061197f, -0.255716910025817f),
                     new Vector3(0.165653125677086f, -0.775020325712466f, -0.560400510043507f),
                     new Vector3(-0.255716910025817f, -0.865084110061197f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, 0.384446187731186f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 26, null, null, 25 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, 0.384446187731186f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 26, 48, 8, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, 0.560400510043507f, 0.560400510043507f),
                     new Vector3(-0.470336725694776f, 0.255716910025817f, 0.865084110061197f),
                     new Vector3(-0.775020325712466f, 0.165653125677086f, 0.560400510043507f),
                     new Vector3(-0.865084110061197f, 0.470336725694776f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.593465355971987f, 0.707106781186547f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 24, null, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.593465355971987f, 0.707106781186547f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 52, null, 26 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, 0.560400510043507f, 0.560400510043507f),
                     new Vector3(-0.865084110061197f, 0.470336725694776f, 0.255716910025817f),
                     new Vector3(-0.560400510043507f, 0.775020325712466f, 0.165653125677086f),
                     new Vector3(-0.255716910025817f, 0.865084110061197f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, 0.593465355971987f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 56, 0, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, 0.593465355971987f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 25, 56, 0, 24 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, 0.560400510043507f, 0.560400510043507f),
                     new Vector3(-0.255716910025817f, 0.865084110061197f, 0.470336725694776f),
                     new Vector3(-0.165653125677086f, 0.560400510043507f, 0.775020325712466f),
                     new Vector3(-0.470336725694776f, 0.255716910025817f, 0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, 0.707106781186547f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 29, 59, 17, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, 0.707106781186547f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 28 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, 0.560400510043507f, -0.560400510043507f),
                     new Vector3(-0.255716910025817f, 0.470336725694776f, -0.865084110061197f),
                     new Vector3(-0.165653125677086f, 0.775020325712466f, -0.560400510043507f),
                     new Vector3(-0.470336725694776f, 0.865084110061197f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, 0.593465355971987f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 11, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, 0.593465355971987f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 27, 52, null, 29 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, 0.560400510043507f, -0.560400510043507f),
                     new Vector3(-0.470336725694776f, 0.865084110061197f, -0.255716910025817f),
                     new Vector3(-0.775020325712466f, 0.560400510043507f, -0.165653125677086f),
                     new Vector3(-0.865084110061197f, 0.255716910025817f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.593465355971987f, 0.384446187731186f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 28, null, 7, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.593465355971987f, 0.384446187731186f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 28, 49, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, 0.560400510043507f, -0.560400510043507f),
                     new Vector3(-0.865084110061197f, 0.255716910025817f, -0.470336725694776f),
                     new Vector3(-0.560400510043507f, 0.165653125677086f, -0.775020325712466f),
                     new Vector3(-0.255716910025817f, 0.470336725694776f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, -0.707106781186547f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 32, 58, null, 31 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, -0.707106781186547f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 21, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, -0.560400510043507f, 0.560400510043507f),
                     new Vector3(-0.255716910025817f, -0.470336725694776f, 0.865084110061197f),
                     new Vector3(-0.165653125677086f, -0.775020325712466f, 0.560400510043507f),
                     new Vector3(-0.470336725694776f, -0.865084110061197f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, -0.593465355971987f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 30, 53, null, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, -0.593465355971987f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 53, 9, 32 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, -0.560400510043507f, 0.560400510043507f),
                     new Vector3(-0.470336725694776f, -0.865084110061197f, 0.255716910025817f),
                     new Vector3(-0.775020325712466f, -0.560400510043507f, 0.165653125677086f),
                     new Vector3(-0.865084110061197f, -0.255716910025817f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.593465355971987f, -0.384446187731186f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 31, null, null, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.593465355971987f, -0.384446187731186f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 31, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, -0.560400510043507f, 0.560400510043507f),
                     new Vector3(-0.865084110061197f, -0.255716910025817f, 0.470336725694776f),
                     new Vector3(-0.560400510043507f, -0.165653125677086f, 0.775020325712466f),
                     new Vector3(-0.255716910025817f, -0.470336725694776f, 0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, -0.384446187731186f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 35, null, 10, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, -0.384446187731186f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 49, 10, 34 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, -0.560400510043507f, -0.560400510043507f),
                     new Vector3(-0.470336725694776f, -0.255716910025817f, -0.865084110061197f),
                     new Vector3(-0.775020325712466f, -0.165653125677086f, -0.560400510043507f),
                     new Vector3(-0.865084110061197f, -0.470336725694776f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(-0.593465355971987f, -0.707106781186547f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 33, 53, null, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.593465355971987f, -0.707106781186547f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 33, 53, 20, 35 }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, -0.560400510043507f, -0.560400510043507f),
                     new Vector3(-0.865084110061197f, -0.470336725694776f, -0.255716910025817f),
                     new Vector3(-0.560400510043507f, -0.775020325712466f, -0.165653125677086f),
                     new Vector3(-0.255716910025817f, -0.865084110061197f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(-0.384446187731186f, -0.593465355971987f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 34, 57, 4, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.384446187731186f, -0.593465355971987f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 34, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560400510043507f, -0.560400510043507f, -0.560400510043507f),
                     new Vector3(-0.255716910025817f, -0.865084110061197f, -0.470336725694776f),
                     new Vector3(-0.165653125677086f, -0.560400510043507f, -0.775020325712466f),
                     new Vector3(-0.470336725694776f, -0.255716910025817f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, 0.707106781186547f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 38, 56, null, 37 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, 0.707106781186547f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 38, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, 0.560400510043507f, 0.560400510043507f),
                     new Vector3(0.255716910025817f, 0.470336725694776f, 0.865084110061197f),
                     new Vector3(0.165653125677086f, 0.775020325712466f, 0.560400510043507f),
                     new Vector3(0.470336725694776f, 0.865084110061197f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, 0.593465355971987f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 36, 55, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, 0.593465355971987f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 38 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, 0.560400510043507f, 0.560400510043507f),
                     new Vector3(0.470336725694776f, 0.865084110061197f, 0.255716910025817f),
                     new Vector3(0.775020325712466f, 0.560400510043507f, 0.165653125677086f),
                     new Vector3(0.865084110061197f, 0.255716910025817f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.593465355971987f, 0.384446187731186f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 50, 1, 36 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.593465355971987f, 0.384446187731186f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 37, null, 1, 36 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, 0.560400510043507f, 0.560400510043507f),
                     new Vector3(0.865084110061197f, 0.255716910025817f, 0.470336725694776f),
                     new Vector3(0.560400510043507f, 0.165653125677086f, 0.775020325712466f),
                     new Vector3(0.255716910025817f, 0.470336725694776f, 0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, 0.384446187731186f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 41, null, null, 40 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, 0.384446187731186f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 41, 51, 14, 40 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, 0.560400510043507f, -0.560400510043507f),
                     new Vector3(0.470336725694776f, 0.255716910025817f, -0.865084110061197f),
                     new Vector3(0.775020325712466f, 0.165653125677086f, -0.560400510043507f),
@@ -2228,115 +2228,115 @@ namespace PolyhedralMaze
                     new Vector3(0.560400510043507f, 0.775020325712466f, -0.165653125677086f),
                     new Vector3(0.255716910025817f, 0.865084110061197f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, 0.593465355971987f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 40, null, 6, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, 0.593465355971987f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 40, null, null, 39 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, 0.560400510043507f, -0.560400510043507f),
                     new Vector3(0.255716910025817f, 0.865084110061197f, -0.470336725694776f),
                     new Vector3(0.165653125677086f, 0.560400510043507f, -0.775020325712466f),
                     new Vector3(0.470336725694776f, 0.255716910025817f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, -0.384446187731186f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 50, null, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, -0.384446187731186f, 0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 44, 50, 12, 43 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, -0.560400510043507f, 0.560400510043507f),
                     new Vector3(0.470336725694776f, -0.255716910025817f, 0.865084110061197f),
                     new Vector3(0.775020325712466f, -0.165653125677086f, 0.560400510043507f),
                     new Vector3(0.865084110061197f, -0.470336725694776f, 0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.593465355971987f, -0.707106781186547f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 42, 54, 22, 44 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.593465355971987f, -0.707106781186547f, 0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 42, 54, null, 44 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, -0.560400510043507f, 0.560400510043507f),
                     new Vector3(0.865084110061197f, -0.470336725694776f, 0.255716910025817f),
                     new Vector3(0.560400510043507f, -0.775020325712466f, 0.165653125677086f),
                     new Vector3(0.255716910025817f, -0.865084110061197f, 0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, -0.593465355971987f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 43, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, -0.593465355971987f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 43, 58, null, 42 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, -0.560400510043507f, 0.560400510043507f),
                     new Vector3(0.255716910025817f, -0.865084110061197f, 0.470336725694776f),
                     new Vector3(0.165653125677086f, -0.560400510043507f, 0.775020325712466f),
                     new Vector3(0.470336725694776f, -0.255716910025817f, 0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(0.384446187731186f, -0.707106781186547f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 47, 57, 23, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.384446187731186f, -0.707106781186547f, -0.593465355971987f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 46 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, -0.560400510043507f, -0.560400510043507f),
                     new Vector3(0.255716910025817f, -0.470336725694776f, -0.865084110061197f),
                     new Vector3(0.165653125677086f, -0.775020325712466f, -0.560400510043507f),
                     new Vector3(0.470336725694776f, -0.865084110061197f, -0.255716910025817f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, -0.593465355971987f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 45, null, 15, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, -0.593465355971987f, -0.384446187731186f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 45, 54, 15, 47 }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, -0.560400510043507f, -0.560400510043507f),
                     new Vector3(0.470336725694776f, -0.865084110061197f, -0.255716910025817f),
                     new Vector3(0.775020325712466f, -0.560400510043507f, -0.165653125677086f),
                     new Vector3(0.865084110061197f, -0.255716910025817f, -0.470336725694776f)
                 } },
-                new Face { Normal = new Vector3(0.593465355971987f, -0.384446187731186f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 51, 5, 45 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.593465355971987f, -0.384446187731186f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 46, null, 5, null }, Vertices = new Vector3[] {
                     new Vector3(0.560400510043507f, -0.560400510043507f, -0.560400510043507f),
                     new Vector3(0.865084110061197f, -0.255716910025817f, -0.470336725694776f),
                     new Vector3(0.560400510043507f, -0.165653125677086f, -0.775020325712466f),
                     new Vector3(0.255716910025817f, -0.470336725694776f, -0.865084110061197f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, 0f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 3, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, 0f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 24 }, Vertices = new Vector3[] {
                     new Vector3(-0.470336725694776f, 0.255716910025817f, 0.865084110061197f),
                     new Vector3(-0.560400510043507f, -0.165653125677086f, 0.775020325712466f),
                     new Vector3(-0.865084110061197f, -0.255716910025817f, 0.470336725694776f),
                     new Vector3(-0.775020325712466f, 0.165653125677086f, 0.560400510043507f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, 0f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 7, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, 0f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 29, null, 33 }, Vertices = new Vector3[] {
                     new Vector3(-0.470336725694776f, -0.255716910025817f, -0.865084110061197f),
                     new Vector3(-0.560400510043507f, 0.165653125677086f, -0.775020325712466f),
                     new Vector3(-0.865084110061197f, 0.255716910025817f, -0.470336725694776f),
                     new Vector3(-0.775020325712466f, -0.165653125677086f, -0.560400510043507f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, 0f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 1, 38, 12, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, 0f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 1, null, 12, 42 }, Vertices = new Vector3[] {
                     new Vector3(0.470336725694776f, -0.255716910025817f, 0.865084110061197f),
                     new Vector3(0.560400510043507f, 0.165653125677086f, 0.775020325712466f),
                     new Vector3(0.865084110061197f, 0.255716910025817f, 0.470336725694776f),
                     new Vector3(0.775020325712466f, -0.165653125677086f, 0.560400510043507f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, 0f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 5, 47, 14, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, 0f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, 14, 39 }, Vertices = new Vector3[] {
                     new Vector3(0.470336725694776f, 0.255716910025817f, -0.865084110061197f),
                     new Vector3(0.560400510043507f, -0.165653125677086f, -0.775020325712466f),
                     new Vector3(0.865084110061197f, -0.255716910025817f, -0.470336725694776f),
                     new Vector3(0.775020325712466f, 0.165653125677086f, -0.560400510043507f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, 0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 11, null, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, 0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 28, null, 25 }, Vertices = new Vector3[] {
                     new Vector3(-0.865084110061197f, 0.470336725694776f, 0.255716910025817f),
                     new Vector3(-0.775020325712466f, 0.560400510043507f, -0.165653125677086f),
                     new Vector3(-0.470336725694776f, 0.865084110061197f, -0.255716910025817f),
                     new Vector3(-0.560400510043507f, 0.775020325712466f, 0.165653125677086f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186547f, -0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 9, 31, 20, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186547f, -0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 31, 20, 34 }, Vertices = new Vector3[] {
                     new Vector3(-0.865084110061197f, -0.470336725694776f, -0.255716910025817f),
                     new Vector3(-0.775020325712466f, -0.560400510043507f, 0.165653125677086f),
                     new Vector3(-0.470336725694776f, -0.865084110061197f, 0.255716910025817f),
                     new Vector3(-0.560400510043507f, -0.775020325712466f, -0.165653125677086f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, -0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 15, null, 22, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, -0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 46, null, 43 }, Vertices = new Vector3[] {
                     new Vector3(0.865084110061197f, -0.470336725694776f, 0.255716910025817f),
                     new Vector3(0.775020325712466f, -0.560400510043507f, -0.165653125677086f),
                     new Vector3(0.470336725694776f, -0.865084110061197f, -0.255716910025817f),
                     new Vector3(0.560400510043507f, -0.775020325712466f, 0.165653125677086f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186547f, 0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 37, 18, 40 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186547f, 0.707106781186547f, 0f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, null, null, 40 }, Vertices = new Vector3[] {
                     new Vector3(0.865084110061197f, 0.470336725694776f, -0.255716910025817f),
                     new Vector3(0.775020325712466f, 0.560400510043507f, 0.165653125677086f),
                     new Vector3(0.470336725694776f, 0.865084110061197f, 0.255716910025817f),
                     new Vector3(0.560400510043507f, 0.775020325712466f, -0.165653125677086f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.707106781186547f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 19, 36, 0, 26 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.707106781186547f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 19, null, null, 26 }, Vertices = new Vector3[] {
                     new Vector3(-0.255716910025817f, 0.865084110061197f, 0.470336725694776f),
                     new Vector3(0.165653125677086f, 0.775020325712466f, 0.560400510043507f),
                     new Vector3(0.255716910025817f, 0.470336725694776f, 0.865084110061197f),
                     new Vector3(-0.165653125677086f, 0.560400510043507f, 0.775020325712466f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.707106781186547f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 23, 45, 4, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.707106781186547f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 23, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.255716910025817f, -0.865084110061197f, -0.470336725694776f),
                     new Vector3(0.165653125677086f, -0.775020325712466f, -0.560400510043507f),
                     new Vector3(0.255716910025817f, -0.470336725694776f, -0.865084110061197f),
                     new Vector3(-0.165653125677086f, -0.560400510043507f, -0.775020325712466f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.707106781186547f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 30, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.707106781186547f, 0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 21, null, null, 44 }, Vertices = new Vector3[] {
                     new Vector3(0.255716910025817f, -0.865084110061197f, 0.470336725694776f),
                     new Vector3(-0.165653125677086f, -0.775020325712466f, 0.560400510043507f),
                     new Vector3(-0.255716910025817f, -0.470336725694776f, 0.865084110061197f),
                     new Vector3(0.165653125677086f, -0.560400510043507f, 0.775020325712466f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.707106781186547f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { null, 27, 6, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.707106781186547f, -0.707106781186547f), Distance = 0.944285128700855f, AdjacentFaces = new int?[] { 17, null, 6, null }, Vertices = new Vector3[] {
                     new Vector3(0.255716910025817f, 0.865084110061197f, -0.470336725694776f),
                     new Vector3(-0.165653125677086f, 0.775020325712466f, -0.560400510043507f),
                     new Vector3(-0.255716910025817f, 0.470336725694776f, -0.865084110061197f),
@@ -2344,97 +2344,97 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "JoinedRhombicuboctahedron", ReadableName = "Joined Rhombicuboctahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-2.05142465794791E-16f, 0.38268343236509f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 3, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.05142465794791E-16f, 0.38268343236509f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 1 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.0121247042665f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, 0.863902473029883f),
                     new Vector3(0f, 0.715680241793269f, 0.715680241793269f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, 2.05142465794791E-16f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 38, 42, 2 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, 2.05142465794791E-16f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 0, 38, 42, 2 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.0121247042665f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, 0.863902473029883f),
                     new Vector3(0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(2.05142465794791E-16f, -0.38268343236509f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 1, 44, 30, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.05142465794791E-16f, -0.38268343236509f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 1, 44, 30, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.0121247042665f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, 0.863902473029883f),
                     new Vector3(0f, -0.715680241793269f, 0.715680241793269f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(-0.38268343236509f, -2.05142465794791E-16f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 2, 32, null, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.38268343236509f, -2.05142465794791E-16f, 0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 24, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 1.0121247042665f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, 0.863902473029883f),
                     new Vector3(-0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(-0.38268343236509f, 2.05142465794791E-16f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 29, null, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.38268343236509f, 2.05142465794791E-16f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 7, null, 33, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.0121247042665f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, -0.863902473029883f),
                     new Vector3(-0.715680241793269f, 0f, -0.715680241793269f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, -0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(-2.05142465794791E-16f, -0.38268343236509f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 4, 35, 45, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.05142465794791E-16f, -0.38268343236509f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 45, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.0121247042665f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, -0.863902473029883f),
                     new Vector3(0f, -0.715680241793269f, -0.715680241793269f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, -0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, -2.05142465794791E-16f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 5, 47, 39, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, -2.05142465794791E-16f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 7 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.0121247042665f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, -0.863902473029883f),
                     new Vector3(0.715680241793269f, 0f, -0.715680241793269f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, -0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(2.05142465794791E-16f, 0.38268343236509f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 41, 27, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.05142465794791E-16f, 0.38268343236509f, -0.923879532511287f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 6, 41, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -1.0121247042665f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, -0.863902473029883f),
                     new Vector3(0f, 0.715680241793269f, -0.715680241793269f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, -0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(-0.923879532511287f, 2.05142465794791E-16f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 32, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.923879532511287f, 2.05142465794791E-16f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 11, 24, 32, 9 }, Vertices = new Vector3[] {
                     new Vector3(-1.0121247042665f, 0f, 0f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, 0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.923879532511287f, -0.38268343236509f, 2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 8, 31, null, 10 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.923879532511287f, -0.38268343236509f, 2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 8, null, 34, 10 }, Vertices = new Vector3[] {
                     new Vector3(-1.0121247042665f, 0f, 0f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, 0.357840120896635f),
                     new Vector3(-0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.923879532511287f, -2.05142465794791E-16f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 9, 33, 29, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.923879532511287f, -2.05142465794791E-16f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 9, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-1.0121247042665f, 0f, 0f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, -0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0f, -0.715680241793269f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.923879532511287f, 0.38268343236509f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 10, 28, 25, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.923879532511287f, 0.38268343236509f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 25, 8 }, Vertices = new Vector3[] {
                     new Vector3(-1.0121247042665f, 0f, 0f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, -0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.923879532511287f, 0.38268343236509f, 2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 15, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.923879532511287f, 0.38268343236509f, 2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 15, null, null, 13 }, Vertices = new Vector3[] {
                     new Vector3(1.0121247042665f, 0f, 0f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, 0.357840120896635f),
                     new Vector3(0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.923879532511287f, 2.05142465794791E-16f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.923879532511287f, 2.05142465794791E-16f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 12, null, 47, 14 }, Vertices = new Vector3[] {
                     new Vector3(1.0121247042665f, 0f, 0f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, -0.357840120896635f),
                     new Vector3(0.715680241793269f, 0f, -0.715680241793269f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.923879532511287f, -0.38268343236509f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 13, 46, 43, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.923879532511287f, -0.38268343236509f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 13, null, 43, null }, Vertices = new Vector3[] {
                     new Vector3(1.0121247042665f, 0f, 0f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, -0.357840120896635f),
                     new Vector3(0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.923879532511287f, -2.05142465794791E-16f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 14, 42, 38, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.923879532511287f, -2.05142465794791E-16f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 42, null, 12 }, Vertices = new Vector3[] {
                     new Vector3(1.0121247042665f, 0f, 0f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, 0.357840120896635f),
                     new Vector3(0.715680241793269f, 0f, 0.715680241793269f),
@@ -2446,79 +2446,79 @@ namespace PolyhedralMaze
                     new Vector3(-0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-2.05142465794791E-16f, 0.923879532511287f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 41, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.05142465794791E-16f, 0.923879532511287f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 27, 41, 18 }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.0121247042665f, 0f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, -0.357840120896635f),
                     new Vector3(0f, 0.715680241793269f, -0.715680241793269f),
                     new Vector3(0.357840120896635f, 0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, 0.923879532511287f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 17, null, 37, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, 0.923879532511287f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 17, 40, 37, 19 }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.0121247042665f, 0f),
                     new Vector3(0.357840120896635f, 0.863902473029883f, -0.357840120896635f),
                     new Vector3(0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(0.357840120896635f, 0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(2.05142465794791E-16f, 0.923879532511287f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 18, 36, 26, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.05142465794791E-16f, 0.923879532511287f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 18, null, 26, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 1.0121247042665f, 0f),
                     new Vector3(0.357840120896635f, 0.863902473029883f, 0.357840120896635f),
                     new Vector3(0f, 0.715680241793269f, 0.715680241793269f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-2.05142465794791E-16f, -0.923879532511287f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 23, 30, 44, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-2.05142465794791E-16f, -0.923879532511287f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 30, null, 21 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.0121247042665f, 0f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, 0.357840120896635f),
                     new Vector3(0f, -0.715680241793269f, 0.715680241793269f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, -0.923879532511287f, 2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 20, 43, 46, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, -0.923879532511287f, 2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 20, null, null, 22 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.0121247042665f, 0f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, 0.357840120896635f),
                     new Vector3(0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(2.05142465794791E-16f, -0.923879532511287f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 21, null, 35, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(2.05142465794791E-16f, -0.923879532511287f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 21, 45, 35, 23 }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.0121247042665f, 0f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, -0.357840120896635f),
                     new Vector3(0f, -0.715680241793269f, -0.715680241793269f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.38268343236509f, -0.923879532511287f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 22, null, 31, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.38268343236509f, -0.923879532511287f, -2.05142465794791E-16f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 22, 34, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -1.0121247042665f, 0f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, -0.357840120896635f),
                     new Vector3(-0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, 0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 26, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, 0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 3, 8, 25 }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, 0.553549381634225f, 0.553549381634225f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, 0.863902473029883f),
                     new Vector3(-0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, 0.653281482438188f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 11, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, 0.653281482438188f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 24, 11, 16, 26 }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, 0.553549381634225f, 0.553549381634225f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, 0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.38268343236509f, 0.653281482438188f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 19, null, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.38268343236509f, 0.653281482438188f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 25, 19, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, 0.553549381634225f, 0.553549381634225f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, 0.357840120896635f),
                     new Vector3(0f, 0.715680241793269f, 0.715680241793269f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(-0.38268343236509f, 0.653281482438188f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 29, 7, null, 28 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.38268343236509f, 0.653281482438188f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 29, null, 17, 28 }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, 0.553549381634225f, -0.553549381634225f),
                     new Vector3(-0.357840120896635f, 0.357840120896635f, -0.863902473029883f),
                     new Vector3(0f, 0.715680241793269f, -0.715680241793269f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, 0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 27, null, 11, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, 0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 27, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, 0.553549381634225f, -0.553549381634225f),
                     new Vector3(-0.357840120896635f, 0.863902473029883f, -0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, 0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 28, 10, 4, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, 0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 27 }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, 0.553549381634225f, -0.553549381634225f),
                     new Vector3(-0.863902473029883f, 0.357840120896635f, -0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0f, -0.715680241793269f),
@@ -2530,37 +2530,37 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.715680241793269f, 0.715680241793269f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, -0.653281482438188f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 30, 23, 9, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, -0.653281482438188f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 30, null, null, 32 }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, -0.553549381634225f, 0.553549381634225f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, 0.357840120896635f),
                     new Vector3(-0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, -0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 31, 8, 3, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, -0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 31, 8, null, 30 }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, -0.553549381634225f, 0.553549381634225f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, 0.357840120896635f),
                     new Vector3(-0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, -0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 35, null, 10, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, -0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 4, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, -0.553549381634225f, -0.553549381634225f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, -0.863902473029883f),
                     new Vector3(-0.715680241793269f, 0f, -0.715680241793269f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.653281482438188f, -0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.653281482438188f, -0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 9, 23, null }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, -0.553549381634225f, -0.553549381634225f),
                     new Vector3(-0.863902473029883f, -0.357840120896635f, -0.357840120896635f),
                     new Vector3(-0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(-0.38268343236509f, -0.653281482438188f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 34, 22, 5, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.38268343236509f, -0.653281482438188f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 22, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.553549381634225f, -0.553549381634225f, -0.553549381634225f),
                     new Vector3(-0.357840120896635f, -0.863902473029883f, -0.357840120896635f),
                     new Vector3(0f, -0.715680241793269f, -0.715680241793269f),
                     new Vector3(-0.357840120896635f, -0.357840120896635f, -0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, 0.653281482438188f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 19, 37 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, 0.653281482438188f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 37 }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, 0.553549381634225f, 0.553549381634225f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, 0.863902473029883f),
                     new Vector3(0f, 0.715680241793269f, 0.715680241793269f),
@@ -2572,19 +2572,19 @@ namespace PolyhedralMaze
                     new Vector3(0.715680241793269f, 0.715680241793269f, 0f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, 0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 15, 1, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, 0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 1, null }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, 0.553549381634225f, 0.553549381634225f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, 0.357840120896635f),
                     new Vector3(0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, 0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 41, 6, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, 0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 41, null, null, 40 }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, 0.553549381634225f, -0.553549381634225f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, -0.863902473029883f),
                     new Vector3(0.715680241793269f, 0f, -0.715680241793269f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, 0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 41 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, 0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 39, null, 18, 41 }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, 0.553549381634225f, -0.553549381634225f),
                     new Vector3(0.863902473029883f, 0.357840120896635f, -0.357840120896635f),
                     new Vector3(0.715680241793269f, 0.715680241793269f, 0f),
@@ -2596,37 +2596,37 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.715680241793269f, -0.715680241793269f),
                     new Vector3(0.357840120896635f, 0.357840120896635f, -0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, -0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 44, 1, 15, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, -0.38268343236509f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 1, 15, null }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, -0.553549381634225f, 0.553549381634225f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, 0.863902473029883f),
                     new Vector3(0.715680241793269f, 0f, 0.715680241793269f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, -0.653281482438188f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 14, 21, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, -0.653281482438188f, 0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 14, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, -0.553549381634225f, 0.553549381634225f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, 0.357840120896635f),
                     new Vector3(0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, 0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, -0.653281482438188f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 20, 2, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, -0.653281482438188f, 0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 2, null }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, -0.553549381634225f, 0.553549381634225f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, 0.357840120896635f),
                     new Vector3(0f, -0.715680241793269f, 0.715680241793269f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, 0.863902473029883f)
                 } },
-                new Face { Normal = new Vector3(0.38268343236509f, -0.653281482438188f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 47, 5, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.38268343236509f, -0.653281482438188f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 5, 22, null }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, -0.553549381634225f, -0.553549381634225f),
                     new Vector3(0.357840120896635f, -0.357840120896635f, -0.863902473029883f),
                     new Vector3(0f, -0.715680241793269f, -0.715680241793269f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, -0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, 21, 14, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, -0.653281482438188f, -0.38268343236509f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, null, 47 }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, -0.553549381634225f, -0.553549381634225f),
                     new Vector3(0.357840120896635f, -0.863902473029883f, -0.357840120896635f),
                     new Vector3(0.715680241793269f, -0.715680241793269f, 0f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, -0.357840120896635f)
                 } },
-                new Face { Normal = new Vector3(0.653281482438188f, -0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { null, null, 6, 45 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.653281482438188f, -0.38268343236509f, -0.653281482438188f), Distance = 0.935081298620856f, AdjacentFaces = new int?[] { 46, 13, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.553549381634225f, -0.553549381634225f, -0.553549381634225f),
                     new Vector3(0.863902473029883f, -0.357840120896635f, -0.357840120896635f),
                     new Vector3(0.715680241793269f, 0f, -0.715680241793269f),
@@ -2634,14 +2634,14 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "LpentagonalHexecontahedron", ReadableName = "Pentagonal Hexecontahedron (laevo)", Faces = new Face[] {
-                new Face { Normal = new Vector3(0.173863605131373f, 0.153499994271179f, -0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 1, 52, null, 10, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.173863605131373f, 0.153499994271179f, -0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 1, null, null, 10, 4 }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(0.265564529859716f, 0.385896659511633f, -0.872592937852221f),
                     new Vector3(0f, 0.353390657807772f, -0.92518875344743f),
                     new Vector3(-0.0902313562803231f, 0.10220162530479f, -0.980954798479671f),
                     new Vector3(0.0902313562803231f, -0.10220162530479f, -0.980954798479671f)
                 } },
-                new Face { Normal = new Vector3(0.511706888379083f, 0.393141920894473f, -0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 26, 51, 52, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.511706888379083f, 0.393141920894473f, -0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 51, 52, 0 }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(0.71462526751519f, 0.340698877028024f, -0.595058138968038f),
                     new Vector3(0.571798095639658f, 0.571798095639658f, -0.571798095639658f),
@@ -2655,140 +2655,140 @@ namespace PolyhedralMaze
                     new Vector3(0.872592937852221f, 0.265564529859716f, -0.385896659511633f),
                     new Vector3(0.71462526751519f, 0.340698877028024f, -0.595058138968038f)
                 } },
-                new Face { Normal = new Vector3(0.656480601269874f, -0.337843283247709f, -0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 4, null, 23, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.656480601269874f, -0.337843283247709f, -0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 4, null, 23, 24, null }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(0.430930233308347f, -0.449060737655474f, -0.770391312547431f),
                     new Vector3(0.571798095639658f, -0.571798095639658f, -0.571798095639658f),
                     new Vector3(0.770391312547431f, -0.430930233308347f, -0.449060737655474f),
                     new Vector3(0.81682689281998f, -0.175333173579393f, -0.531894060824197f)
                 } },
-                new Face { Normal = new Vector3(0.263338680375401f, -0.29827370716197f, -0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 0, 10, 42, 43, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.263338680375401f, -0.29827370716197f, -0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 0, null, null, null, 3 }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(0.0902313562803231f, -0.10220162530479f, -0.980954798479671f),
                     new Vector3(0f, -0.353390657807772f, -0.92518875344743f),
                     new Vector3(0.175333173579393f, -0.531894060824197f, -0.81682689281998f),
                     new Vector3(0.430930233308347f, -0.449060737655474f, -0.770391312547431f)
                 } },
-                new Face { Normal = new Vector3(0.173863605131373f, -0.153499994271179f, 0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 6, null, 19, 15, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.173863605131373f, -0.153499994271179f, 0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 6, 47, 19, 15, 9 }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(0.265564529859716f, -0.385896659511633f, 0.872592937852221f),
                     new Vector3(0f, -0.353390657807772f, 0.92518875344743f),
                     new Vector3(-0.0902313562803231f, -0.10220162530479f, 0.980954798479671f),
                     new Vector3(0.0902313562803231f, 0.10220162530479f, 0.980954798479671f)
                 } },
-                new Face { Normal = new Vector3(0.511706888379083f, -0.393141920894473f, 0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, null, null, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.511706888379083f, -0.393141920894473f, 0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 21, null, 47, 5 }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(0.71462526751519f, -0.340698877028024f, 0.595058138968038f),
                     new Vector3(0.571798095639658f, -0.571798095639658f, 0.571798095639658f),
                     new Vector3(0.340698877028024f, -0.595058138968038f, 0.71462526751519f),
                     new Vector3(0.265564529859716f, -0.385896659511633f, 0.872592937852221f)
                 } },
-                new Face { Normal = new Vector3(0.809980595541053f, -0.0894750752440275f, 0.579590929671123f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 29, 20, 21, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809980595541053f, -0.0894750752440275f, 0.579590929671123f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 20, 21, null }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(0.81682689281998f, 0.175333173579393f, 0.531894060824197f),
                     new Vector3(0.92518875344743f, 0f, 0.353390657807772f),
                     new Vector3(0.872592937852221f, -0.265564529859716f, 0.385896659511633f),
                     new Vector3(0.71462526751519f, -0.340698877028024f, 0.595058138968038f)
                 } },
-                new Face { Normal = new Vector3(0.656480601269874f, 0.337843283247709f, 0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 9, null, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.656480601269874f, 0.337843283247709f, 0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 9, null, null, 29, null }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(0.430930233308347f, 0.449060737655474f, 0.770391312547431f),
                     new Vector3(0.571798095639658f, 0.571798095639658f, 0.571798095639658f),
                     new Vector3(0.770391312547431f, 0.430930233308347f, 0.449060737655474f),
                     new Vector3(0.81682689281998f, 0.175333173579393f, 0.531894060824197f)
                 } },
-                new Face { Normal = new Vector3(0.263338680375401f, 0.29827370716197f, 0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 15, 57, 58, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.263338680375401f, 0.29827370716197f, 0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 5, null, null, 58, 8 }, Vertices = new Vector3[] {
                     new Vector3(0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(0.0902313562803231f, 0.10220162530479f, 0.980954798479671f),
                     new Vector3(0f, 0.353390657807772f, 0.92518875344743f),
                     new Vector3(0.175333173579393f, 0.531894060824197f, 0.81682689281998f),
                     new Vector3(0.430930233308347f, 0.449060737655474f, 0.770391312547431f)
                 } },
-                new Face { Normal = new Vector3(-0.173863605131373f, -0.153499994271179f, -0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 42, 4, 0, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.173863605131373f, -0.153499994271179f, -0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 42, null, 0, null }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(-0.265564529859716f, -0.385896659511633f, -0.872592937852221f),
                     new Vector3(0f, -0.353390657807772f, -0.92518875344743f),
                     new Vector3(0.0902313562803231f, -0.10220162530479f, -0.980954798479671f),
                     new Vector3(-0.0902313562803231f, 0.10220162530479f, -0.980954798479671f)
                 } },
-                new Face { Normal = new Vector3(-0.511706888379083f, -0.393141920894473f, -0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 12, 31, 41, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.511706888379083f, -0.393141920894473f, -0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 41, 42, null }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(-0.71462526751519f, -0.340698877028024f, -0.595058138968038f),
                     new Vector3(-0.571798095639658f, -0.571798095639658f, -0.571798095639658f),
                     new Vector3(-0.340698877028024f, -0.595058138968038f, -0.71462526751519f),
                     new Vector3(-0.265564529859716f, -0.385896659511633f, -0.872592937852221f)
                 } },
-                new Face { Normal = new Vector3(-0.809980595541053f, -0.0894750752440275f, -0.579590929671123f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 13, null, 30, null, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809980595541053f, -0.0894750752440275f, -0.579590929671123f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 13, null, 30, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(-0.81682689281998f, 0.175333173579393f, -0.531894060824197f),
                     new Vector3(-0.92518875344743f, 0f, -0.353390657807772f),
                     new Vector3(-0.872592937852221f, -0.265564529859716f, -0.385896659511633f),
                     new Vector3(-0.71462526751519f, -0.340698877028024f, -0.595058138968038f)
                 } },
-                new Face { Normal = new Vector3(-0.656480601269874f, 0.337843283247709f, -0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 14, null, 38, null, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.656480601269874f, 0.337843283247709f, -0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 14, 53, 38, 39, 12 }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(-0.430930233308347f, 0.449060737655474f, -0.770391312547431f),
                     new Vector3(-0.571798095639658f, 0.571798095639658f, -0.571798095639658f),
                     new Vector3(-0.770391312547431f, 0.430930233308347f, -0.449060737655474f),
                     new Vector3(-0.81682689281998f, 0.175333173579393f, -0.531894060824197f)
                 } },
-                new Face { Normal = new Vector3(-0.263338680375401f, 0.29827370716197f, -0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, null, null, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.263338680375401f, 0.29827370716197f, -0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 52, null, 13 }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, -0.883372441443277f),
                     new Vector3(-0.0902313562803231f, 0.10220162530479f, -0.980954798479671f),
                     new Vector3(0f, 0.353390657807772f, -0.92518875344743f),
                     new Vector3(-0.175333173579393f, 0.531894060824197f, -0.81682689281998f),
                     new Vector3(-0.430930233308347f, 0.449060737655474f, -0.770391312547431f)
                 } },
-                new Face { Normal = new Vector3(-0.173863605131373f, 0.153499994271179f, 0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 16, null, 9, 5, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.173863605131373f, 0.153499994271179f, 0.972732850565596f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 57, null, 5, 19 }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(-0.265564529859716f, 0.385896659511633f, 0.872592937852221f),
                     new Vector3(0f, 0.353390657807772f, 0.92518875344743f),
                     new Vector3(0.0902313562803231f, 0.10220162530479f, 0.980954798479671f),
                     new Vector3(-0.0902313562803231f, -0.10220162530479f, 0.980954798479671f)
                 } },
-                new Face { Normal = new Vector3(-0.511706888379083f, 0.393141920894473f, 0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 17, null, 56, 57, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.511706888379083f, 0.393141920894473f, 0.763934218647654f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, null, 57, null }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(-0.71462526751519f, 0.340698877028024f, 0.595058138968038f),
                     new Vector3(-0.571798095639658f, 0.571798095639658f, 0.571798095639658f),
                     new Vector3(-0.340698877028024f, 0.595058138968038f, 0.71462526751519f),
                     new Vector3(-0.265564529859716f, 0.385896659511633f, 0.872592937852221f)
                 } },
-                new Face { Normal = new Vector3(-0.809980595541053f, 0.0894750752440275f, 0.579590929671123f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 18, null, 35, 36, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809980595541053f, 0.0894750752440275f, 0.579590929671123f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 34, 35, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(-0.81682689281998f, -0.175333173579393f, 0.531894060824197f),
                     new Vector3(-0.92518875344743f, 0f, 0.353390657807772f),
                     new Vector3(-0.872592937852221f, 0.265564529859716f, 0.385896659511633f),
                     new Vector3(-0.71462526751519f, 0.340698877028024f, 0.595058138968038f)
                 } },
-                new Face { Normal = new Vector3(-0.656480601269874f, -0.337843283247709f, 0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 19, 48, 33, 34, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.656480601269874f, -0.337843283247709f, 0.674459143403626f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 19, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(-0.430930233308347f, -0.449060737655474f, 0.770391312547431f),
                     new Vector3(-0.571798095639658f, -0.571798095639658f, 0.571798095639658f),
                     new Vector3(-0.770391312547431f, -0.430930233308347f, 0.449060737655474f),
                     new Vector3(-0.81682689281998f, -0.175333173579393f, 0.531894060824197f)
                 } },
-                new Face { Normal = new Vector3(-0.263338680375401f, -0.29827370716197f, 0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 5, null, 48, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.263338680375401f, -0.29827370716197f, 0.917434212918833f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 15, 5, null, null, 18 }, Vertices = new Vector3[] {
                     new Vector3(-0.545954193536922f, 0f, 0.883372441443277f),
                     new Vector3(-0.0902313562803231f, -0.10220162530479f, 0.980954798479671f),
                     new Vector3(0f, -0.353390657807772f, 0.92518875344743f),
                     new Vector3(-0.175333173579393f, -0.531894060824197f, 0.81682689281998f),
                     new Vector3(-0.430930233308347f, -0.449060737655474f, 0.770391312547431f)
                 } },
-                new Face { Normal = new Vector3(0.972732850565596f, -0.173863605131373f, 0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 7, null, 25, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.972732850565596f, -0.173863605131373f, 0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 21, 7, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(0.872592937852221f, -0.265564529859716f, 0.385896659511633f),
                     new Vector3(0.92518875344743f, 0f, 0.353390657807772f),
                     new Vector3(0.980954798479671f, 0.0902313562803231f, 0.10220162530479f),
                     new Vector3(0.980954798479671f, -0.0902313562803231f, -0.10220162530479f)
                 } },
-                new Face { Normal = new Vector3(0.763934218647653f, -0.511706888379083f, 0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 22, null, null, 7, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.763934218647653f, -0.511706888379083f, 0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 22, 46, 6, 7, 20 }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(0.595058138968038f, -0.71462526751519f, 0.340698877028024f),
                     new Vector3(0.571798095639658f, -0.571798095639658f, 0.571798095639658f),
                     new Vector3(0.71462526751519f, -0.340698877028024f, 0.595058138968038f),
                     new Vector3(0.872592937852221f, -0.265564529859716f, 0.385896659511633f)
                 } },
-                new Face { Normal = new Vector3(0.579590929671123f, -0.809980595541053f, 0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 23, 44, 45, 46, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.579590929671123f, -0.809980595541053f, 0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 23, null, null, null, 21 }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(0.531894060824197f, -0.81682689281998f, -0.175333173579393f),
                     new Vector3(0.353390657807772f, -0.92518875344743f, 0f),
@@ -2802,238 +2802,238 @@ namespace PolyhedralMaze
                     new Vector3(0.449060737655474f, -0.770391312547431f, -0.430930233308347f),
                     new Vector3(0.531894060824197f, -0.81682689281998f, -0.175333173579393f)
                 } },
-                new Face { Normal = new Vector3(0.917434212918833f, -0.263338680375401f, -0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 20, 25, 2, null, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.917434212918833f, -0.263338680375401f, -0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 25, 2, 3, 23 }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(0.980954798479671f, -0.0902313562803231f, -0.10220162530479f),
                     new Vector3(0.92518875344743f, 0f, -0.353390657807772f),
                     new Vector3(0.81682689281998f, -0.175333173579393f, -0.531894060824197f),
                     new Vector3(0.770391312547431f, -0.430930233308347f, -0.449060737655474f)
                 } },
-                new Face { Normal = new Vector3(0.972732850565596f, 0.173863605131373f, -0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 26, 2, 24, 20, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.972732850565596f, 0.173863605131373f, -0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 2, 24, null, 29 }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(0.872592937852221f, 0.265564529859716f, -0.385896659511633f),
                     new Vector3(0.92518875344743f, 0f, -0.353390657807772f),
                     new Vector3(0.980954798479671f, -0.0902313562803231f, -0.10220162530479f),
                     new Vector3(0.980954798479671f, 0.0902313562803231f, 0.10220162530479f)
                 } },
-                new Face { Normal = new Vector3(0.763934218647653f, 0.511706888379083f, -0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 27, 51, 1, 2, 25 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.763934218647653f, 0.511706888379083f, -0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 27, 51, null, 2, null }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(0.595058138968038f, 0.71462526751519f, -0.340698877028024f),
                     new Vector3(0.571798095639658f, 0.571798095639658f, -0.571798095639658f),
                     new Vector3(0.71462526751519f, 0.340698877028024f, -0.595058138968038f),
                     new Vector3(0.872592937852221f, 0.265564529859716f, -0.385896659511633f)
                 } },
-                new Face { Normal = new Vector3(0.579590929671123f, 0.809980595541053f, -0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 28, null, 50, 51, 26 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.579590929671123f, 0.809980595541053f, -0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 59, 50, 51, 26 }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(0.531894060824197f, 0.81682689281998f, 0.175333173579393f),
                     new Vector3(0.353390657807772f, 0.92518875344743f, 0f),
                     new Vector3(0.385896659511633f, 0.872592937852221f, -0.265564529859716f),
                     new Vector3(0.595058138968038f, 0.71462526751519f, -0.340698877028024f)
                 } },
-                new Face { Normal = new Vector3(0.674459143403626f, 0.656480601269874f, 0.337843283247709f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 29, null, 58, null, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.674459143403626f, 0.656480601269874f, 0.337843283247709f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 58, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(0.770391312547431f, 0.430930233308347f, 0.449060737655474f),
                     new Vector3(0.571798095639658f, 0.571798095639658f, 0.571798095639658f),
                     new Vector3(0.449060737655474f, 0.770391312547431f, 0.430930233308347f),
                     new Vector3(0.531894060824197f, 0.81682689281998f, 0.175333173579393f)
                 } },
-                new Face { Normal = new Vector3(0.917434212918833f, 0.263338680375401f, 0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 25, null, 7, null, 28 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.917434212918833f, 0.263338680375401f, 0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 25, null, null, 8, null }, Vertices = new Vector3[] {
                     new Vector3(0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(0.980954798479671f, 0.0902313562803231f, 0.10220162530479f),
                     new Vector3(0.92518875344743f, 0f, 0.353390657807772f),
                     new Vector3(0.81682689281998f, 0.175333173579393f, 0.531894060824197f),
                     new Vector3(0.770391312547431f, 0.430930233308347f, 0.449060737655474f)
                 } },
-                new Face { Normal = new Vector3(-0.972732850565596f, -0.173863605131373f, -0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 12, 39, 35, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.972732850565596f, -0.173863605131373f, -0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 12, null, null, 34 }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(-0.872592937852221f, -0.265564529859716f, -0.385896659511633f),
                     new Vector3(-0.92518875344743f, 0f, -0.353390657807772f),
                     new Vector3(-0.980954798479671f, 0.0902313562803231f, -0.10220162530479f),
                     new Vector3(-0.980954798479671f, -0.0902313562803231f, 0.10220162530479f)
                 } },
-                new Face { Normal = new Vector3(-0.763934218647653f, -0.511706888379083f, -0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 41, 11, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.763934218647653f, -0.511706888379083f, -0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 41, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(-0.595058138968038f, -0.71462526751519f, -0.340698877028024f),
                     new Vector3(-0.571798095639658f, -0.571798095639658f, -0.571798095639658f),
                     new Vector3(-0.71462526751519f, -0.340698877028024f, -0.595058138968038f),
                     new Vector3(-0.872592937852221f, -0.265564529859716f, -0.385896659511633f)
                 } },
-                new Face { Normal = new Vector3(-0.579590929671123f, -0.809980595541053f, -0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 33, 49, null, 41, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.579590929671123f, -0.809980595541053f, -0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 33, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(-0.531894060824197f, -0.81682689281998f, 0.175333173579393f),
                     new Vector3(-0.353390657807772f, -0.92518875344743f, 0f),
                     new Vector3(-0.385896659511633f, -0.872592937852221f, -0.265564529859716f),
                     new Vector3(-0.595058138968038f, -0.71462526751519f, -0.340698877028024f)
                 } },
-                new Face { Normal = new Vector3(-0.674459143403626f, -0.656480601269874f, 0.337843283247709f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 34, 18, 48, 49, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.674459143403626f, -0.656480601269874f, 0.337843283247709f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 34, null, 48, null, 32 }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(-0.770391312547431f, -0.430930233308347f, 0.449060737655474f),
                     new Vector3(-0.571798095639658f, -0.571798095639658f, 0.571798095639658f),
                     new Vector3(-0.449060737655474f, -0.770391312547431f, 0.430930233308347f),
                     new Vector3(-0.531894060824197f, -0.81682689281998f, 0.175333173579393f)
                 } },
-                new Face { Normal = new Vector3(-0.917434212918833f, -0.263338680375401f, 0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 30, null, null, 18, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.917434212918833f, -0.263338680375401f, 0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 30, null, 17, null, 33 }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, -0.545954193536922f, 0f),
                     new Vector3(-0.980954798479671f, -0.0902313562803231f, 0.10220162530479f),
                     new Vector3(-0.92518875344743f, 0f, 0.353390657807772f),
                     new Vector3(-0.81682689281998f, -0.175333173579393f, 0.531894060824197f),
                     new Vector3(-0.770391312547431f, -0.430930233308347f, 0.449060737655474f)
                 } },
-                new Face { Normal = new Vector3(-0.972732850565596f, 0.173863605131373f, 0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 36, 17, null, 30, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.972732850565596f, 0.173863605131373f, 0.153499994271179f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 17, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(-0.872592937852221f, 0.265564529859716f, 0.385896659511633f),
                     new Vector3(-0.92518875344743f, 0f, 0.353390657807772f),
                     new Vector3(-0.980954798479671f, -0.0902313562803231f, 0.10220162530479f),
                     new Vector3(-0.980954798479671f, 0.0902313562803231f, -0.10220162530479f)
                 } },
-                new Face { Normal = new Vector3(-0.763934218647653f, 0.511706888379083f, 0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 37, 56, null, 17, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.763934218647653f, 0.511706888379083f, 0.393141920894473f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 37, 56, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(-0.595058138968038f, 0.71462526751519f, 0.340698877028024f),
                     new Vector3(-0.571798095639658f, 0.571798095639658f, 0.571798095639658f),
                     new Vector3(-0.71462526751519f, 0.340698877028024f, 0.595058138968038f),
                     new Vector3(-0.872592937852221f, 0.265564529859716f, 0.385896659511633f)
                 } },
-                new Face { Normal = new Vector3(-0.579590929671123f, 0.809980595541053f, 0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 38, 54, 55, 56, 36 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.579590929671123f, 0.809980595541053f, 0.0894750752440275f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, null, 56, 36 }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(-0.531894060824197f, 0.81682689281998f, -0.175333173579393f),
                     new Vector3(-0.353390657807772f, 0.92518875344743f, 0f),
                     new Vector3(-0.385896659511633f, 0.872592937852221f, 0.265564529859716f),
                     new Vector3(-0.595058138968038f, 0.71462526751519f, 0.340698877028024f)
                 } },
-                new Face { Normal = new Vector3(-0.674459143403626f, 0.656480601269874f, -0.337843283247709f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 13, null, 54, 37 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.674459143403626f, 0.656480601269874f, -0.337843283247709f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 39, 13, null, 54, null }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(-0.770391312547431f, 0.430930233308347f, -0.449060737655474f),
                     new Vector3(-0.571798095639658f, 0.571798095639658f, -0.571798095639658f),
                     new Vector3(-0.449060737655474f, 0.770391312547431f, -0.430930233308347f),
                     new Vector3(-0.531894060824197f, 0.81682689281998f, -0.175333173579393f)
                 } },
-                new Face { Normal = new Vector3(-0.917434212918833f, 0.263338680375401f, -0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 35, 30, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.917434212918833f, 0.263338680375401f, -0.29827370716197f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, null, 13, 38 }, Vertices = new Vector3[] {
                     new Vector3(-0.883372441443277f, 0.545954193536922f, 0f),
                     new Vector3(-0.980954798479671f, 0.0902313562803231f, -0.10220162530479f),
                     new Vector3(-0.92518875344743f, 0f, -0.353390657807772f),
                     new Vector3(-0.81682689281998f, 0.175333173579393f, -0.531894060824197f),
                     new Vector3(-0.770391312547431f, 0.430930233308347f, -0.449060737655474f)
                 } },
-                new Face { Normal = new Vector3(-0.153499994271179f, -0.972732850565596f, -0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 41, null, null, 45, 44 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.153499994271179f, -0.972732850565596f, -0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 41, null, 49, null, 44 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, -0.545954193536922f),
                     new Vector3(-0.385896659511633f, -0.872592937852221f, -0.265564529859716f),
                     new Vector3(-0.353390657807772f, -0.92518875344743f, 0f),
                     new Vector3(-0.10220162530479f, -0.980954798479671f, 0.0902313562803231f),
                     new Vector3(0.10220162530479f, -0.980954798479671f, -0.0902313562803231f)
                 } },
-                new Face { Normal = new Vector3(-0.393141920894473f, -0.763934218647654f, -0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 11, 31, 32, 40 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.393141920894473f, -0.763934218647654f, -0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 11, 31, null, 40 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, -0.545954193536922f),
                     new Vector3(-0.340698877028024f, -0.595058138968038f, -0.71462526751519f),
                     new Vector3(-0.571798095639658f, -0.571798095639658f, -0.571798095639658f),
                     new Vector3(-0.595058138968038f, -0.71462526751519f, -0.340698877028024f),
                     new Vector3(-0.385896659511633f, -0.872592937852221f, -0.265564529859716f)
                 } },
-                new Face { Normal = new Vector3(-0.0894750752440275f, -0.579590929671123f, -0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 4, 10, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.0894750752440275f, -0.579590929671123f, -0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 43, null, 10, 11, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, -0.545954193536922f),
                     new Vector3(0.175333173579393f, -0.531894060824197f, -0.81682689281998f),
                     new Vector3(0f, -0.353390657807772f, -0.92518875344743f),
                     new Vector3(-0.265564529859716f, -0.385896659511633f, -0.872592937852221f),
                     new Vector3(-0.340698877028024f, -0.595058138968038f, -0.71462526751519f)
                 } },
-                new Face { Normal = new Vector3(0.337843283247709f, -0.674459143403626f, -0.656480601269874f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 44, 23, null, 4, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.337843283247709f, -0.674459143403626f, -0.656480601269874f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 44, 23, null, null, 42 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, -0.545954193536922f),
                     new Vector3(0.449060737655474f, -0.770391312547431f, -0.430930233308347f),
                     new Vector3(0.571798095639658f, -0.571798095639658f, -0.571798095639658f),
                     new Vector3(0.430930233308347f, -0.449060737655474f, -0.770391312547431f),
                     new Vector3(0.175333173579393f, -0.531894060824197f, -0.81682689281998f)
                 } },
-                new Face { Normal = new Vector3(0.29827370716197f, -0.917434212918833f, -0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 40, 45, 22, 23, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.29827370716197f, -0.917434212918833f, -0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 40, 45, null, 23, 43 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, -0.545954193536922f),
                     new Vector3(0.10220162530479f, -0.980954798479671f, -0.0902313562803231f),
                     new Vector3(0.353390657807772f, -0.92518875344743f, 0f),
                     new Vector3(0.531894060824197f, -0.81682689281998f, -0.175333173579393f),
                     new Vector3(0.449060737655474f, -0.770391312547431f, -0.430930233308347f)
                 } },
-                new Face { Normal = new Vector3(0.153499994271179f, -0.972732850565596f, 0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 22, 44, 40, 49 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.153499994271179f, -0.972732850565596f, 0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 46, null, 44, null, 49 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, 0.545954193536922f),
                     new Vector3(0.385896659511633f, -0.872592937852221f, 0.265564529859716f),
                     new Vector3(0.353390657807772f, -0.92518875344743f, 0f),
                     new Vector3(0.10220162530479f, -0.980954798479671f, -0.0902313562803231f),
                     new Vector3(-0.10220162530479f, -0.980954798479671f, 0.0902313562803231f)
                 } },
-                new Face { Normal = new Vector3(0.393141920894473f, -0.763934218647654f, 0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 47, null, null, 22, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.393141920894473f, -0.763934218647654f, 0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 21, null, 45 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, 0.545954193536922f),
                     new Vector3(0.340698877028024f, -0.595058138968038f, 0.71462526751519f),
                     new Vector3(0.571798095639658f, -0.571798095639658f, 0.571798095639658f),
                     new Vector3(0.595058138968038f, -0.71462526751519f, 0.340698877028024f),
                     new Vector3(0.385896659511633f, -0.872592937852221f, 0.265564529859716f)
                 } },
-                new Face { Normal = new Vector3(0.0894750752440275f, -0.579590929671123f, 0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 48, null, null, null, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.0894750752440275f, -0.579590929671123f, 0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 48, null, 5, 6, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, 0.545954193536922f),
                     new Vector3(-0.175333173579393f, -0.531894060824197f, 0.81682689281998f),
                     new Vector3(0f, -0.353390657807772f, 0.92518875344743f),
                     new Vector3(0.265564529859716f, -0.385896659511633f, 0.872592937852221f),
                     new Vector3(0.340698877028024f, -0.595058138968038f, 0.71462526751519f)
                 } },
-                new Face { Normal = new Vector3(-0.337843283247709f, -0.674459143403626f, 0.656480601269874f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 49, 33, 18, 19, 47 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.337843283247709f, -0.674459143403626f, 0.656480601269874f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 49, 33, null, null, 47 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, 0.545954193536922f),
                     new Vector3(-0.449060737655474f, -0.770391312547431f, 0.430930233308347f),
                     new Vector3(-0.571798095639658f, -0.571798095639658f, 0.571798095639658f),
                     new Vector3(-0.430930233308347f, -0.449060737655474f, 0.770391312547431f),
                     new Vector3(-0.175333173579393f, -0.531894060824197f, 0.81682689281998f)
                 } },
-                new Face { Normal = new Vector3(-0.29827370716197f, -0.917434212918833f, 0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 45, null, 32, 33, 48 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.29827370716197f, -0.917434212918833f, 0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 45, 40, null, null, 48 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.883372441443277f, 0.545954193536922f),
                     new Vector3(-0.10220162530479f, -0.980954798479671f, 0.0902313562803231f),
                     new Vector3(-0.353390657807772f, -0.92518875344743f, 0f),
                     new Vector3(-0.531894060824197f, -0.81682689281998f, 0.175333173579393f),
                     new Vector3(-0.449060737655474f, -0.770391312547431f, 0.430930233308347f)
                 } },
-                new Face { Normal = new Vector3(0.153499994271179f, 0.972732850565596f, -0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 27, 59, 55, 54 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.153499994271179f, 0.972732850565596f, -0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 51, 27, null, 55, 54 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, -0.545954193536922f),
                     new Vector3(0.385896659511633f, 0.872592937852221f, -0.265564529859716f),
                     new Vector3(0.353390657807772f, 0.92518875344743f, 0f),
                     new Vector3(0.10220162530479f, 0.980954798479671f, 0.0902313562803231f),
                     new Vector3(-0.10220162530479f, 0.980954798479671f, -0.0902313562803231f)
                 } },
-                new Face { Normal = new Vector3(0.393141920894473f, 0.763934218647654f, -0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 1, 26, 27, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.393141920894473f, 0.763934218647654f, -0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 52, 1, 26, 27, 50 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, -0.545954193536922f),
                     new Vector3(0.340698877028024f, 0.595058138968038f, -0.71462526751519f),
                     new Vector3(0.571798095639658f, 0.571798095639658f, -0.571798095639658f),
                     new Vector3(0.595058138968038f, 0.71462526751519f, -0.340698877028024f),
                     new Vector3(0.385896659511633f, 0.872592937852221f, -0.265564529859716f)
                 } },
-                new Face { Normal = new Vector3(0.0894750752440275f, 0.579590929671123f, -0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 53, null, 0, 1, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.0894750752440275f, 0.579590929671123f, -0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 14, null, 1, 51 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, -0.545954193536922f),
                     new Vector3(-0.175333173579393f, 0.531894060824197f, -0.81682689281998f),
                     new Vector3(0f, 0.353390657807772f, -0.92518875344743f),
                     new Vector3(0.265564529859716f, 0.385896659511633f, -0.872592937852221f),
                     new Vector3(0.340698877028024f, 0.595058138968038f, -0.71462526751519f)
                 } },
-                new Face { Normal = new Vector3(-0.337843283247709f, 0.674459143403626f, -0.656480601269874f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, null, null, 52 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.337843283247709f, 0.674459143403626f, -0.656480601269874f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 13, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, -0.545954193536922f),
                     new Vector3(-0.449060737655474f, 0.770391312547431f, -0.430930233308347f),
                     new Vector3(-0.571798095639658f, 0.571798095639658f, -0.571798095639658f),
                     new Vector3(-0.430930233308347f, 0.449060737655474f, -0.770391312547431f),
                     new Vector3(-0.175333173579393f, 0.531894060824197f, -0.81682689281998f)
                 } },
-                new Face { Normal = new Vector3(-0.29827370716197f, 0.917434212918833f, -0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 50, 55, 37, 38, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.29827370716197f, 0.917434212918833f, -0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 50, 55, null, 38, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, -0.545954193536922f),
                     new Vector3(-0.10220162530479f, 0.980954798479671f, -0.0902313562803231f),
                     new Vector3(-0.353390657807772f, 0.92518875344743f, 0f),
                     new Vector3(-0.531894060824197f, 0.81682689281998f, -0.175333173579393f),
                     new Vector3(-0.449060737655474f, 0.770391312547431f, -0.430930233308347f)
                 } },
-                new Face { Normal = new Vector3(-0.153499994271179f, 0.972732850565596f, 0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 37, 54, 50, 59 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.153499994271179f, 0.972732850565596f, 0.173863605131373f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 56, null, 54, 50, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, 0.545954193536922f),
                     new Vector3(-0.385896659511633f, 0.872592937852221f, 0.265564529859716f),
                     new Vector3(-0.353390657807772f, 0.92518875344743f, 0f),
                     new Vector3(-0.10220162530479f, 0.980954798479671f, -0.0902313562803231f),
                     new Vector3(0.10220162530479f, 0.980954798479671f, 0.0902313562803231f)
                 } },
-                new Face { Normal = new Vector3(-0.393141920894473f, 0.763934218647654f, 0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, 16, 36, 37, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.393141920894473f, 0.763934218647654f, 0.511706888379083f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 57, null, 36, 37, 55 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, 0.545954193536922f),
                     new Vector3(-0.340698877028024f, 0.595058138968038f, 0.71462526751519f),
                     new Vector3(-0.571798095639658f, 0.571798095639658f, 0.571798095639658f),
                     new Vector3(-0.595058138968038f, 0.71462526751519f, 0.340698877028024f),
                     new Vector3(-0.385896659511633f, 0.872592937852221f, 0.265564529859716f)
                 } },
-                new Face { Normal = new Vector3(-0.0894750752440275f, 0.579590929671123f, 0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 58, 9, null, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.0894750752440275f, 0.579590929671123f, 0.809980595541053f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 58, null, 15, 16, 56 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, 0.545954193536922f),
                     new Vector3(0.175333173579393f, 0.531894060824197f, 0.81682689281998f),
                     new Vector3(0f, 0.353390657807772f, 0.92518875344743f),
@@ -3047,7 +3047,7 @@ namespace PolyhedralMaze
                     new Vector3(0.430930233308347f, 0.449060737655474f, 0.770391312547431f),
                     new Vector3(0.175333173579393f, 0.531894060824197f, 0.81682689281998f)
                 } },
-                new Face { Normal = new Vector3(0.29827370716197f, 0.917434212918833f, 0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { 55, 50, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.29827370716197f, 0.917434212918833f, 0.263338680375401f), Distance = 0.95420695740113f, AdjacentFaces = new int?[] { null, null, 27, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.883372441443277f, 0.545954193536922f),
                     new Vector3(0.10220162530479f, 0.980954798479671f, 0.0902313562803231f),
                     new Vector3(0.353390657807772f, 0.92518875344743f, 0f),
@@ -3056,109 +3056,109 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "OrthokisPropelloCube", ReadableName = "Orthokis Propello Cube", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.775161896207828f, 0.272976409275137f, 0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 2, null, null, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.775161896207828f, 0.272976409275137f, 0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 2, 8, 32, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, 0.560102145173052f, 0.560102145173052f),
                     new Vector3(-0.45899166095595f, 0.161635777129832f, 0.88858125624282f),
                     new Vector3(-0.88858125624282f, -0.161635777129832f, 0.45899166095595f),
                     new Vector3(-0.88858125624282f, 0.45899166095595f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.56974372716752f, 0.775161896207828f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 0, 4, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.56974372716752f, 0.775161896207828f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, 40, 2 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, 0.560102145173052f, 0.560102145173052f),
                     new Vector3(-0.88858125624282f, 0.45899166095595f, 0.161635777129832f),
                     new Vector3(-0.45899166095595f, 0.88858125624282f, -0.161635777129832f),
                     new Vector3(-0.161635777129832f, 0.88858125624282f, 0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.272976409275137f, 0.56974372716752f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, null, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.272976409275137f, 0.56974372716752f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 1, 12, 24, 0 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, 0.560102145173052f, 0.560102145173052f),
                     new Vector3(-0.161635777129832f, 0.88858125624282f, 0.45899166095595f),
                     new Vector3(0.161635777129832f, 0.45899166095595f, 0.88858125624282f),
                     new Vector3(-0.45899166095595f, 0.161635777129832f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.272976409275137f, 0.775161896207828f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 17, 41, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.272976409275137f, 0.775161896207828f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 17, 41, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, 0.560102145173052f, -0.560102145173052f),
                     new Vector3(-0.161635777129832f, 0.45899166095595f, -0.88858125624282f),
                     new Vector3(0.161635777129832f, 0.88858125624282f, -0.45899166095595f),
                     new Vector3(-0.45899166095595f, 0.88858125624282f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.775161896207828f, 0.56974372716752f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 1, null, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.775161896207828f, 0.56974372716752f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 3, null, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, 0.560102145173052f, -0.560102145173052f),
                     new Vector3(-0.45899166095595f, 0.88858125624282f, -0.161635777129832f),
                     new Vector3(-0.88858125624282f, 0.45899166095595f, 0.161635777129832f),
                     new Vector3(-0.88858125624282f, 0.161635777129832f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.56974372716752f, 0.272976409275137f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 4, 9, 31, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.56974372716752f, 0.272976409275137f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 4, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, 0.560102145173052f, -0.560102145173052f),
                     new Vector3(-0.88858125624282f, 0.161635777129832f, -0.45899166095595f),
                     new Vector3(-0.45899166095595f, -0.161635777129832f, -0.88858125624282f),
                     new Vector3(-0.161635777129832f, 0.45899166095595f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.272976409275137f, -0.775161896207828f, 0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 8, 20, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.272976409275137f, -0.775161896207828f, 0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, 45, 7 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, -0.560102145173052f, 0.560102145173052f),
                     new Vector3(-0.161635777129832f, -0.45899166095595f, 0.88858125624282f),
                     new Vector3(0.161635777129832f, -0.88858125624282f, 0.45899166095595f),
                     new Vector3(-0.45899166095595f, -0.88858125624282f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.775161896207828f, -0.56974372716752f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, 33, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.775161896207828f, -0.56974372716752f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 6, 10, 33, 8 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, -0.560102145173052f, 0.560102145173052f),
                     new Vector3(-0.45899166095595f, -0.88858125624282f, 0.161635777129832f),
                     new Vector3(-0.88858125624282f, -0.45899166095595f, -0.161635777129832f),
                     new Vector3(-0.88858125624282f, -0.161635777129832f, 0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.56974372716752f, -0.272976409275137f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 7, null, 27, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.56974372716752f, -0.272976409275137f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 7, 0, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, -0.560102145173052f, 0.560102145173052f),
                     new Vector3(-0.88858125624282f, -0.161635777129832f, 0.45899166095595f),
                     new Vector3(-0.45899166095595f, 0.161635777129832f, 0.88858125624282f),
                     new Vector3(-0.161635777129832f, -0.45899166095595f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.775161896207828f, -0.272976409275137f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 5, 34, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.775161896207828f, -0.272976409275137f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 11, null, 34, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, -0.560102145173052f, -0.560102145173052f),
                     new Vector3(-0.45899166095595f, -0.161635777129832f, -0.88858125624282f),
                     new Vector3(-0.88858125624282f, 0.161635777129832f, -0.45899166095595f),
                     new Vector3(-0.88858125624282f, -0.45899166095595f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.56974372716752f, -0.775161896207828f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, null, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.56974372716752f, -0.775161896207828f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 7, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, -0.560102145173052f, -0.560102145173052f),
                     new Vector3(-0.88858125624282f, -0.45899166095595f, -0.161635777129832f),
                     new Vector3(-0.45899166095595f, -0.88858125624282f, 0.161635777129832f),
                     new Vector3(-0.161635777129832f, -0.88858125624282f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.272976409275137f, -0.56974372716752f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 10, 21, 28, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.272976409275137f, -0.56974372716752f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, 28, 9 }, Vertices = new Vector3[] {
                     new Vector3(-0.560102145173052f, -0.560102145173052f, -0.560102145173052f),
                     new Vector3(-0.161635777129832f, -0.88858125624282f, -0.45899166095595f),
                     new Vector3(0.161635777129832f, -0.45899166095595f, -0.88858125624282f),
                     new Vector3(-0.45899166095595f, -0.161635777129832f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.272976409275137f, 0.775161896207828f, 0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 14, null, 43, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.272976409275137f, 0.775161896207828f, 0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 2, 43, null }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, 0.560102145173052f, 0.560102145173052f),
                     new Vector3(0.161635777129832f, 0.45899166095595f, 0.88858125624282f),
                     new Vector3(-0.161635777129832f, 0.88858125624282f, 0.45899166095595f),
                     new Vector3(0.45899166095595f, 0.88858125624282f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.775161896207828f, 0.56974372716752f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 16, 37, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.775161896207828f, 0.56974372716752f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, 0.560102145173052f, 0.560102145173052f),
                     new Vector3(0.45899166095595f, 0.88858125624282f, 0.161635777129832f),
                     new Vector3(0.88858125624282f, 0.45899166095595f, -0.161635777129832f),
                     new Vector3(0.88858125624282f, 0.161635777129832f, 0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(0.56974372716752f, 0.272976409275137f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 13, 18, 25, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.56974372716752f, 0.272976409275137f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 18, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, 0.560102145173052f, 0.560102145173052f),
                     new Vector3(0.88858125624282f, 0.161635777129832f, 0.45899166095595f),
                     new Vector3(0.45899166095595f, -0.161635777129832f, 0.88858125624282f),
                     new Vector3(0.161635777129832f, 0.45899166095595f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.775161896207828f, 0.272976409275137f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 17, 23, null, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.775161896207828f, 0.272976409275137f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 23, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, 0.560102145173052f, -0.560102145173052f),
                     new Vector3(0.45899166095595f, 0.161635777129832f, -0.88858125624282f),
                     new Vector3(0.88858125624282f, -0.161635777129832f, -0.45899166095595f),
                     new Vector3(0.88858125624282f, 0.45899166095595f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.56974372716752f, 0.775161896207828f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 15, 13, 42, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.56974372716752f, 0.775161896207828f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, null, 42, 17 }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, 0.560102145173052f, -0.560102145173052f),
                     new Vector3(0.88858125624282f, 0.45899166095595f, -0.161635777129832f),
                     new Vector3(0.45899166095595f, 0.88858125624282f, 0.161635777129832f),
                     new Vector3(0.161635777129832f, 0.88858125624282f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(0.272976409275137f, 0.56974372716752f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 3, null, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.272976409275137f, 0.56974372716752f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 16, 3, 30, null }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, 0.560102145173052f, -0.560102145173052f),
                     new Vector3(0.161635777129832f, 0.88858125624282f, -0.45899166095595f),
                     new Vector3(-0.161635777129832f, 0.45899166095595f, -0.88858125624282f),
@@ -3170,92 +3170,92 @@ namespace PolyhedralMaze
                     new Vector3(0.88858125624282f, 0.161635777129832f, 0.45899166095595f),
                     new Vector3(0.88858125624282f, -0.45899166095595f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.56974372716752f, -0.775161896207828f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 18, 22, 46, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.56974372716752f, -0.775161896207828f, 0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 18, null, 46, 20 }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, -0.560102145173052f, 0.560102145173052f),
                     new Vector3(0.88858125624282f, -0.45899166095595f, 0.161635777129832f),
                     new Vector3(0.45899166095595f, -0.88858125624282f, -0.161635777129832f),
                     new Vector3(0.161635777129832f, -0.88858125624282f, 0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(0.272976409275137f, -0.56974372716752f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 19, 6, 26, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.272976409275137f, -0.56974372716752f, 0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 19, null, 26, 18 }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, -0.560102145173052f, 0.560102145173052f),
                     new Vector3(0.161635777129832f, -0.88858125624282f, 0.45899166095595f),
                     new Vector3(-0.161635777129832f, -0.45899166095595f, 0.88858125624282f),
                     new Vector3(0.45899166095595f, -0.161635777129832f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.272976409275137f, -0.775161896207828f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 23, 11, 47, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.272976409275137f, -0.775161896207828f, -0.56974372716752f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 23, null, null, 22 }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, -0.560102145173052f, -0.560102145173052f),
                     new Vector3(0.161635777129832f, -0.45899166095595f, -0.88858125624282f),
                     new Vector3(-0.161635777129832f, -0.88858125624282f, -0.45899166095595f),
                     new Vector3(0.45899166095595f, -0.88858125624282f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.775161896207828f, -0.56974372716752f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 21, 19, null, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.775161896207828f, -0.56974372716752f, -0.272976409275137f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 21, null, 39, null }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, -0.560102145173052f, -0.560102145173052f),
                     new Vector3(0.45899166095595f, -0.88858125624282f, -0.161635777129832f),
                     new Vector3(0.88858125624282f, -0.45899166095595f, 0.161635777129832f),
                     new Vector3(0.88858125624282f, -0.161635777129832f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(0.56974372716752f, -0.272976409275137f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { 22, 15, null, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.56974372716752f, -0.272976409275137f, -0.775161896207828f), Distance = 0.906179197124474f, AdjacentFaces = new int?[] { null, 15, 29, 21 }, Vertices = new Vector3[] {
                     new Vector3(0.560102145173052f, -0.560102145173052f, -0.560102145173052f),
                     new Vector3(0.88858125624282f, -0.161635777129832f, -0.45899166095595f),
                     new Vector3(0.45899166095595f, 0.161635777129832f, -0.88858125624282f),
                     new Vector3(0.161635777129832f, -0.45899166095595f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.0929347392591736f, 0.193969086447668f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, null, 25 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.0929347392591736f, 0.193969086447668f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 2, 25 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 0.964363502325453f),
                     new Vector3(-0.45899166095595f, 0.161635777129832f, 0.88858125624282f),
                     new Vector3(0.161635777129832f, 0.45899166095595f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.193969086447668f, 0.0929347392591736f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 24, 14, 26 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.193969086447668f, 0.0929347392591736f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 24, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 0.964363502325453f),
                     new Vector3(0.161635777129832f, 0.45899166095595f, 0.88858125624282f),
                     new Vector3(0.45899166095595f, -0.161635777129832f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.0929347392591736f, -0.193969086447668f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 25, 20, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.0929347392591736f, -0.193969086447668f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 20, 27 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 0.964363502325453f),
                     new Vector3(0.45899166095595f, -0.161635777129832f, 0.88858125624282f),
                     new Vector3(-0.161635777129832f, -0.45899166095595f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.193969086447668f, -0.0929347392591736f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 26, 8, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.193969086447668f, -0.0929347392591736f, 0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 26, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, 0.964363502325453f),
                     new Vector3(-0.161635777129832f, -0.45899166095595f, 0.88858125624282f),
                     new Vector3(-0.45899166095595f, 0.161635777129832f, 0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.0929347392591736f, -0.193969086447668f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 11, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.0929347392591736f, -0.193969086447668f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 31, 11, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -0.964363502325453f),
                     new Vector3(-0.45899166095595f, -0.161635777129832f, -0.88858125624282f),
                     new Vector3(0.161635777129832f, -0.45899166095595f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.193969086447668f, -0.0929347392591736f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 28, null, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.193969086447668f, -0.0929347392591736f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 23, 30 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -0.964363502325453f),
                     new Vector3(0.161635777129832f, -0.45899166095595f, -0.88858125624282f),
                     new Vector3(0.45899166095595f, 0.161635777129832f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(0.0929347392591736f, 0.193969086447668f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 29, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.0929347392591736f, 0.193969086447668f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 29, 17, 31 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -0.964363502325453f),
                     new Vector3(0.45899166095595f, 0.161635777129832f, -0.88858125624282f),
                     new Vector3(-0.161635777129832f, 0.45899166095595f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.193969086447668f, 0.0929347392591736f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 5, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.193969086447668f, 0.0929347392591736f, -0.976595682839877f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 30, null, 28 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0f, -0.964363502325453f),
                     new Vector3(-0.161635777129832f, 0.45899166095595f, -0.88858125624282f),
                     new Vector3(-0.45899166095595f, -0.161635777129832f, -0.88858125624282f)
                 } },
-                new Face { Normal = new Vector3(-0.976595682839877f, 0.0929347392591736f, 0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 35, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.976595682839877f, 0.0929347392591736f, 0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 35, 0, 33 }, Vertices = new Vector3[] {
                     new Vector3(-0.964363502325453f, 0f, 0f),
                     new Vector3(-0.88858125624282f, 0.45899166095595f, 0.161635777129832f),
                     new Vector3(-0.88858125624282f, -0.161635777129832f, 0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.976595682839877f, -0.193969086447668f, 0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 7, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.976595682839877f, -0.193969086447668f, 0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 32, 7, null }, Vertices = new Vector3[] {
                     new Vector3(-0.964363502325453f, 0f, 0f),
                     new Vector3(-0.88858125624282f, -0.161635777129832f, 0.45899166095595f),
                     new Vector3(-0.88858125624282f, -0.45899166095595f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.976595682839877f, -0.0929347392591736f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 33, 9, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.976595682839877f, -0.0929347392591736f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 9, null }, Vertices = new Vector3[] {
                     new Vector3(-0.964363502325453f, 0f, 0f),
                     new Vector3(-0.88858125624282f, -0.45899166095595f, -0.161635777129832f),
                     new Vector3(-0.88858125624282f, 0.161635777129832f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.976595682839877f, 0.193969086447668f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 34, null, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.976595682839877f, 0.193969086447668f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, null, 32 }, Vertices = new Vector3[] {
                     new Vector3(-0.964363502325453f, 0f, 0f),
                     new Vector3(-0.88858125624282f, 0.161635777129832f, -0.45899166095595f),
                     new Vector3(-0.88858125624282f, 0.45899166095595f, 0.161635777129832f)
@@ -3270,42 +3270,42 @@ namespace PolyhedralMaze
                     new Vector3(0.88858125624282f, 0.161635777129832f, 0.45899166095595f),
                     new Vector3(0.88858125624282f, 0.45899166095595f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.976595682839877f, 0.0929347392591736f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 37, null, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.976595682839877f, 0.0929347392591736f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 37, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.964363502325453f, 0f, 0f),
                     new Vector3(0.88858125624282f, 0.45899166095595f, -0.161635777129832f),
                     new Vector3(0.88858125624282f, -0.161635777129832f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(0.976595682839877f, -0.193969086447668f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 38, null, 36 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.976595682839877f, -0.193969086447668f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 22, 36 }, Vertices = new Vector3[] {
                     new Vector3(0.964363502325453f, 0f, 0f),
                     new Vector3(0.88858125624282f, -0.161635777129832f, -0.45899166095595f),
                     new Vector3(0.88858125624282f, -0.45899166095595f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.193969086447668f, 0.976595682839877f, 0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 43, null, 41 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.193969086447668f, 0.976595682839877f, 0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 1, 41 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.964363502325453f, 0f),
                     new Vector3(-0.161635777129832f, 0.88858125624282f, 0.45899166095595f),
                     new Vector3(-0.45899166095595f, 0.88858125624282f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.0929347392591736f, 0.976595682839877f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 40, 3, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.0929347392591736f, 0.976595682839877f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 40, 3, 42 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.964363502325453f, 0f),
                     new Vector3(-0.45899166095595f, 0.88858125624282f, -0.161635777129832f),
                     new Vector3(0.161635777129832f, 0.88858125624282f, -0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(0.193969086447668f, 0.976595682839877f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 16, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.193969086447668f, 0.976595682839877f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 41, 16, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.964363502325453f, 0f),
                     new Vector3(0.161635777129832f, 0.88858125624282f, -0.45899166095595f),
                     new Vector3(0.45899166095595f, 0.88858125624282f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.0929347392591736f, 0.976595682839877f, 0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 12, 40 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.0929347392591736f, 0.976595682839877f, 0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, 12, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.964363502325453f, 0f),
                     new Vector3(0.45899166095595f, 0.88858125624282f, 0.161635777129832f),
                     new Vector3(-0.161635777129832f, 0.88858125624282f, 0.45899166095595f)
                 } },
-                new Face { Normal = new Vector3(-0.193969086447668f, -0.976595682839877f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 47, null, 45 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.193969086447668f, -0.976595682839877f, -0.0929347392591736f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { null, null, 45 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.964363502325453f, 0f),
                     new Vector3(-0.161635777129832f, -0.88858125624282f, -0.45899166095595f),
                     new Vector3(-0.45899166095595f, -0.88858125624282f, 0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(-0.0929347392591736f, -0.976595682839877f, 0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 44, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.0929347392591736f, -0.976595682839877f, 0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 44, 6, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.964363502325453f, 0f),
                     new Vector3(-0.45899166095595f, -0.88858125624282f, 0.161635777129832f),
                     new Vector3(0.161635777129832f, -0.88858125624282f, 0.45899166095595f)
@@ -3315,14 +3315,14 @@ namespace PolyhedralMaze
                     new Vector3(0.161635777129832f, -0.88858125624282f, 0.45899166095595f),
                     new Vector3(0.45899166095595f, -0.88858125624282f, -0.161635777129832f)
                 } },
-                new Face { Normal = new Vector3(0.0929347392591736f, -0.976595682839877f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 46, 21, 44 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.0929347392591736f, -0.976595682839877f, -0.193969086447668f), Distance = 0.941793233059382f, AdjacentFaces = new int?[] { 46, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.964363502325453f, 0f),
                     new Vector3(0.45899166095595f, -0.88858125624282f, -0.161635777129832f),
                     new Vector3(-0.161635777129832f, -0.88858125624282f, -0.45899166095595f)
                 } }
             } },
             new Polyhedron { Name = "PentakisDodecahedron", ReadableName = "Pentakis Dodecahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.201774106167599f, 0f, 0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 10, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.201774106167599f, 0f, 0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 4, 10, 1 }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(0f, 0.35992292100506f, 0.94229044052139f),
                     new Vector3(0f, -0.35992292100506f, 0.94229044052139f)
@@ -3332,22 +3332,22 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.35992292100506f, 0.94229044052139f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.730025574164002f, -0.201774106167599f, 0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 26, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.730025574164002f, -0.201774106167599f, 0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 26, 3 }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, 0.58236751951633f),
                     new Vector3(-0.94229044052139f, 0f, 0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(-0.730025574164002f, 0.201774106167599f, 0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 24, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.730025574164002f, 0.201774106167599f, 0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 2, 24, null }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(-0.94229044052139f, 0f, 0.35992292100506f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.403548212335198f, 0.326477361828805f, 0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 3, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.403548212335198f, 0.326477361828805f, 0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 43, 0 }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, 0.58236751951633f),
                     new Vector3(0f, 0.35992292100506f, 0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(-0.201774106167599f, 0f, -0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, null, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.201774106167599f, 0f, -0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 9, 15, 6 }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(0f, -0.35992292100506f, -0.94229044052139f),
                     new Vector3(0f, 0.35992292100506f, -0.94229044052139f)
@@ -3357,27 +3357,27 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.35992292100506f, -0.94229044052139f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.730025574164002f, 0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 6, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.730025574164002f, 0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 6, null, 8 }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, -0.58236751951633f),
                     new Vector3(-0.94229044052139f, 0f, -0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(-0.730025574164002f, -0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 29, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.730025574164002f, -0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 7, 29, null }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(-0.94229044052139f, 0f, -0.35992292100506f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.403548212335198f, -0.326477361828805f, -0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 8, 58, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.403548212335198f, -0.326477361828805f, -0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(-0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, -0.58236751951633f),
                     new Vector3(0f, -0.35992292100506f, -0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(0.201774106167599f, 0f, 0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 14, 0, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.201774106167599f, 0f, 0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 0, null }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(0f, -0.35992292100506f, 0.94229044052139f),
                     new Vector3(0f, 0.35992292100506f, 0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(0.403548212335198f, 0.326477361828805f, 0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 10, 42, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.403548212335198f, 0.326477361828805f, 0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 42, 12 }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(0f, 0.35992292100506f, 0.94229044052139f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, 0.58236751951633f)
@@ -3387,17 +3387,17 @@ namespace PolyhedralMaze
                     new Vector3(0.58236751951633f, 0.58236751951633f, 0.58236751951633f),
                     new Vector3(0.94229044052139f, 0f, 0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(0.730025574164002f, -0.201774106167599f, 0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 39, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.730025574164002f, -0.201774106167599f, 0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 39, 14 }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(0.94229044052139f, 0f, 0.35992292100506f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.403548212335198f, -0.326477361828805f, 0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 53, 10 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.403548212335198f, -0.326477361828805f, 0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 13, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, 0.835866271914202f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, 0.58236751951633f),
                     new Vector3(0f, -0.35992292100506f, 0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(0.201774106167599f, 0f, -0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 19, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.201774106167599f, 0f, -0.979432085486414f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 5, null }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(0f, 0.35992292100506f, -0.94229044052139f),
                     new Vector3(0f, -0.35992292100506f, -0.94229044052139f)
@@ -3407,47 +3407,47 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.35992292100506f, -0.94229044052139f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.730025574164002f, -0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 16, null, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.730025574164002f, -0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 16, 36, 18 }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, -0.58236751951633f),
                     new Vector3(0.94229044052139f, 0f, -0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(0.730025574164002f, 0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 17, 34, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.730025574164002f, 0.201774106167599f, -0.65295472365761f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 17, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(0.94229044052139f, 0f, -0.35992292100506f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.403548212335198f, 0.326477361828805f, -0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 18, null, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.403548212335198f, 0.326477361828805f, -0.854728829825208f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 48, null }, Vertices = new Vector3[] {
                     new Vector3(0.516593766092639f, 0f, -0.835866271914202f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, -0.58236751951633f),
                     new Vector3(0f, 0.35992292100506f, -0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(-0.979432085486414f, 0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 24, 25, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.979432085486414f, 0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 24, 25, null }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(-0.94229044052139f, 0f, 0.35992292100506f),
                     new Vector3(-0.94229044052139f, 0f, -0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(-0.854728829825208f, 0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 20, null, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.854728829825208f, 0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, null, 22 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(-0.94229044052139f, 0f, -0.35992292100506f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.65295472365761f, 0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 21, 46, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.65295472365761f, 0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 21, 46, 23 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, -0.58236751951633f),
                     new Vector3(-0.35992292100506f, 0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.65295472365761f, 0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 44, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.65295472365761f, 0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 22, 44, 24 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(-0.35992292100506f, 0.94229044052139f, 0f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.854728829825208f, 0.403548212335198f, 0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 3, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.854728829825208f, 0.403548212335198f, 0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 23, 3, 20 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, 0.58236751951633f),
                     new Vector3(-0.94229044052139f, 0f, 0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(-0.979432085486414f, -0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 20, 26 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.979432085486414f, -0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 29, 20, 26 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(-0.94229044052139f, 0f, -0.35992292100506f),
                     new Vector3(-0.94229044052139f, 0f, 0.35992292100506f)
@@ -3457,67 +3457,67 @@ namespace PolyhedralMaze
                     new Vector3(-0.94229044052139f, 0f, 0.35992292100506f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.65295472365761f, -0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 51, 28 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.65295472365761f, -0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 51, null }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, 0.58236751951633f),
                     new Vector3(-0.35992292100506f, -0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.65295472365761f, -0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 27, 59, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.65295472365761f, -0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 59, 29 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(-0.35992292100506f, -0.94229044052139f, 0f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.854728829825208f, -0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 28, 8, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.854728829825208f, -0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 28, 8, 25 }, Vertices = new Vector3[] {
                     new Vector3(-0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, -0.58236751951633f),
                     new Vector3(-0.94229044052139f, 0f, -0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(0.979432085486414f, 0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.979432085486414f, 0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 34, 35, 31 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(0.94229044052139f, 0f, -0.35992292100506f),
                     new Vector3(0.94229044052139f, 0f, 0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(0.854728829825208f, 0.403548212335198f, 0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 12, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.854728829825208f, 0.403548212335198f, 0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 30, 12, 32 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(0.94229044052139f, 0f, 0.35992292100506f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.65295472365761f, 0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 31, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.65295472365761f, 0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 31, null, 33 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, 0.58236751951633f),
                     new Vector3(0.35992292100506f, 0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.65295472365761f, 0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 49, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.65295472365761f, 0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 32, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(0.35992292100506f, 0.94229044052139f, 0f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.854728829825208f, 0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 33, 18, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.854728829825208f, 0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, null, 30 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, 0.516593766092639f, 0f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, -0.58236751951633f),
                     new Vector3(0.94229044052139f, 0f, -0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(0.979432085486414f, -0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 39, 30, 36 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.979432085486414f, -0.201774106167599f, 0f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 39, 30, null }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(0.94229044052139f, 0f, 0.35992292100506f),
                     new Vector3(0.94229044052139f, 0f, -0.35992292100506f)
                 } },
-                new Face { Normal = new Vector3(0.854728829825208f, -0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 35, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.854728829825208f, -0.403548212335198f, -0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 17, 37 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(0.94229044052139f, 0f, -0.35992292100506f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.65295472365761f, -0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 56, 38 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.65295472365761f, -0.730025574164002f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 36, null, 38 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, -0.58236751951633f),
                     new Vector3(0.35992292100506f, -0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.65295472365761f, -0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 37, 54, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.65295472365761f, -0.730025574164002f, 0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 37, 54, null }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(0.35992292100506f, -0.94229044052139f, 0f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.854728829825208f, -0.403548212335198f, 0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 38, 13, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.854728829825208f, -0.403548212335198f, 0.326477361828805f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 13, 35 }, Vertices = new Vector3[] {
                     new Vector3(0.835866271914202f, -0.516593766092639f, 0f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, 0.58236751951633f),
                     new Vector3(0.94229044052139f, 0f, 0.35992292100506f)
@@ -3527,17 +3527,17 @@ namespace PolyhedralMaze
                     new Vector3(-0.35992292100506f, 0.94229044052139f, 0f),
                     new Vector3(0.35992292100506f, 0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.326477361828805f, 0.854728829825208f, 0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 40, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.326477361828805f, 0.854728829825208f, 0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 40, null, 42 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, 0.516593766092639f),
                     new Vector3(0.35992292100506f, 0.94229044052139f, 0f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, 0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.201774106167599f, 0.65295472365761f, 0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 11, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.201774106167599f, 0.65295472365761f, 0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 41, 11, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, 0.516593766092639f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, 0.58236751951633f),
                     new Vector3(0f, 0.35992292100506f, 0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(-0.201774106167599f, 0.65295472365761f, 0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, null, 44 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.201774106167599f, 0.65295472365761f, 0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 4, 44 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, 0.516593766092639f),
                     new Vector3(0f, 0.35992292100506f, 0.94229044052139f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, 0.58236751951633f)
@@ -3547,27 +3547,27 @@ namespace PolyhedralMaze
                     new Vector3(-0.58236751951633f, 0.58236751951633f, 0.58236751951633f),
                     new Vector3(-0.35992292100506f, 0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.979432085486414f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 40, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.979432085486414f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 49, 40, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, -0.516593766092639f),
                     new Vector3(0.35992292100506f, 0.94229044052139f, 0f),
                     new Vector3(-0.35992292100506f, 0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.326477361828805f, 0.854728829825208f, -0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 45, 22, 47 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.326477361828805f, 0.854728829825208f, -0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 22, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, -0.516593766092639f),
                     new Vector3(-0.35992292100506f, 0.94229044052139f, 0f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(-0.201774106167599f, 0.65295472365761f, -0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 46, 6, 48 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.201774106167599f, 0.65295472365761f, -0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 6, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, -0.516593766092639f),
                     new Vector3(-0.58236751951633f, 0.58236751951633f, -0.58236751951633f),
                     new Vector3(0f, 0.35992292100506f, -0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(0.201774106167599f, 0.65295472365761f, -0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 47, null, 49 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.201774106167599f, 0.65295472365761f, -0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 19, 49 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, -0.516593766092639f),
                     new Vector3(0f, 0.35992292100506f, -0.94229044052139f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, -0.58236751951633f)
                 } },
-                new Face { Normal = new Vector3(0.326477361828805f, 0.854728829825208f, -0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 48, 33, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.326477361828805f, 0.854728829825208f, -0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 48, null, 45 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.835866271914202f, -0.516593766092639f),
                     new Vector3(0.58236751951633f, 0.58236751951633f, -0.58236751951633f),
                     new Vector3(0.35992292100506f, 0.94229044052139f, 0f)
@@ -3587,7 +3587,7 @@ namespace PolyhedralMaze
                     new Vector3(-0.58236751951633f, -0.58236751951633f, 0.58236751951633f),
                     new Vector3(0f, -0.35992292100506f, 0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(0.201774106167599f, -0.65295472365761f, 0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 52, 14, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.201774106167599f, -0.65295472365761f, 0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 52, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.835866271914202f, 0.516593766092639f),
                     new Vector3(0f, -0.35992292100506f, 0.94229044052139f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, 0.58236751951633f)
@@ -3597,12 +3597,12 @@ namespace PolyhedralMaze
                     new Vector3(0.58236751951633f, -0.58236751951633f, 0.58236751951633f),
                     new Vector3(0.35992292100506f, -0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.979432085486414f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 50, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.979432085486414f, -0.201774106167599f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 50, 56 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.835866271914202f, -0.516593766092639f),
                     new Vector3(-0.35992292100506f, -0.94229044052139f, 0f),
                     new Vector3(0.35992292100506f, -0.94229044052139f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.326477361828805f, -0.854728829825208f, -0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { null, 37, 57 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.326477361828805f, -0.854728829825208f, -0.403548212335198f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 55, null, 57 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.835866271914202f, -0.516593766092639f),
                     new Vector3(0.35992292100506f, -0.94229044052139f, 0f),
                     new Vector3(0.58236751951633f, -0.58236751951633f, -0.58236751951633f)
@@ -3612,7 +3612,7 @@ namespace PolyhedralMaze
                     new Vector3(0.58236751951633f, -0.58236751951633f, -0.58236751951633f),
                     new Vector3(0f, -0.35992292100506f, -0.94229044052139f)
                 } },
-                new Face { Normal = new Vector3(-0.201774106167599f, -0.65295472365761f, -0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 57, 9, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.201774106167599f, -0.65295472365761f, -0.730025574164002f), Distance = 0.922909491293777f, AdjacentFaces = new int?[] { 57, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.835866271914202f, -0.516593766092639f),
                     new Vector3(0f, -0.35992292100506f, -0.94229044052139f),
                     new Vector3(-0.58236751951633f, -0.58236751951633f, -0.58236751951633f)
@@ -3624,7 +3624,7 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "RectifiedRhombicuboctahedron", ReadableName = "Rectified Rhombicuboctahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 22, 23, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 19, null, 23, null }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(0f, 0.38268343236509f, 0.923879532511286f),
                     new Vector3(0.38268343236509f, 0f, 0.923879532511286f),
@@ -3636,61 +3636,61 @@ namespace PolyhedralMaze
                     new Vector3(0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(0f, 0.38268343236509f, -0.923879532511286f)
                 } },
-                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 28, 29, 26 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 28, 29, null }, Vertices = new Vector3[] {
                     new Vector3(-0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(-0.923879532511286f, 0f, 0.38268343236509f),
                     new Vector3(-0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(-0.923879532511286f, 0f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, null, null, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 31, 32, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(0.923879532511286f, 0f, -0.38268343236509f),
                     new Vector3(0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(0.923879532511286f, 0f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 35, null, null, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 36, 37, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.923879532511286f, 0f),
                     new Vector3(0f, 0.923879532511286f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.923879532511286f, 0f)
                 } },
-                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 39, null, 41, 38 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 39, null, 41, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.923879532511286f, 0f),
                     new Vector3(0f, -0.923879532511286f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.923879532511286f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186548f, 0f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 18, 28, null, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186548f, 0f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 18, 28, 27, null }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(-0.653281482438188f, -0.38268343236509f, 0.653281482438188f),
                     new Vector3(-0.923879532511286f, 0f, 0.38268343236509f),
                     new Vector3(-0.653281482438188f, 0.38268343236509f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186548f, 0f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, null, 29, 21 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186548f, 0f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 20, 26, 29, null }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(-0.653281482438188f, 0.38268343236509f, -0.653281482438188f),
                     new Vector3(-0.923879532511286f, 0f, -0.38268343236509f),
                     new Vector3(-0.653281482438188f, -0.38268343236509f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186548f, 0f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 22, 30, null, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186548f, 0f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, null, 33, 23 }, Vertices = new Vector3[] {
                     new Vector3(0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(0.653281482438188f, 0.38268343236509f, 0.653281482438188f),
                     new Vector3(0.923879532511286f, 0f, 0.38268343236509f),
                     new Vector3(0.653281482438188f, -0.38268343236509f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186548f, 0f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 24, 32, null, 25 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186548f, 0f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, null, null, 25 }, Vertices = new Vector3[] {
                     new Vector3(0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(0.653281482438188f, -0.38268343236509f, -0.653281482438188f),
                     new Vector3(0.923879532511286f, 0f, -0.38268343236509f),
                     new Vector3(0.653281482438188f, 0.38268343236509f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186548f, 0.707106781186548f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 36, 35, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186548f, 0.707106781186548f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 36, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.923879532511286f, 0f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(-0.707106781186548f, -0.707106781186548f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 28, 38, null, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.707106781186548f, -0.707106781186548f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 38, null, 29 }, Vertices = new Vector3[] {
                     new Vector3(-0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(-0.653281482438188f, -0.653281482438188f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.923879532511286f, 0f),
@@ -3702,97 +3702,97 @@ namespace PolyhedralMaze
                     new Vector3(0.38268343236509f, 0.923879532511286f, 0f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.707106781186548f, -0.707106781186548f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 40, 39, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.707106781186548f, -0.707106781186548f, 0f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 32, 40, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.923879532511286f, 0f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.707106781186548f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 34, null, 19, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.707106781186548f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, 22, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, 0.653281482438188f),
                     new Vector3(0f, 0.38268343236509f, 0.923879532511286f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.707106781186548f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 36, 20, 25, 37 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.707106781186548f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 36, null, 25, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, -0.653281482438188f),
                     new Vector3(0f, 0.38268343236509f, -0.923879532511286f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.707106781186548f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 38, null, null, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.707106781186548f, 0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, null, 23, 39 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, 0.653281482438188f),
                     new Vector3(0f, -0.38268343236509f, 0.923879532511286f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.707106781186548f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { 40, null, null, 41 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.707106781186548f, -0.707106781186548f), Distance = 0.923879532511286f, AdjacentFaces = new int?[] { null, null, null, 41 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, -0.653281482438188f),
                     new Vector3(0f, -0.38268343236509f, -0.923879532511286f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 0, null, 44, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, null, 44, 6 }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(0f, -0.38268343236509f, 0.923879532511286f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, 0.653281482438188f),
                     new Vector3(-0.653281482438188f, -0.38268343236509f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 6, null, 14, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 42, null, 0 }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(-0.653281482438188f, 0.38268343236509f, 0.653281482438188f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, 0.653281482438188f),
                     new Vector3(0f, 0.38268343236509f, 0.923879532511286f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 1, 15, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 1, null, null, 7 }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(0f, 0.38268343236509f, -0.923879532511286f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, -0.653281482438188f),
                     new Vector3(-0.653281482438188f, 0.38268343236509f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 7, null, null, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 45, null, 1 }, Vertices = new Vector3[] {
                     new Vector3(-0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(-0.653281482438188f, -0.38268343236509f, -0.653281482438188f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, -0.653281482438188f),
                     new Vector3(0f, -0.38268343236509f, -0.923879532511286f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 0, null, null, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 14, 46, null }, Vertices = new Vector3[] {
                     new Vector3(0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(0f, 0.38268343236509f, 0.923879532511286f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, 0.653281482438188f),
                     new Vector3(0.653281482438188f, 0.38268343236509f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 8, 48, null, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, 0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 8, null, 16, 0 }, Vertices = new Vector3[] {
                     new Vector3(0.38268343236509f, 0f, 0.923879532511286f),
                     new Vector3(0.653281482438188f, -0.38268343236509f, 0.653281482438188f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, 0.653281482438188f),
                     new Vector3(0f, -0.38268343236509f, 0.923879532511286f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 1, null, 49, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 1, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(0f, -0.38268343236509f, -0.923879532511286f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, -0.653281482438188f),
                     new Vector3(0.653281482438188f, -0.38268343236509f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 9, null, 15, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.357406744336593f, -0.862856209461017f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 9, 47, 15, 1 }, Vertices = new Vector3[] {
                     new Vector3(0.38268343236509f, 0f, -0.923879532511286f),
                     new Vector3(0.653281482438188f, 0.38268343236509f, -0.653281482438188f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, -0.653281482438188f),
                     new Vector3(0f, 0.38268343236509f, -0.923879532511286f)
                 } },
-                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 2, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 7, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(-0.923879532511286f, 0f, -0.38268343236509f),
                     new Vector3(-0.653281482438188f, 0.38268343236509f, -0.653281482438188f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 10, 42, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, null, 6, null }, Vertices = new Vector3[] {
                     new Vector3(-0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, 0.38268343236509f),
                     new Vector3(-0.653281482438188f, 0.38268343236509f, 0.653281482438188f),
                     new Vector3(-0.923879532511286f, 0f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(-0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 2, 6, 44, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 2, 6, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(-0.923879532511286f, 0f, 0.38268343236509f),
                     new Vector3(-0.653281482438188f, -0.38268343236509f, 0.653281482438188f),
@@ -3804,79 +3804,79 @@ namespace PolyhedralMaze
                     new Vector3(-0.653281482438188f, -0.38268343236509f, -0.653281482438188f),
                     new Vector3(-0.923879532511286f, 0f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 3, 8, 46, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, null, 46, null }, Vertices = new Vector3[] {
                     new Vector3(0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(0.923879532511286f, 0f, 0.38268343236509f),
                     new Vector3(0.653281482438188f, 0.38268343236509f, 0.653281482438188f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 12, 47, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, 0.357406744336593f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 12, 47, null, 3 }, Vertices = new Vector3[] {
                     new Vector3(0.923879532511286f, 0.38268343236509f, 0f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, -0.38268343236509f),
                     new Vector3(0.653281482438188f, 0.38268343236509f, -0.653281482438188f),
                     new Vector3(0.923879532511286f, 0f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 9, 49, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 3, null, 49, 13 }, Vertices = new Vector3[] {
                     new Vector3(0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(0.923879532511286f, 0f, -0.38268343236509f),
                     new Vector3(0.653281482438188f, -0.38268343236509f, -0.653281482438188f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 13, 48, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.862856209461017f, -0.357406744336593f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, null, 8, null }, Vertices = new Vector3[] {
                     new Vector3(0.923879532511286f, -0.38268343236509f, 0f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, 0.38268343236509f),
                     new Vector3(0.653281482438188f, -0.38268343236509f, 0.653281482438188f),
                     new Vector3(0.923879532511286f, 0f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 4, 12, null, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 12, 46, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.923879532511286f, 0f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 14, 42, 10, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 42, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, 0.653281482438188f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.923879532511286f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 10, 43, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 4, 10, 43, 15 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.923879532511286f, 0f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 15, 47, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, 0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 47, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.923879532511286f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, -0.653281482438188f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.923879532511286f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 5, 11, null, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 11, 44, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.923879532511286f, 0f),
                     new Vector3(-0.653281482438188f, -0.653281482438188f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 16, 48, 13, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, 0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 16, 48, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, 0.653281482438188f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.923879532511286f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 13, 49, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { null, 13, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.923879532511286f, 0f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 17, null, null, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.357406744336593f, -0.862856209461017f, -0.357406744336593f), Distance = 0.933948831094464f, AdjacentFaces = new int?[] { 17, 45, null, 5 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.923879532511286f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, -0.653281482438188f),
                     new Vector3(-0.653281482438188f, -0.653281482438188f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.923879532511286f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 27, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { null, 35, 19 }, Vertices = new Vector3[] {
                     new Vector3(-0.653281482438188f, 0.38268343236509f, 0.653281482438188f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, 0.38268343236509f),
                     new Vector3(-0.38268343236509f, 0.653281482438188f, 0.653281482438188f)
@@ -3886,39 +3886,39 @@ namespace PolyhedralMaze
                     new Vector3(-0.38268343236509f, 0.653281482438188f, -0.653281482438188f),
                     new Vector3(-0.653281482438188f, 0.653281482438188f, -0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 18, null, 28 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 18, 38, null }, Vertices = new Vector3[] {
                     new Vector3(-0.653281482438188f, -0.38268343236509f, 0.653281482438188f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, 0.653281482438188f),
                     new Vector3(-0.653281482438188f, -0.653281482438188f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 29, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 29, 41, 21 }, Vertices = new Vector3[] {
                     new Vector3(-0.653281482438188f, -0.38268343236509f, -0.653281482438188f),
                     new Vector3(-0.653281482438188f, -0.653281482438188f, -0.38268343236509f),
                     new Vector3(-0.38268343236509f, -0.653281482438188f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { null, null, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 22, 34, 30 }, Vertices = new Vector3[] {
                     new Vector3(0.653281482438188f, 0.38268343236509f, 0.653281482438188f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, 0.653281482438188f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, 0.38268343236509f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 31, 37, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 31, 37, 25 }, Vertices = new Vector3[] {
                     new Vector3(0.653281482438188f, 0.38268343236509f, -0.653281482438188f),
                     new Vector3(0.653281482438188f, 0.653281482438188f, -0.38268343236509f),
                     new Vector3(0.38268343236509f, 0.653281482438188f, -0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 33, 39, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { null, 39, null }, Vertices = new Vector3[] {
                     new Vector3(0.653281482438188f, -0.38268343236509f, 0.653281482438188f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, 0.38268343236509f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, 0.653281482438188f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { 24, 40, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.975286862174965f, AdjacentFaces = new int?[] { null, null, 32 }, Vertices = new Vector3[] {
                     new Vector3(0.653281482438188f, -0.38268343236509f, -0.653281482438188f),
                     new Vector3(0.38268343236509f, -0.653281482438188f, -0.653281482438188f),
                     new Vector3(0.653281482438188f, -0.653281482438188f, -0.38268343236509f)
                 } }
             } },
             new Polyhedron { Name = "TriakisIcosahedron", ReadableName = "Triakis Icosahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(-0.168381405886715f, 0.44082824368491f, 0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 2, 38, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.168381405886715f, 0.44082824368491f, 0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 2, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.320529703695446f, 0.839157658678609f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f)
@@ -3933,62 +3933,62 @@ namespace PolyhedralMaze
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.168381405886714f, -0.985721919281302f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 11, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.168381405886714f, -0.985721919281302f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 5, 11, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.320529703695446f, -0.839157658678609f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0.168381405886715f, 0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 3, 53, 5 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.168381405886715f, 0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 53, 5 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.320529703695446f, -0.839157658678609f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.168381405886715f, 0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 4, 39, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.168381405886715f, 0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 4, 39, 3 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.320529703695446f, -0.839157658678609f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.168381405886714f, 0.985721919281302f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 2, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.168381405886714f, 0.985721919281302f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 8, 2, 7 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.320529703695446f, 0.839157658678609f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0.168381405886715f, -0.44082824368491f, 0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 56, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.168381405886715f, -0.44082824368491f, 0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 6, 56, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.320529703695446f, 0.839157658678609f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.168381405886715f, -0.44082824368491f, 0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 7, 42, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.168381405886715f, -0.44082824368491f, 0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 42, 6 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.320529703695446f, 0.839157658678609f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(-0.168381405886715f, -0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 11, 47, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.168381405886715f, -0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 11, 47, 10 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.320529703695446f, -0.839157658678609f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.168381405886715f, -0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 57, 11 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.168381405886715f, -0.44082824368491f, -0.881656487369821f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 9, 57, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.320529703695446f, -0.839157658678609f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.168381405886714f, -0.985721919281302f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 10, 3, 9 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.168381405886714f, -0.985721919281302f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 3, 9 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.320529703695446f, -0.839157658678609f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(-0.881656487369821f, -0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 14, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.881656487369821f, -0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 44, 13 }, Vertices = new Vector3[] {
                     new Vector3(-0.839157658678609f, 0f, 0.320529703695446f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.985721919281302f, 0f, 0.168381405886714f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.985721919281302f, 0f, 0.168381405886714f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 12, 16, 14 }, Vertices = new Vector3[] {
                     new Vector3(-0.839157658678609f, 0f, 0.320529703695446f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.881656487369821f, 0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 13, 36, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.881656487369821f, 0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 13, 36, null }, Vertices = new Vector3[] {
                     new Vector3(-0.839157658678609f, 0f, 0.320529703695446f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f)
@@ -3998,27 +3998,27 @@ namespace PolyhedralMaze
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.985721919281302f, 0f, -0.168381405886714f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 15, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.985721919281302f, 0f, -0.168381405886714f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 15, 13, 17 }, Vertices = new Vector3[] {
                     new Vector3(-0.839157658678609f, 0f, -0.320529703695446f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.881656487369821f, -0.168381405886715f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 45, 15 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.881656487369821f, -0.168381405886715f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 16, 45, 15 }, Vertices = new Vector3[] {
                     new Vector3(-0.839157658678609f, 0f, -0.320529703695446f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0.881656487369821f, 0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 20, null, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.881656487369821f, 0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 19 }, Vertices = new Vector3[] {
                     new Vector3(0.839157658678609f, 0f, 0.320529703695446f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.985721919281302f, 0f, 0.168381405886714f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 18, 22, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.985721919281302f, 0f, 0.168381405886714f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 18, 22, 20 }, Vertices = new Vector3[] {
                     new Vector3(0.839157658678609f, 0f, 0.320529703695446f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.881656487369821f, -0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 54, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.881656487369821f, -0.168381405886715f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 19, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.839157658678609f, 0f, 0.320529703695446f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f)
@@ -4038,7 +4038,7 @@ namespace PolyhedralMaze
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(-0.44082824368491f, 0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 26, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.44082824368491f, 0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 40, null }, Vertices = new Vector3[] {
                     new Vector3(-0.320529703695446f, 0.839157658678609f, 0f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f)
@@ -4048,7 +4048,7 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.44082824368491f, 0.881656487369821f, 0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 25, 37, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.44082824368491f, 0.881656487369821f, 0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 25, 37, null }, Vertices = new Vector3[] {
                     new Vector3(-0.320529703695446f, 0.839157658678609f, 0f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f)
@@ -4058,12 +4058,12 @@ namespace PolyhedralMaze
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.168381405886714f, -0.985721919281302f, 0f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 34, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.168381405886714f, -0.985721919281302f, 0f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 34, 29 }, Vertices = new Vector3[] {
                     new Vector3(-0.320529703695446f, -0.839157658678609f, 0f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.44082824368491f, -0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 46, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.44082824368491f, -0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 28, null, 27 }, Vertices = new Vector3[] {
                     new Vector3(-0.320529703695446f, -0.839157658678609f, 0f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f)
@@ -4078,27 +4078,27 @@ namespace PolyhedralMaze
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.44082824368491f, 0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 31, 52, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.44082824368491f, 0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 31, null, 30 }, Vertices = new Vector3[] {
                     new Vector3(0.320529703695446f, 0.839157658678609f, 0f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.44082824368491f, -0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 34 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.44082824368491f, -0.881656487369821f, -0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 35, 58, null }, Vertices = new Vector3[] {
                     new Vector3(0.320529703695446f, -0.839157658678609f, 0f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.168381405886714f, -0.985721919281302f, 0f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 33, 28, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.168381405886714f, -0.985721919281302f, 0f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 28, 35 }, Vertices = new Vector3[] {
                     new Vector3(0.320529703695446f, -0.839157658678609f, 0f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.44082824368491f, -0.881656487369821f, 0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 34, 55, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.44082824368491f, -0.881656487369821f, 0.168381405886715f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 34, 55, 33 }, Vertices = new Vector3[] {
                     new Vector3(0.320529703695446f, -0.839157658678609f, 0f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.713275081483106f, 0.44082824368491f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 38, 14, 37 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.713275081483106f, 0.44082824368491f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 14, 37 }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, 0.518627954983164f, 0.518627954983164f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f)
@@ -4108,22 +4108,22 @@ namespace PolyhedralMaze
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.44082824368491f, 0.544893675596392f, 0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 37, 0, 36 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.44082824368491f, 0.544893675596392f, 0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 37, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, 0.518627954983164f, 0.518627954983164f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(-0.440828243684911f, 0.544893675596392f, -0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 41, 5, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.440828243684911f, 0.544893675596392f, -0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 41, 5, 40 }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, 0.518627954983164f, -0.518627954983164f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.544893675596392f, 0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 41 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.544893675596392f, 0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 39, 24, null }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, 0.518627954983164f, -0.518627954983164f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.713275081483106f, 0.440828243684911f, -0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 40, null, 39 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.713275081483106f, 0.440828243684911f, -0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 39 }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, 0.518627954983164f, -0.518627954983164f),
                     new Vector3(-0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f)
@@ -4138,67 +4138,67 @@ namespace PolyhedralMaze
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.713275081483106f, -0.440828243684911f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 43, null, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.713275081483106f, -0.440828243684911f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 43, 12, 42 }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, -0.518627954983164f, 0.518627954983164f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(-0.552467176170257f, 0f, 0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(-0.713275081483106f, -0.44082824368491f, -0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 47, 17, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.713275081483106f, -0.44082824368491f, -0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 17, 46 }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, -0.518627954983164f, -0.518627954983164f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.544893675596392f, -0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 45, 29, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.544893675596392f, -0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 45, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, -0.518627954983164f, -0.518627954983164f),
                     new Vector3(-0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(-0.44082824368491f, -0.544893675596392f, -0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 9, 45 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.44082824368491f, -0.544893675596392f, -0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 9, null }, Vertices = new Vector3[] {
                     new Vector3(-0.518627954983164f, -0.518627954983164f, -0.518627954983164f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f),
                     new Vector3(-0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0.440828243684911f, 0.544893675596392f, 0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 50, 1, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.440828243684911f, 0.544893675596392f, 0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 50, 1, 49 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, 0.518627954983164f, 0.518627954983164f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.544893675596392f, 0.713275081483106f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 50 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.544893675596392f, 0.713275081483106f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 48, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, 0.518627954983164f, 0.518627954983164f),
                     new Vector3(0f, 0.893910668712151f, 0.552467176170257f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.713275081483106f, 0.440828243684911f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 49, null, 48 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.713275081483106f, 0.440828243684911f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 48 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, 0.518627954983164f, 0.518627954983164f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0.713275081483106f, 0.44082824368491f, -0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, null, 52 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.713275081483106f, 0.44082824368491f, -0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 53, null, 52 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, 0.518627954983164f, -0.518627954983164f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.544893675596392f, 0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 51, 32, 53 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.544893675596392f, 0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 51, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, 0.518627954983164f, -0.518627954983164f),
                     new Vector3(0.893910668712151f, 0.552467176170257f, 0f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.44082824368491f, 0.544893675596392f, -0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 52, 4, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.44082824368491f, 0.544893675596392f, -0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 4, 51 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, 0.518627954983164f, -0.518627954983164f),
                     new Vector3(0f, 0.893910668712151f, -0.552467176170257f),
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f)
                 } },
-                new Face { Normal = new Vector3(0.713275081483106f, -0.44082824368491f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 56, 20, 55 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.713275081483106f, -0.44082824368491f, 0.544893675596392f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 56, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, -0.518627954983164f, 0.518627954983164f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.544893675596392f, -0.713275081483106f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 54, 35, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.544893675596392f, -0.713275081483106f, 0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 35, 56 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, -0.518627954983164f, 0.518627954983164f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.44082824368491f, -0.544893675596392f, 0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { null, 7, 54 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.44082824368491f, -0.544893675596392f, 0.713275081483106f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 55, 7, 54 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, -0.518627954983164f, 0.518627954983164f),
                     new Vector3(0f, -0.893910668712151f, 0.552467176170257f),
                     new Vector3(0.552467176170257f, 0f, 0.893910668712151f)
@@ -4208,7 +4208,7 @@ namespace PolyhedralMaze
                     new Vector3(0.552467176170257f, 0f, -0.893910668712151f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f)
                 } },
-                new Face { Normal = new Vector3(0.544893675596392f, -0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 57, null, 59 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.544893675596392f, -0.713275081483106f, -0.44082824368491f), Distance = 0.881147340028974f, AdjacentFaces = new int?[] { 57, 33, 59 }, Vertices = new Vector3[] {
                     new Vector3(0.518627954983164f, -0.518627954983164f, -0.518627954983164f),
                     new Vector3(0f, -0.893910668712151f, -0.552467176170257f),
                     new Vector3(0.893910668712151f, -0.552467176170257f, 0f)
@@ -4220,211 +4220,211 @@ namespace PolyhedralMaze
                 } }
             } },
             new Polyhedron { Name = "Rhombicosidodecahedron", ReadableName = "Rhombicosidodecahedron", Faces = new Face[] {
-                new Face { Normal = new Vector3(5.83678785436452E-17f, 0.85065080835204f, 0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 12, 28, 40, 32, 16 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(5.83678785436452E-17f, 0.85065080835204f, 0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, null, null, null, 16 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.586227499828239f, 0.810146479622752f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, 0.586227499828239f),
                     new Vector3(-0.223918979794514f, 0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.223918979794514f, 0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.362308520033725f, 0.724617040067449f, 0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(-5.83678785436452E-17f, 0.85065080835204f, -0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 17, 33, 40, 29, 13 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-5.83678785436452E-17f, 0.85065080835204f, -0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 33, null, null, 13 }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.586227499828239f, -0.810146479622752f),
                     new Vector3(0.362308520033725f, 0.724617040067449f, -0.586227499828239f),
                     new Vector3(0.223918979794514f, 0.948536019861963f, -0.223918979794514f),
                     new Vector3(-0.223918979794514f, 0.948536019861963f, -0.223918979794514f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(-5.83678785436452E-17f, -0.85065080835204f, 0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 34, 41, 30, 14 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-5.83678785436452E-17f, -0.85065080835204f, 0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, null, 41, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.586227499828239f, 0.810146479622752f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, 0.586227499828239f),
                     new Vector3(0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(-0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, 0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(5.83678785436452E-17f, -0.85065080835204f, -0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 15, null, 41, 35, 19 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(5.83678785436452E-17f, -0.85065080835204f, -0.525731112119134f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 31, null, 35, null }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.586227499828239f, -0.810146479622752f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, -0.586227499828239f),
                     new Vector3(-0.223918979794514f, -0.948536019861963f, -0.223918979794514f),
                     new Vector3(0.223918979794514f, -0.948536019861963f, -0.223918979794514f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(-0.525731112119134f, -5.83678785436452E-17f, 0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 20, 12, 36, 14, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.525731112119134f, -5.83678785436452E-17f, 0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 20, null, 36, 14, null }, Vertices = new Vector3[] {
                     new Vector3(-0.810146479622752f, 0f, 0.586227499828239f),
                     new Vector3(-0.586227499828239f, 0.362308520033725f, 0.724617040067449f),
                     new Vector3(-0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(-0.223918979794514f, -0.223918979794514f, 0.948536019861963f),
                     new Vector3(-0.586227499828239f, -0.362308520033725f, 0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(-0.525731112119134f, 5.83678785436452E-17f, -0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 15, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.525731112119134f, 5.83678785436452E-17f, -0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 23, null, 37, 13, null }, Vertices = new Vector3[] {
                     new Vector3(-0.810146479622752f, 0f, -0.586227499828239f),
                     new Vector3(-0.586227499828239f, -0.362308520033725f, -0.724617040067449f),
                     new Vector3(-0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(-0.223918979794514f, 0.223918979794514f, -0.948536019861963f),
                     new Vector3(-0.586227499828239f, 0.362308520033725f, -0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(0.525731112119134f, 5.83678785436452E-17f, 0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 26, null, null, 16, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.525731112119134f, 5.83678785436452E-17f, 0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 26, 18, 36, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.810146479622752f, 0f, 0.586227499828239f),
                     new Vector3(0.586227499828239f, -0.362308520033725f, 0.724617040067449f),
                     new Vector3(0.223918979794514f, -0.223918979794514f, 0.948536019861963f),
                     new Vector3(0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(0.586227499828239f, 0.362308520033725f, 0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(0.525731112119134f, -5.83678785436452E-17f, -0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, null, null, 19, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.525731112119134f, -5.83678785436452E-17f, -0.85065080835204f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 17, null, null, 27 }, Vertices = new Vector3[] {
                     new Vector3(0.810146479622752f, 0f, -0.586227499828239f),
                     new Vector3(0.586227499828239f, 0.362308520033725f, -0.724617040067449f),
                     new Vector3(0.223918979794514f, 0.223918979794514f, -0.948536019861963f),
                     new Vector3(0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(0.586227499828239f, -0.362308520033725f, -0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(-0.85065080835204f, 0.525731112119134f, -5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 28, 20, 38, 21, 29 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.85065080835204f, 0.525731112119134f, -5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, null, null, 21, null }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, 0.810146479622752f, 0f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, 0.362308520033725f),
                     new Vector3(-0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.948536019861963f, 0.223918979794514f, -0.223918979794514f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, -0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.85065080835204f, -0.525731112119134f, 5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 31, null, 38, null, 30 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.85065080835204f, -0.525731112119134f, 5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 31, null, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, -0.810146479622752f, 0f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, -0.362308520033725f),
                     new Vector3(-0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(-0.948536019861963f, -0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, 0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(0.85065080835204f, 0.525731112119134f, 5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 25, 39, null, 32 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.85065080835204f, 0.525731112119134f, 5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, 25, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, 0.810146479622752f, 0f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, -0.362308520033725f),
                     new Vector3(0.948536019861963f, 0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, 0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(0.85065080835204f, -0.525731112119134f, -5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { null, null, null, null, 35 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.85065080835204f, -0.525731112119134f, -5.83678785436452E-17f), Distance = 0.924594106318557f, AdjacentFaces = new int?[] { 34, 26, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, -0.810146479622752f, 0f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, 0.362308520033725f),
                     new Vector3(0.948536019861963f, -0.223918979794514f, 0.223918979794514f),
                     new Vector3(0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, -0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 4, null, 0, 42 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 54, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(-0.586227499828239f, 0.362308520033725f, 0.724617040067449f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, 0.586227499828239f),
                     new Vector3(0f, 0.586227499828239f, 0.810146479622752f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 1, 55, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 43, 1, 55, 5 }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.223918979794514f, -0.948536019861963f),
                     new Vector3(0f, 0.586227499828239f, -0.810146479622752f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, -0.586227499828239f),
                     new Vector3(-0.586227499828239f, 0.362308520033725f, -0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 44, 2, 56, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, -0.223918979794514f, 0.948536019861963f),
                     new Vector3(0f, -0.586227499828239f, 0.810146479622752f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, 0.586227499828239f),
                     new Vector3(-0.586227499828239f, -0.362308520033725f, 0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 5, null, 3, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 57, null, 45 }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(-0.586227499828239f, -0.362308520033725f, -0.724617040067449f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, -0.586227499828239f),
                     new Vector3(0f, -0.586227499828239f, -0.810146479622752f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 0, null, 6 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 42, 0, 58, null }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(0f, 0.586227499828239f, 0.810146479622752f),
                     new Vector3(0.362308520033725f, 0.724617040067449f, 0.586227499828239f),
                     new Vector3(0.586227499828239f, 0.362308520033725f, 0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 59, 1, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, 0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 7, 59, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, 0.223918979794514f, -0.948536019861963f),
                     new Vector3(0.586227499828239f, 0.362308520033725f, -0.724617040067449f),
                     new Vector3(0.362308520033725f, 0.724617040067449f, -0.586227499828239f),
                     new Vector3(0f, 0.586227499828239f, -0.810146479622752f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 60, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, 0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 6, 60, null, 44 }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, -0.223918979794514f, 0.948536019861963f),
                     new Vector3(0.586227499828239f, -0.362308520033725f, 0.724617040067449f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, 0.586227499828239f),
                     new Vector3(0f, -0.586227499828239f, 0.810146479622752f)
                 } },
-                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 3, null, 7 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.309016994374947f, -0.5f, -0.809016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 45, null, 61, null }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(0f, -0.586227499828239f, -0.810146479622752f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, -0.586227499828239f),
                     new Vector3(0.586227499828239f, -0.362308520033725f, -0.724617040067449f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 8, 54, 4, 46 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 4, 46 }, Vertices = new Vector3[] {
                     new Vector3(-0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, 0.362308520033725f),
                     new Vector3(-0.586227499828239f, 0.362308520033725f, 0.724617040067449f),
                     new Vector3(-0.810146479622752f, 0f, 0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 47, null, 55, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 55, 8 }, Vertices = new Vector3[] {
                     new Vector3(-0.948536019861963f, 0.223918979794514f, -0.223918979794514f),
                     new Vector3(-0.810146479622752f, 0f, -0.586227499828239f),
                     new Vector3(-0.586227499828239f, 0.362308520033725f, -0.724617040067449f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, -0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 46, null, 56, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 56, null }, Vertices = new Vector3[] {
                     new Vector3(-0.948536019861963f, -0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.810146479622752f, 0f, 0.586227499828239f),
                     new Vector3(-0.586227499828239f, -0.362308520033725f, 0.724617040067449f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, 0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 57, null, 47 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 57, 5, 47 }, Vertices = new Vector3[] {
                     new Vector3(-0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, -0.362308520033725f),
                     new Vector3(-0.586227499828239f, -0.362308520033725f, -0.724617040067449f),
                     new Vector3(-0.810146479622752f, 0f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 6, 58, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 48, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(0.810146479622752f, 0f, 0.586227499828239f),
                     new Vector3(0.586227499828239f, 0.362308520033725f, 0.724617040067449f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, 0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 10, null, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, 0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 10, 59, null, 49 }, Vertices = new Vector3[] {
                     new Vector3(0.948536019861963f, 0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, -0.362308520033725f),
                     new Vector3(0.586227499828239f, 0.362308520033725f, -0.724617040067449f),
                     new Vector3(0.810146479622752f, 0f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 60, 6, 48 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, 0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 11, 60, 6, 48 }, Vertices = new Vector3[] {
                     new Vector3(0.948536019861963f, -0.223918979794514f, 0.223918979794514f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, 0.362308520033725f),
                     new Vector3(0.586227499828239f, -0.362308520033725f, 0.724617040067449f),
                     new Vector3(0.810146479622752f, 0f, 0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 49, null, 61, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.809016994374947f, -0.309016994374947f, -0.5f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 7, 61, null }, Vertices = new Vector3[] {
                     new Vector3(0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.810146479622752f, 0f, -0.586227499828239f),
                     new Vector3(0.586227499828239f, -0.362308520033725f, -0.724617040067449f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, -0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 0, 54, 8, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 54, null, 50 }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.948536019861963f, 0.223918979794514f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, 0.586227499828239f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, 0.362308520033725f),
                     new Vector3(-0.586227499828239f, 0.810146479622752f, 0f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 50, 8, 55, 1 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, 0.809016994374947f, -0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 50, null, 55, null }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.948536019861963f, -0.223918979794514f),
                     new Vector3(-0.586227499828239f, 0.810146479622752f, 0f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, -0.362308520033725f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 51, 9, null, 2 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 51, null, 56, null }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(-0.586227499828239f, -0.810146479622752f, 0f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, 0.362308520033725f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, 0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 57, 9, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 3, 57, 9, 51 }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, -0.948536019861963f, -0.223918979794514f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, -0.586227499828239f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, -0.362308520033725f),
                     new Vector3(-0.586227499828239f, -0.810146479622752f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 52, 10, null, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, 0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 58, null }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, 0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.586227499828239f, 0.810146479622752f, 0f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, 0.362308520033725f),
@@ -4436,105 +4436,105 @@ namespace PolyhedralMaze
                     new Vector3(0.724617040067449f, 0.586227499828239f, -0.362308520033725f),
                     new Vector3(0.586227499828239f, 0.810146479622752f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 2, 60, null, 53 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, 0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 11, 53 }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, 0.586227499828239f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, 0.362308520033725f),
                     new Vector3(0.586227499828239f, -0.810146479622752f, 0f)
                 } },
-                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 53, 11, 61, 3 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.5f, -0.809016994374947f, -0.309016994374947f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 53, null, 61, 3 }, Vertices = new Vector3[] {
                     new Vector3(0.223918979794514f, -0.948536019861963f, -0.223918979794514f),
                     new Vector3(0.586227499828239f, -0.810146479622752f, 0f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, -0.362308520033725f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 44, 4 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, 1f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 42, 6, null, 4 }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(0.223918979794514f, -0.223918979794514f, 0.948536019861963f),
                     new Vector3(-0.223918979794514f, -0.223918979794514f, 0.948536019861963f)
                 } },
-                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 45, null, 43 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0f, -1f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 5, 45, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.223918979794514f, -0.948536019861963f),
                     new Vector3(-0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(0.223918979794514f, 0.223918979794514f, -0.948536019861963f)
                 } },
-                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 9, 47, 8 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-1f, 0f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 46, null, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.948536019861963f, -0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(-0.948536019861963f, 0.223918979794514f, -0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 10, 49, null, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(1f, 0f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, 49, null, null }, Vertices = new Vector3[] {
                     new Vector3(0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(0.948536019861963f, 0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.948536019861963f, -0.223918979794514f, 0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 50, 1, 52, 0 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 1f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { null, null, 52, null }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, 0.948536019861963f, 0.223918979794514f),
                     new Vector3(-0.223918979794514f, 0.948536019861963f, -0.223918979794514f),
                     new Vector3(0.223918979794514f, 0.948536019861963f, -0.223918979794514f),
                     new Vector3(0.223918979794514f, 0.948536019861963f, 0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 2, 53, 3, 51 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -1f, 0f), Distance = 0.948536019861963f, AdjacentFaces = new int?[] { 2, 53, null, null }, Vertices = new Vector3[] {
                     new Vector3(-0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.223918979794514f, -0.948536019861963f, -0.223918979794514f),
                     new Vector3(-0.223918979794514f, -0.948536019861963f, -0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.35682208977309f, 0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, null, 12 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.35682208977309f, 0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 16, 36, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.586227499828239f, 0.810146479622752f),
                     new Vector3(0.223918979794514f, 0.223918979794514f, 0.948536019861963f),
                     new Vector3(-0.223918979794514f, 0.223918979794514f, 0.948536019861963f)
                 } },
-                new Face { Normal = new Vector3(0f, 0.35682208977309f, -0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 37, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, 0.35682208977309f, -0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 13, null, null }, Vertices = new Vector3[] {
                     new Vector3(0f, 0.586227499828239f, -0.810146479622752f),
                     new Vector3(-0.223918979794514f, 0.223918979794514f, -0.948536019861963f),
                     new Vector3(0.223918979794514f, 0.223918979794514f, -0.948536019861963f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.35682208977309f, 0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 14, 36, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.35682208977309f, 0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, null, 18 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.586227499828239f, 0.810146479622752f),
                     new Vector3(-0.223918979794514f, -0.223918979794514f, 0.948536019861963f),
                     new Vector3(0.223918979794514f, -0.223918979794514f, 0.948536019861963f)
                 } },
-                new Face { Normal = new Vector3(0f, -0.35682208977309f, -0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 37, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0f, -0.35682208977309f, -0.934172358962716f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 19, 37, 15 }, Vertices = new Vector3[] {
                     new Vector3(0f, -0.586227499828239f, -0.810146479622752f),
                     new Vector3(0.223918979794514f, -0.223918979794514f, -0.948536019861963f),
                     new Vector3(-0.223918979794514f, -0.223918979794514f, -0.948536019861963f)
                 } },
-                new Face { Normal = new Vector3(-0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 22, null, 20 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 38, 20 }, Vertices = new Vector3[] {
                     new Vector3(-0.810146479622752f, 0f, 0.586227499828239f),
                     new Vector3(-0.948536019861963f, -0.223918979794514f, 0.223918979794514f),
                     new Vector3(-0.948536019861963f, 0.223918979794514f, 0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(-0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 21, 38, 23 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, null, 23 }, Vertices = new Vector3[] {
                     new Vector3(-0.810146479622752f, 0f, -0.586227499828239f),
                     new Vector3(-0.948536019861963f, 0.223918979794514f, -0.223918979794514f),
                     new Vector3(-0.948536019861963f, -0.223918979794514f, -0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, null, 26 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.934172358962716f, 0f, 0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 24, null, 26 }, Vertices = new Vector3[] {
                     new Vector3(0.810146479622752f, 0f, 0.586227499828239f),
                     new Vector3(0.948536019861963f, 0.223918979794514f, 0.223918979794514f),
                     new Vector3(0.948536019861963f, -0.223918979794514f, 0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 27, 39, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.934172358962716f, 0f, -0.35682208977309f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 39, 25 }, Vertices = new Vector3[] {
                     new Vector3(0.810146479622752f, 0f, -0.586227499828239f),
                     new Vector3(0.948536019861963f, -0.223918979794514f, -0.223918979794514f),
                     new Vector3(0.948536019861963f, 0.223918979794514f, -0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(-0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 29, 40, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 29, null, 28 }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, 0.810146479622752f, 0f),
                     new Vector3(-0.223918979794514f, 0.948536019861963f, -0.223918979794514f),
                     new Vector3(-0.223918979794514f, 0.948536019861963f, 0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(-0.35682208977309f, -0.934172358962716f, 0f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 30, 41, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.35682208977309f, -0.934172358962716f, 0f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 30, null, 31 }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, -0.810146479622752f, 0f),
                     new Vector3(-0.223918979794514f, -0.948536019861963f, 0.223918979794514f),
                     new Vector3(-0.223918979794514f, -0.948536019861963f, -0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 32, 40, 33 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.35682208977309f, 0.934172358962716f, 0f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 40, 33 }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, 0.810146479622752f, 0f),
                     new Vector3(0.223918979794514f, 0.948536019861963f, 0.223918979794514f),
                     new Vector3(0.223918979794514f, 0.948536019861963f, -0.223918979794514f)
@@ -4544,7 +4544,7 @@ namespace PolyhedralMaze
                     new Vector3(0.223918979794514f, -0.948536019861963f, -0.223918979794514f),
                     new Vector3(0.223918979794514f, -0.948536019861963f, 0.223918979794514f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 20, 28, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 28, 12 }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, 0.362308520033725f, 0.724617040067449f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, 0.362308520033725f),
                     new Vector3(-0.362308520033725f, 0.724617040067449f, 0.586227499828239f)
@@ -4554,32 +4554,32 @@ namespace PolyhedralMaze
                     new Vector3(-0.362308520033725f, 0.724617040067449f, -0.586227499828239f),
                     new Vector3(-0.724617040067449f, 0.586227499828239f, -0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 14, null, 22 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 30, 22 }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, -0.362308520033725f, 0.724617040067449f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, 0.586227499828239f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, 0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 23, 31, null }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(-0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 23, 31, 15 }, Vertices = new Vector3[] {
                     new Vector3(-0.586227499828239f, -0.362308520033725f, -0.724617040067449f),
                     new Vector3(-0.724617040067449f, -0.586227499828239f, -0.362308520033725f),
                     new Vector3(-0.362308520033725f, -0.724617040067449f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, null, 24 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 16, 32, null }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, 0.362308520033725f, 0.724617040067449f),
                     new Vector3(0.362308520033725f, 0.724617040067449f, 0.586227499828239f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, 0.362308520033725f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 33, 17 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, 0.577350269189626f, -0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 25, 33, 17 }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, 0.362308520033725f, -0.724617040067449f),
                     new Vector3(0.724617040067449f, 0.586227499828239f, -0.362308520033725f),
                     new Vector3(0.362308520033725f, 0.724617040067449f, -0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 26, 34, 18 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, 0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 26, null, 18 }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, -0.362308520033725f, 0.724617040067449f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, 0.362308520033725f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, 0.586227499828239f)
                 } },
-                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { null, 35, 27 }, Vertices = new Vector3[] {
+                new Face { Normal = new Vector3(0.577350269189626f, -0.577350269189626f, -0.577350269189626f), Distance = 0.965995369545692f, AdjacentFaces = new int?[] { 19, 35, 27 }, Vertices = new Vector3[] {
                     new Vector3(0.586227499828239f, -0.362308520033725f, -0.724617040067449f),
                     new Vector3(0.362308520033725f, -0.724617040067449f, -0.586227499828239f),
                     new Vector3(0.724617040067449f, -0.586227499828239f, -0.362308520033725f)
