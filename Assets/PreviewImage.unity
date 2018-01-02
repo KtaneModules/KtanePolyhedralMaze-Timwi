@@ -666,7 +666,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 63085c403e0fbfd44ae2cffe901a9b83, type: 2}
+  - {fileID: 2100000, guid: 8ed7caa8ec3c5a3448a04fa9ae8e8aed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 1217359805}
   - component: {fileID: 1217359804}
   m_Layer: 0
-  m_Name: JoinedIcosidodecahedron
+  m_Name: CanonicalRectifiedLsnubCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -873,7 +873,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b6182354903838842920c8210f79f3c3, type: 2}
+  - {fileID: 2100000, guid: cc79f7f852ff41548a9625a1741cd8af, type: 2}
   - {fileID: 2100000, guid: 898582f71df846c4495e88d3fbdf0cac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -900,7 +900,7 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1217359803}
-  m_Mesh: {fileID: 4300002, guid: 7057410cf32fd4944860695e7fb62526, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 186dba2a56ac0034cbd21bbd4c1e75d5, type: 3}
 --- !u!4 &1217359806
 Transform:
   m_ObjectHideFlags: 0
