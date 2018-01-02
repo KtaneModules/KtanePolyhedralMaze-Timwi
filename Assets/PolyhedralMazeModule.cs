@@ -258,7 +258,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     {
         for (int i = 0; i < 7; i++)
         {
-            tens[i].SetActive(_segmentMap[number / 10][i] == '1');
+            tens[i].SetActive(_segmentMap[(number / 10) % 10][i] == '1');
             ones[i].SetActive(_segmentMap[number % 10][i] == '1');
         }
     }

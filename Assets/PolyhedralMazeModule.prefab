@@ -4548,7 +4548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - KT/Unlit/TransparentVertexColorUnderlay30
+  - KT/Mobile/DiffuseTint
 --- !u!114 &114861360861306342
 MonoBehaviour:
   m_ObjectHideFlags: 1
