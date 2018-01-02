@@ -100,7 +100,6 @@ public class PolyhedralMazeModule : MonoBehaviour
     private void SetRandomPolyhedron()
     {
         SetPolyhedron(Data.Polyhedra[Rnd.Range(0, Data.Polyhedra.Length)].Name);
-
         var h = Rnd.Range(0f, 1f);
         var s = Rnd.Range(.6f, .9f);
         var v = Rnd.Range(.5f, 1f);

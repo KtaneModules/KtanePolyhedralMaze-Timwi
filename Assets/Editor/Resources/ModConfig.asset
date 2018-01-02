@@ -13,8 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: PolyhedralMaze
   title: Polyhedral Maze
-  description: 'What would happen if your maze was on the surface of a three-dimensional
-    shape?
+  description: 'What if your maze was on the surface of a three-dimensional shape?
 
 
     Module created by Timwi.
@@ -25,4 +24,4 @@ MonoBehaviour:
     [url=http://ktane.timwi.de/HTML/Polyhedral%20Maze.html]Manual HTML[/url]'
   version: 1.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: bd5c1f4881f57d54481b44e4c8a7779a, type: 3}
+  previewImage: {fileID: 2800000, guid: 852784e9739714c4493fe3b811e47c84, type: 3}

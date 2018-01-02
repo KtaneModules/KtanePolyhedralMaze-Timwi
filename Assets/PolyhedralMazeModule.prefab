@@ -264,7 +264,7 @@ MonoBehaviour:
   - {fileID: 4300000, guid: 0d000936baa851743a334422cd217437, type: 3}
   - {fileID: 4300002, guid: d0b91b044616de24f9765ca27a3adf6a, type: 3}
   - {fileID: 4300002, guid: d4ed9785ce218344281cf685677d10b2, type: 3}
-  - {fileID: 4300002, guid: 7057410cf32fd4944860695e7fb62526, type: 3}
+  - {fileID: 4300000, guid: 186dba2a56ac0034cbd21bbd4c1e75d5, type: 3}
   - {fileID: 4300002, guid: ed28062ff4c6e1144ad9edc54a8f4dd5, type: 3}
   - {fileID: 4300002, guid: e66d8a9000614a7488043d86927248bb, type: 3}
   - {fileID: 4300002, guid: bada80f23c87d674ba12b6f1696e4a56, type: 3}
@@ -1665,7 +1665,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1603078497768338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.65, y: 0, z: -0.52}
+  m_LocalPosition: {x: 0.65, y: 0.001, z: -0.52}
   m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
   m_Children:
   - {fileID: 4391178299770772}
@@ -1725,7 +1725,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1765693555064176}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.057, y: 0, z: -0.52}
+  m_LocalPosition: {x: -0.057, y: 0.001, z: -0.52}
   m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
   m_Children:
   - {fileID: 4862043716990106}
@@ -2005,7 +2005,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1292631851189188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.057, y: 0, z: -0.52}
+  m_LocalPosition: {x: -0.057, y: 0.001, z: -0.52}
   m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
   m_Children:
   - {fileID: 4101802279185456}
@@ -2025,7 +2025,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1635947356386484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.65, y: 0, z: -0.52}
+  m_LocalPosition: {x: 0.65, y: 0.001, z: -0.52}
   m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
   m_Children:
   - {fileID: 4046325498792968}
@@ -4535,7 +4535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - KT/Unlit/TransparentVertexColorUnderlay30
+  - KT/Mobile/DiffuseTint
 --- !u!114 &114858461831942306
 MonoBehaviour:
   m_ObjectHideFlags: 1

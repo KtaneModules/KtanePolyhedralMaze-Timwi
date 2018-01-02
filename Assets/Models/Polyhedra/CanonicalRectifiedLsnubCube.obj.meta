@@ -1,22 +1,17 @@
 fileFormatVersion: 2
-guid: 7057410cf32fd4944860695e7fb62526
-timeCreated: 1513398860
+guid: 186dba2a56ac0034cbd21bbd4c1e75d5
+timeCreated: 1514887343
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Joined
+    100000: CanonicalRectifiedLsnubCube
     100002: //RootNode
-    100004: JoinedIcosidodecahedron
-    400000: Joined
+    400000: CanonicalRectifiedLsnubCube
     400002: //RootNode
-    400004: JoinedIcosidodecahedron
-    2300000: Joined
-    2300002: JoinedIcosidodecahedron
-    3300000: Joined
-    3300002: JoinedIcosidodecahedron
-    4300000: Joined
-    4300002: JoinedIcosidodecahedron
+    2300000: CanonicalRectifiedLsnubCube
+    3300000: CanonicalRectifiedLsnubCube
+    4300000: CanonicalRectifiedLsnubCube
   materials:
     importMaterials: 1
     materialName: 0
