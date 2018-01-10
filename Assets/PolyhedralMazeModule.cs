@@ -57,21 +57,24 @@ public class PolyhedralMazeModule : MonoBehaviour
             if (_isSolved)
                 return false;
 
-            if (_route.Count > 0)
-                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before reset: {1}", _moduleId, _route.JoinString(", "));
+            if (_route.Count > 1)
+                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before reset: {1}", _moduleId, _route.JoinString(" → "));
             _route.Clear();
+            _route.Add(_startFace);
             startRotation(_startFace);
             return false;
         };
 
         Bomb.OnBombExploded = delegate
         {
-            if (_route.Count > 0)
-                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before explosion: {1}", _moduleId, _route.JoinString(", "));
+            if (_route.Count > 1)
+                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before explosion: {1}", _moduleId, _route.JoinString(" → "));
             _route.Clear();
         };
 
-        SetRandomPolyhedron();
+        SetPolyhedron(Data.Polyhedra[Rnd.Range(0, Data.Polyhedra.Length)].Name);
+        Polyhedron.GetComponent<MeshRenderer>().materials[1].color = Color.HSVToRGB(Rnd.Range(0f, 1f), Rnd.Range(.6f, .9f), Rnd.Range(.3f, .7f));
+        _route.Add(_curFace);
     }
 
     private KMSelectable.OnInteractHandler getArrowHandler(int i)
@@ -84,7 +87,14 @@ public class PolyhedralMazeModule : MonoBehaviour
             if (!_isSolved)
             {
                 if (_polyhedron.Faces[_curFace].AdjacentFaces[i] == null)
+                {
+                    if (_route.Count > 1)
+                        Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before strike: {1}", _moduleId, _route.JoinString(" → "));
+                    Debug.LogFormat(@"[Polyhedral Maze #{0}] Walking from face #{1}, you ran into the wall marked “!”: [{2}] (clockwise order).", _moduleId, _curFace, _polyhedron.Faces[_curFace].AdjacentFaces.Select((adj, j) => adj == null ? j == i ? "WALL!" : "WALL" : adj.Value.ToString()).Reverse().JoinString(", "));
+                    _route.Clear();
+                    _route.Add(_curFace);
                     Module.HandleStrike();
+                }
                 else
                 {
                     var face = _polyhedron.Faces[_curFace].AdjacentFaces[i].Value;
@@ -95,15 +105,6 @@ public class PolyhedralMazeModule : MonoBehaviour
 
             return false;
         };
-    }
-
-    private void SetRandomPolyhedron()
-    {
-        SetPolyhedron(Data.Polyhedra[Rnd.Range(0, Data.Polyhedra.Length)].Name);
-        var h = Rnd.Range(0f, 1f);
-        var s = Rnd.Range(.6f, .9f);
-        var v = Rnd.Range(.5f, 1f);
-        Polyhedron.GetComponent<MeshRenderer>().materials[1].color = Color.HSVToRGB(h, s, v / 2);
     }
 
     private void SetPolyhedron(string name)
@@ -174,6 +175,9 @@ public class PolyhedralMazeModule : MonoBehaviour
 
         if (face == _destFace)
         {
+            if (_route.Count > 1)
+                Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before solve: {1}", _moduleId, _route.JoinString(" → "));
+            Debug.LogFormat(@"[Polyhedral Maze #{0}] Module solved.", _moduleId);
             Module.HandlePass();
             _isSolved = true;
             for (int i = 0; i < Arrows.Length; i++)
@@ -264,7 +268,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     }
 
 #pragma warning disable 414
-    private string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} 1 2 3 4”. The first number is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
+    private string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} 1 2 3 4”. The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
 #pragma warning restore 414
 
     private IEnumerator ProcessTwitchCommand(string command)

@@ -101,7 +101,7 @@ public class AssetBundler
             bundler.WarnIfAssetsAreNotTagged();
             bundler.CheckForAssets();
 
-            //Delete the cotnents of OUTPUT_FOLDER
+            //Delete the contents of OUTPUT_FOLDER
             bundler.CleanBuildFolder();
 
             //Change all non-Editor scripts to reference ASSEMBLY_NAME instead of Assembly-CSharp
