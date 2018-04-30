@@ -38,7 +38,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     private int[] _clockfaceToArrow = new int[12];
     private bool _coroutineActive = false;
 
-    private const int _minSteps = 7;
+    private const int _minSteps = 5;
     private const int _maxSteps = 11;
 
     void Start()
