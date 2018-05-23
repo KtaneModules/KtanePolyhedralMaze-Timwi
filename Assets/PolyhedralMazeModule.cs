@@ -268,32 +268,35 @@ public class PolyhedralMazeModule : MonoBehaviour
     }
 
 #pragma warning disable 414
-    private string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} 1 2 3 4”. The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
+    private string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} move 1 2 3 4”. The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
 #pragma warning restore 414
 
     private IEnumerator ProcessTwitchCommand(string command)
     {
         var pieces = command.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+        var skip = 0;
+        if (pieces.Length > 1 && pieces[0].Equals("move", StringComparison.InvariantCultureIgnoreCase))
+            skip = 1;
 
-        if (pieces.Length == 1 && pieces[0] == "reset")
+        if (pieces.Length == 1 && pieces[0].Equals("reset", StringComparison.InvariantCultureIgnoreCase))
         {
             yield return null;
             ResetButton.OnInteract();
         }
-        else if (pieces.Length >= 1 && pieces.All(p => { int val; return int.TryParse(p, out val) && val >= 1 && val <= 12; }))
+        else if (pieces.Length > skip && pieces.Skip(skip).All(p => { int val; return int.TryParse(p, out val) && val >= 1 && val <= 12; }))
         {
             yield return null;
 
             // First move: clockface
             var prevFace = _curFace;
-            Arrows[_clockfaceToArrow[int.Parse(pieces[0]) % 12]].OnInteract();
+            Arrows[_clockfaceToArrow[int.Parse(pieces[skip]) % 12]].OnInteract();
             yield return null;
 
             while (_coroutineActive)
                 yield return new WaitForSeconds(.2f);
 
             // From there on: clockwise from the one you came from
-            for (int i = 1; i < pieces.Length; i++)
+            for (int i = skip + 1; i < pieces.Length; i++)
             {
                 var direction = int.Parse(pieces[i]);
                 var fromIndex = Array.IndexOf(_polyhedron.Faces[_curFace].AdjacentFaces, prevFace);
