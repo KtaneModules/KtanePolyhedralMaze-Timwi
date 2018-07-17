@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src='js/highlighter.js'></script>
     <style>
-
         div.footnotes {
             font-size: smaller;
             margin-top: 1em;
@@ -30,12 +29,16 @@
             div.footnotes p {
                 margin: .3em;
             }
-    </style>
 
+        @media print {
+            a[href]:after {
+                content: none;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="section">
-
         <div class="page page-bg-07">
             <div class="page-header">
                 <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
@@ -4611,7 +4614,5 @@
         </div>
         <div class="page-footer relative-footer">Page 3 of 3</div>
     </div>
-
-    <div style="position: fixed; top: 0px; left: 0px; padding: 6px; color: black; border-bottom: 1px solid rgba(0, 0, 0, 0.5); border-right: 1px solid rgba(0, 0, 0, 0.5); border-bottom-right-radius: 5px; display: none;">Highlighter Color</div>
 </body>
 </html>
