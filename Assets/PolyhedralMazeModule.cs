@@ -161,7 +161,6 @@ public class PolyhedralMazeModule : MonoBehaviour
         var curNormal = Polyhedron.transform.localRotation * normal;
         var newRotation = Quaternion.FromToRotation(curNormal, new Vector3(0, 1, 0)) * Polyhedron.transform.localRotation;
         return newRotation;
-        // return Quaternion.FromToRotation(_polyhedron.Faces[face].Normal, new Vector3(0, 1, 0));
     }
 
     private void SetCurFace(int face)
