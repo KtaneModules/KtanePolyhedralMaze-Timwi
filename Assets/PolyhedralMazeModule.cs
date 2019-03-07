@@ -25,7 +25,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     public GameObject[] DestTens;
     public GameObject[] DestOnes;
 
-    private static string[] _segmentMap = new[] { "1111101", "1001000", "0111011", "1011011", "1001110", "1010111", "1110111", "1001001", "1111111", "1011111" };
+    private static readonly string[] _segmentMap = new[] { "1111101", "1001000", "0111011", "1011011", "1001110", "1010111", "1110111", "1001001", "1111111", "1011111" };
 
     private static int _moduleIdCounter = 1;
     private int _moduleId;
@@ -35,7 +35,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     private int _destFace;
     private bool _isSolved;
     private List<int> _route;
-    private int[] _clockfaceToArrow = new int[12];
+    private readonly int[] _clockfaceToArrow = new int[12];
     private bool _coroutineActive = false;
 
     private const int _minSteps = 5;
@@ -206,12 +206,9 @@ public class PolyhedralMazeModule : MonoBehaviour
             var arrowVector = rot1 * arrowFaceNormal;
 
             // Special case! If the arrow is exactly upside-down, the rotation is a degenerate case.
-            Quaternion rot2;
-            if (arrowVector == -_polyhedron.Faces[face].Normal)
-                rot2 = Quaternion.AngleAxis(180, rot1 * arrowDirection);
-            else
-                rot2 = Quaternion.FromToRotation(arrowVector, _polyhedron.Faces[face].Normal);
-
+            var rot2 = arrowVector == -_polyhedron.Faces[face].Normal
+                ? Quaternion.AngleAxis(180, rot1 * arrowDirection)
+                : Quaternion.FromToRotation(arrowVector, _polyhedron.Faces[face].Normal);
             Arrows[i].transform.localRotation = rot2 * Quaternion.FromToRotation(arrowDirection, Vector3.Cross(_polyhedron.Faces[face].Normal, v2 - v1));
             Arrows[i].gameObject.SetActive(true);
 
@@ -267,7 +264,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     }
 
 #pragma warning disable 414
-    private string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} move 1 2 3 4”. The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
+    private readonly string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} move 1 2 3 4”. The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
 #pragma warning restore 414
 
     private IEnumerator ProcessTwitchCommand(string command)
