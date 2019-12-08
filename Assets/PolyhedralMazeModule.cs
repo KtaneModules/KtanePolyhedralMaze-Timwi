@@ -228,11 +228,6 @@ public class PolyhedralMazeModule : MonoBehaviour
             Arrows[i].gameObject.SetActive(false);
     }
 
-    private float easeOutSine(float time, float duration, float from, float to)
-    {
-        return (to - from) * Mathf.Sin(time / duration * (Mathf.PI / 2)) + from;
-    }
-
     private IEnumerator rotate(int destFace)
     {
         _coroutineActive = true;
@@ -247,7 +242,7 @@ public class PolyhedralMazeModule : MonoBehaviour
         while (time < duration)
         {
             time += Time.deltaTime;
-            Polyhedron.transform.localRotation = Quaternion.Slerp(srcRotation, destRotation, easeOutSine(time, duration, 0, 1));
+            Polyhedron.transform.localRotation = Quaternion.Slerp(srcRotation, destRotation, Easing.OutSine(time, 0, 1, duration));
             yield return null;
         }
         SetCurFace(destFace);
