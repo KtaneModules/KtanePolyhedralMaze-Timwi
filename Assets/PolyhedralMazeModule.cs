@@ -305,4 +305,51 @@ public class PolyhedralMazeModule : MonoBehaviour
             }
         }
     }
+
+    IEnumerator TwitchHandleForcedSolve()
+    {
+        // Breadth-first search
+        var already = new HashSet<int>();
+        var parents = new Dictionary<int, int>();
+        var q = new Queue<int>();
+        q.Enqueue(_curFace);
+
+        while (q.Count > 0)
+        {
+            var f = q.Dequeue();
+            if (!already.Add(f))
+                continue;
+            if (f == _destFace)
+                goto found;
+
+            foreach (var neighbour in _polyhedron.Faces[f].AdjacentFaces)
+            {
+                if (neighbour == null)  // That’s a wall
+                    continue;
+                if (already.Contains(neighbour.Value))
+                    continue;
+                q.Enqueue(neighbour.Value);
+                parents[neighbour.Value] = f;
+            }
+        }
+
+        throw new Exception("There is a bug in this module’s auto-solve handler. Please contact Timwi about this.");
+
+        found:;
+        var path = new List<int>();
+        var face = _destFace;
+        while (face != _curFace)
+        {
+            path.Add(Array.IndexOf(_polyhedron.Faces[parents[face]].AdjacentFaces, face));
+            face = parents[face];
+        }
+
+        for (var i = path.Count - 1; i >= 0; i--)
+        {
+            Arrows[path[i]].OnInteract();
+            yield return new WaitForSeconds(.1f);
+            while (_coroutineActive)
+                yield return true;
+        }
+    }
 }
