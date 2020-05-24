@@ -19,6 +19,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     public MeshFilter Polyhedron;
     public KMSelectable[] Arrows;
     public KMSelectable ResetButton;
+    public KMRuleSeedable RuleSeedable;
 
     public GameObject[] SrcTens;
     public GameObject[] SrcOnes;
@@ -26,6 +27,33 @@ public class PolyhedralMazeModule : MonoBehaviour
     public GameObject[] DestOnes;
 
     private static readonly string[] _segmentMap = new[] { "1111101", "1001000", "0111011", "1011011", "1001110", "1010111", "1110111", "1001001", "1111111", "1011111" };
+
+    // Rules
+    // Keys are: (1) rule seed, (2) polyhedron name, (3+4) pairs of faces
+    private static readonly Dictionary<int, Dictionary<string, Dictionary<int, HashSet<int>>>> _allPermissibleTransitions = new Dictionary<int, Dictionary<string, Dictionary<int, HashSet<int>>>>();
+    // Keys are: (1) rule seed, (2) list of possible starting faces
+    private static readonly Dictionary<int, int[]> _allStartingPositions = new Dictionary<int, int[]>();
+    public static int[][] _allPossibleStartingPositions = new int[][]
+    {
+        new[] { 0, 6, 9, 13, 17, 29 },
+        new[] { 0, 6, 13, 29, 31, 35 },
+        new[] { 0, 6, 29, 31, 35, 37 },
+        new[] { 0, 13, 15, 21, 31, 35 },
+        new[] { 0, 13, 15, 29, 31, 35 },
+        new[] { 1, 3, 7, 9, 12, 18 },
+        new[] { 2, 5, 11, 16, 20, 22 },
+        new[] { 2, 5, 11, 16, 22, 32 },
+        new[] { 2, 5, 11, 17, 20, 22 },
+        new[] { 2, 5, 11, 17, 22, 32 },
+        new[] { 3, 7, 9, 12, 18, 28 },
+        new[] { 19, 21, 24, 28, 35, 38 },
+        new[] { 19, 21, 27, 31, 35, 38 }
+    };
+
+    // Transitions for the current rule seed and current polyhedron
+    private Dictionary<int, HashSet<int>> _permissibleTransitions;
+    // Starting positions for the current rule seed
+    private int[] _startingPositions;
 
     private static int _moduleIdCounter = 1;
     private int _moduleId;
@@ -72,7 +100,107 @@ public class PolyhedralMazeModule : MonoBehaviour
             _route.Clear();
         };
 
-        SetPolyhedron(Data.Polyhedra[Rnd.Range(0, Data.Polyhedra.Length)].Name);
+        // RULE SEED
+        var rnd = RuleSeedable.GetRNG();
+        if (!_allPermissibleTransitions.ContainsKey(rnd.Seed))
+        {
+            var starts = _allPossibleStartingPositions[rnd.Next(0, _allPossibleStartingPositions.Length)];
+            _allStartingPositions[rnd.Seed] = starts;
+            var allTransitions = new Dictionary<string, Dictionary<int, HashSet<int>>>();    // all permissible transitions for this rule seed
+
+            foreach (var polyhedron in Data.Polyhedra)
+            {
+                var transitions = new Dictionary<int, HashSet<int>>();
+                var allowTransition = new Action<int, int>((face1, face2) =>
+                {
+                    HashSet<int> h;
+                    if (!transitions.TryGetValue(face1, out h))
+                        transitions[face1] = h = new HashSet<int>();
+                    h.Add(face2);
+                    if (!transitions.TryGetValue(face2, out h))
+                        transitions[face2] = h = new HashSet<int>();
+                    h.Add(face1);
+                });
+
+                // Time for a slightly more complex maze generation algorithm!
+                // We want to generate a maze in which specific faces (0, 6, 13, 29, 31, 35) have no walls around them.
+                // Here is how this algorithm proceeds:
+                //  1) We have 6 “active groups”, one for each starting face. Each active group starts out containing a starting face and its neighbors, and the walls between those are removed right at the start.
+                //  2) Choose a random active group and a random face within it.
+                //  3) From that face’s edges, choose a random edge that goes to a face that isn’t in any group yet.
+                //  4) If there is no such valid edge, move that face to ‘done’. (Go to 2.)
+                //  5) Remove the wall on this edge (i.e., make the two faces connected).
+                //  6) Add the new face to the current group.
+                //  7) Keep doing this (steps 2–6) until the groups cover the entire polyhedron.
+                //  8) Now, find a random connection between every pair of groups and remove walls to connect all the groups.
+                //      (Note this creates loops. This is intentional. We don’t want a super tight maze.)
+                Debug.LogFormat(@"<Polyhedral Maze #{0}> Generating maze for {1} = {2} ({3} faces)...", _moduleId, polyhedron.Name, polyhedron.ReadableName, polyhedron.Faces.Length);
+
+                // Step 1
+                var done = starts.Select(f => new List<int>()).ToArray();
+                var active = starts.Select(f => new List<int> { f }).ToArray();
+                var facesCovered = starts.Length;
+                for (var gr = 0; gr < starts.Length; gr++)
+                    foreach (var adj in polyhedron.Faces[starts[gr]].AdjacentFaces)
+                    {
+                        if (!active.Any(a => a.Contains(adj)))
+                        {
+                            active[gr].Add(adj);
+                            facesCovered++;
+                        }
+                        allowTransition(starts[gr], adj);
+                    }
+
+                // Steps 2–7
+                while (facesCovered < polyhedron.Faces.Length)
+                {
+                    var gr = rnd.Next(0, active.Length);
+                    if (active[gr].Count == 0)
+                        continue;
+                    var rndFaceIx = rnd.Next(0, active[gr].Count);
+                    var rndFace = active[gr][rndFaceIx];
+                    var validAdjs = polyhedron.Faces[rndFace].AdjacentFaces.Where(f => !active.Any(a => a.Contains(f)) && !done.Any(d => d.Contains(f))).ToArray();
+                    if (validAdjs.Length == 0)
+                    {
+                        done[gr].Add(rndFace);
+                        active[gr].RemoveAt(rndFaceIx);
+                        continue;
+                    }
+                    var adjIx = rnd.Next(0, validAdjs.Length);
+                    var adj = validAdjs[adjIx];
+                    active[gr].Add(adj);
+                    allowTransition(rndFace, adj);
+                    facesCovered++;
+                }
+
+                // Step 8
+                for (var i = 0; i < done.Length; i++)
+                {
+                    done[i].AddRange(active[i]);
+                    rnd.ShuffleFisherYates(done[i]);
+                }
+                for (var d1 = 0; d1 < done.Length; d1++)
+                    for (var d2 = d1 + 1; d2 < done.Length; d2++)
+                    {
+                        var found = false;
+                        for (var f1 = 0; !found && f1 < done[d1].Count; f1++)
+                            for (var e1 = 0; !found && e1 < polyhedron.Faces[done[d1][f1]].AdjacentFaces.Length; e1++)
+                                if (done[d2].Contains(polyhedron.Faces[done[d1][f1]].AdjacentFaces[e1]))
+                                {
+                                    allowTransition(done[d1][f1], polyhedron.Faces[done[d1][f1]].AdjacentFaces[e1]);
+                                    found = true;
+                                }
+                    }
+
+                allTransitions[polyhedron.Name] = transitions;
+            }
+            _allPermissibleTransitions[rnd.Seed] = allTransitions;
+        }
+        var curPolyhedron = Data.Polyhedra[Rnd.Range(0, Data.Polyhedra.Length)].Name;
+        _permissibleTransitions = _allPermissibleTransitions[rnd.Seed][curPolyhedron];
+        _startingPositions = _allStartingPositions[rnd.Seed];
+        SetPolyhedron(curPolyhedron);
+
         Polyhedron.GetComponent<MeshRenderer>().materials[1].color = Color.HSVToRGB(Rnd.Range(0f, 1f), Rnd.Range(.6f, .9f), Rnd.Range(.3f, .7f));
         _route.Add(_curFace);
     }
@@ -86,18 +214,19 @@ public class PolyhedralMazeModule : MonoBehaviour
 
             if (!_isSolved)
             {
-                if (_polyhedron.Faces[_curFace].AdjacentFaces[i] == null)
+                HashSet<int> p;
+                if (!_permissibleTransitions.TryGetValue(_curFace, out p) || !p.Contains(_polyhedron.Faces[_curFace].AdjacentFaces[i]))
                 {
                     if (_route.Count > 1)
                         Debug.LogFormat(@"[Polyhedral Maze #{0}] Route you took before strike: {1}", _moduleId, _route.JoinString(" → "));
-                    Debug.LogFormat(@"[Polyhedral Maze #{0}] Walking from face #{1}, you ran into the wall marked “!”: [{2}] (clockwise order).", _moduleId, _curFace, _polyhedron.Faces[_curFace].AdjacentFaces.Select((adj, j) => adj == null ? j == i ? "WALL!" : "WALL" : adj.Value.ToString()).Reverse().JoinString(", "));
+                    Debug.LogFormat(@"[Polyhedral Maze #{0}] You tried to go from face #{1} to face #{2}, but there’s a wall there.", _moduleId, _curFace, _polyhedron.Faces[_curFace].AdjacentFaces[i]);
                     _route.Clear();
                     _route.Add(_curFace);
                     Module.HandleStrike();
                 }
                 else
                 {
-                    var face = _polyhedron.Faces[_curFace].AdjacentFaces[i].Value;
+                    var face = _polyhedron.Faces[_curFace].AdjacentFaces[i];
                     _route.Add(face);
                     startRotation(face);
                 }
@@ -115,7 +244,7 @@ public class PolyhedralMazeModule : MonoBehaviour
         Debug.LogFormat(@"[Polyhedral Maze #{0}] Your polyhedron is a {1}.", _moduleId, _polyhedron.ReadableName);
 
         // Find a suitable start face
-        _startFace = Enumerable.Range(0, _polyhedron.Faces.Length).Where(fIx => _polyhedron.Faces[fIx].AdjacentFaces.All(f => f != null)).PickRandom();
+        _startFace = _startingPositions.PickRandom();
 
         Debug.LogFormat(@"[Polyhedral Maze #{0}] You are starting on face #{1}.", _moduleId, _startFace);
 
@@ -133,10 +262,11 @@ public class PolyhedralMazeModule : MonoBehaviour
                 continue;
             if (distance >= _minSteps && distance <= _maxSteps)
                 suitableDestinationFaces.Add(face);
-            for (int i = 0; i < _polyhedron.Faces[face].AdjacentFaces.Length; i++)
-                if (_polyhedron.Faces[face].AdjacentFaces[i] != null)
+            var permissible = _permissibleTransitions[face];
+            foreach (var adj in _polyhedron.Faces[face].AdjacentFaces)
+                if (permissible.Contains(adj))
                 {
-                    qFaces.Enqueue(_polyhedron.Faces[face].AdjacentFaces[i].Value);
+                    qFaces.Enqueue(adj);
                     qDistances.Enqueue(distance + 1);
                 }
         }
@@ -322,20 +452,21 @@ public class PolyhedralMazeModule : MonoBehaviour
             if (f == _destFace)
                 goto found;
 
+            var permissible = _permissibleTransitions[f];
             foreach (var neighbour in _polyhedron.Faces[f].AdjacentFaces)
             {
-                if (neighbour == null)  // That’s a wall
+                if (!permissible.Contains(neighbour))   // That’s a wall
                     continue;
-                if (already.Contains(neighbour.Value))
+                if (already.Contains(neighbour))
                     continue;
-                q.Enqueue(neighbour.Value);
-                parents[neighbour.Value] = f;
+                q.Enqueue(neighbour);
+                parents[neighbour] = f;
             }
         }
 
         throw new Exception("There is a bug in this module’s auto-solve handler. Please contact Timwi about this.");
 
-        found:;
+        found:
         var path = new List<int>();
         var face = _destFace;
         while (face != _curFace)
