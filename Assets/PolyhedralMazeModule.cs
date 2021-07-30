@@ -389,7 +389,7 @@ public class PolyhedralMazeModule : MonoBehaviour
     }
 
 #pragma warning disable 414
-    private readonly string TwitchHelpMessage = @"Express your move as a sequence of numbers, e.g. “!{0} move 1 2 3 4”. The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn. Use “!{0} reset” to reset the module.";
+    private readonly string TwitchHelpMessage = @"!{0} move 1 2 3 4 [The first number in each command is a clockface direction (1–12) and selects the arrow closest to that direction. All subsequent numbers within the same command select an edge counting clockwise from the edge that was traversed last. For example, 1 is an immediate left-turn. In a five-sided face, 4 is an immediate right-turn.] | !{0} reset";
 #pragma warning restore 414
 
     private IEnumerator ProcessTwitchCommand(string command)
